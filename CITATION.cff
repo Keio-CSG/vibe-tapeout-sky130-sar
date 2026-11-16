@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the paper below."
+title: "vibe-tapeout-sky130-sar: two SKY130 SAR ADCs designed from scratch by LLM agents"
+type: software
+license: Apache-2.0
+repository-code: "https://github.com/Keio-CSG/vibe-tapeout-sky130-sar"
+authors:
+  - family-names: Yoshioka
+    given-names: Kentaro
+preferred-citation:
+  type: article
+  title: "The Era of Vibe Tapeout: Dark Age or Golden Age for Analog Circuit Design?"
+  authors:
+    - family-names: Yoshioka
+      given-names: Kentaro
+  year: 2026
+  doi: "10.48550/arXiv.2610.15240"
+  url: "https://arxiv.org/abs/2610.15240"
+  identifiers:
+    - type: other
+      value: "arXiv:2610.15240"

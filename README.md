@@ -6,7 +6,9 @@ FromScratch received the specification alone.
 FromScratch-VA also received a functional-model/block-test method and a floorplan/block-extraction method.
 The public reproduction flow uses only ngspice, Magic, Netgen and Python with stock open_pdks sky130A models.
 
-Citation: **paper in preparation**. Code and included geometry: Apache-2.0; the PDK is obtained separately.
+Paper: K. Yoshioka, "The Era of Vibe Tapeout: Dark Age or Golden Age for Analog Circuit Design?",
+[arXiv:2610.15240](https://arxiv.org/abs/2610.15240), 2026 (see [Citation](#citation)).
+Code and included geometry: Apache-2.0; the PDK is obtained separately.
 Random mismatch and Monte Carlo qualification were out of scope.
 
 ## Locked versions and original results
@@ -97,3 +99,20 @@ Full-RC reproduction, broader static/noise/voltage qualification and package int
 The sum column estimates sequential execution on comparable hardware. Physical
 regeneration and checks took about 34 s / 81 s. Exact times depend on the tool
 build, solver, input segment and computer; start with the smoke target.
+
+## Citation
+
+If you use this repository, please cite:
+
+```bibtex
+@misc{yoshioka2026vibetapeout,
+  title         = {The Era of Vibe Tapeout: Dark Age or Golden Age for Analog Circuit Design?},
+  author        = {Yoshioka, Kentaro},
+  year          = {2026},
+  eprint        = {2610.15240},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.AR},
+  doi           = {10.48550/arXiv.2610.15240},
+  url           = {https://arxiv.org/abs/2610.15240}
+}
+```
