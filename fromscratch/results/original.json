@@ -1,0 +1,105 @@
+[
+  {
+    "model": "schematic",
+    "corner": "tt",
+    "values": {
+      "N": 256,
+      "SNDR": 64.96875845104401,
+      "SFDR": 72.70158988607402,
+      "P_vdda_uW": 9.96590025,
+      "P_vddd_uW": 72.274401,
+      "P_ref_uW": 175.6175715,
+      "P_total_uW": 257.85787275,
+      "conv_ns_max": 54.887266764522906,
+      "completed_conversions": 256,
+      "ENOB": 10.499793762631896,
+      "fft_all_samples_valid": true
+    }
+  },
+  {
+    "model": "schematic",
+    "corner": "ss",
+    "values": {
+      "N": 256,
+      "SNDR": 62.76590517503399,
+      "SFDR": 69.51195468833313,
+      "P_vdda_uW": 10.46368215,
+      "P_vddd_uW": 70.80774299999999,
+      "P_ref_uW": 175.422942,
+      "P_total_uW": 256.69436715,
+      "conv_ns_max": 76.84716181017106,
+      "completed_conversions": 256,
+      "ENOB": 10.133871291533886,
+      "fft_all_samples_valid": true
+    }
+  },
+  {
+    "model": "schematic",
+    "corner": "ff",
+    "values": {
+      "N": 256,
+      "SNDR": 62.889849325733074,
+      "SFDR": 72.72469155276775,
+      "P_vdda_uW": 9.52750125,
+      "P_vddd_uW": 74.6688555,
+      "P_ref_uW": 176.8326705,
+      "P_total_uW": 261.02902725,
+      "conv_ns_max": 42.83416674013685,
+      "completed_conversions": 256,
+      "ENOB": 10.154460020885894,
+      "fft_all_samples_valid": true
+    }
+  },
+  {
+    "model": "pex_rc",
+    "corner": "tt",
+    "values": {
+      "N": 256,
+      "SNDR": 61.80003014843961,
+      "SFDR": 71.16557661682657,
+      "ENOB": 9.973426934956747,
+      "P_vdda_uW": 17.74556055,
+      "P_vddd_uW": 134.0174025,
+      "P_ref_uW": 232.31371500000003,
+      "P_total_uW": 384.07667805000006,
+      "conv_ns_max": 94.78403171264578,
+      "completed_conversions": 256,
+      "fft_all_samples_valid": true
+    }
+  },
+  {
+    "model": "pex_rc",
+    "corner": "ss",
+    "values": {
+      "N": 256,
+      "SNDR": 47.73799525110193,
+      "SFDR": 60.25209949550736,
+      "ENOB": 7.637540739385703,
+      "P_vdda_uW": 13.422055499999999,
+      "P_vddd_uW": 102.64220100000001,
+      "P_ref_uW": 230.68813500000002,
+      "P_total_uW": 346.75239150000004,
+      "conv_ns_max": null,
+      "completed_conversions": 0,
+      "fft_all_samples_valid": false
+    },
+    "spectral_status": "INVALID: zero completed conversions; diagnostic spectral values must not be compared to targets"
+  },
+  {
+    "model": "pex_rc",
+    "corner": "ff",
+    "values": {
+      "N": 256,
+      "SNDR": 56.92443192003927,
+      "SFDR": 68.29336473086089,
+      "ENOB": 9.16352689701649,
+      "P_vdda_uW": 18.295938000000003,
+      "P_vddd_uW": 136.7306595,
+      "P_ref_uW": 233.29390500000002,
+      "P_total_uW": 388.32050250000003,
+      "conv_ns_max": 72.38430871900792,
+      "completed_conversions": 256,
+      "fft_all_samples_valid": true
+    }
+  }
+]

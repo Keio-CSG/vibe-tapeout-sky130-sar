@@ -1,0 +1,50 @@
+{
+  "arm": "fromscratch-va",
+  "model": "pex",
+  "corner": "tt",
+  "samples": 256,
+  "nfft": 256,
+  "bin": 7,
+  "fs_Hz": 5120000.0,
+  "fin_Hz": 140000.0,
+  "input_diff_peak_V": 1.60434,
+  "common_mode_V": 0.95,
+  "warm_cycles": 3,
+  "window": "rectangular",
+  "temperature_C": 27,
+  "tmax_ps": 50,
+  "solver": "klu",
+  "netlist_sha256": "8bf145c22389d9ba95607c0db20931719bfd5188b2ceff4043932c81e6ce3c5c",
+  "completed_conversions": 256,
+  "invalid_samples": [],
+  "unstable_samples": [],
+  "valid_codes": true,
+  "code_min": 123,
+  "code_max": 1950,
+  "power_uW": {
+    "vdda": 69.77321606044427,
+    "vddd": 169.89359949240298,
+    "vrefp": 68.32146819492839,
+    "vrefn": 0.0
+  },
+  "total_power_uW": 307.98828374777565,
+  "conversion_ns_mean": 65.70309811754024,
+  "conversion_ns_max": 66.24213114599539,
+  "sum_chunk_wall_s": 13542.042785462923,
+  "wall_s": 3523.7775218486786,
+  "wall_time_scope": "first chunk start to last finish; excludes initial queue wait and deck generation",
+  "FFT_valid": true,
+  "binary_metrics": {
+    "sndr_dB": 62.029824491176655,
+    "sfdr_dB": 75.20116645669903,
+    "enob": 10.011598752687153,
+    "largest_spur_bin": 113
+  },
+  "metrics": {
+    "sndr_dB": 62.029824491176655,
+    "sfdr_dB": 75.20116645669903,
+    "enob": 10.011598752687153,
+    "largest_spur_bin": 113
+  },
+  "fom_fJ": 58.27371500125861
+}

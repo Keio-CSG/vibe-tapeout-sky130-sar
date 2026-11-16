@@ -1,0 +1,17 @@
+.subckt comparator inp inn clk outp outn vdd vss
+xmt tail clk vss vss sky130_fd_pr__nfet_01v8 w=4 l=0.15
+xm1 x inp tail vss sky130_fd_pr__nfet_01v8_lvt w=4.0 l=0.15 m=2
+xm2 y inn tail vss sky130_fd_pr__nfet_01v8_lvt w=4.0 l=0.15 m=2
+xm3 outp outn x vss sky130_fd_pr__nfet_01v8 w=2 l=0.15
+xm4 outn outp y vss sky130_fd_pr__nfet_01v8 w=2 l=0.15
+xm5 outp outn vdd vdd sky130_fd_pr__pfet_01v8 w=3 l=0.15
+xm6 outn outp vdd vdd sky130_fd_pr__pfet_01v8 w=3 l=0.15
+xm7 outp clk vdd vdd sky130_fd_pr__pfet_01v8 w=1.5 l=0.15
+xm8 outn clk vdd vdd sky130_fd_pr__pfet_01v8 w=1.5 l=0.15
+xm9 x clk vdd vdd sky130_fd_pr__pfet_01v8 w=1.5 l=0.15
+xm10 y clk vdd vdd sky130_fd_pr__pfet_01v8 w=1.5 l=0.15
+xcx1 x vss sky130_fd_pr__cap_mim_m3_1 w=7.07 l=7.07
+xcx2 y vss sky130_fd_pr__cap_mim_m3_1 w=7.07 l=7.07
+xcl1 outp vss sky130_fd_pr__cap_mim_m3_1 w=3.16 l=3.16
+xcl2 outn vss sky130_fd_pr__cap_mim_m3_1 w=3.23 l=3.23
+.ends comparator

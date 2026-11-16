@@ -1,0 +1,53 @@
+{
+  "arm": "fromscratch-va",
+  "model": "schematic",
+  "corner": "tt",
+  "samples": 256,
+  "nfft": 256,
+  "bin": 7,
+  "fs_Hz": 5120000.0,
+  "fin_Hz": 140000.0,
+  "input_diff_peak_V": 1.60434,
+  "common_mode_V": 0.95,
+  "warm_cycles": 3,
+  "window": "rectangular",
+  "temperature_C": 27,
+  "tmax_ps": 25,
+  "solver": "klu",
+  "integration_method": "trap",
+  "reltol": 0.001,
+  "stimulus_sources": "independent voltage sources with 1mOhm series resistance",
+  "netlist_sha256": "f76ccf5daba5a6bccd4a08e48eba4e583f3aeef5a6e3d90f8962c6e72f50e03d",
+  "completed_conversions": 256,
+  "invalid_samples": [],
+  "unstable_samples": [],
+  "valid_codes": true,
+  "code_min": 116,
+  "code_max": 1941,
+  "power_uW": {
+    "vdda": 55.70565879828416,
+    "vddd": 85.41815502241217,
+    "vrefp": 55.08483264464563,
+    "vrefn": 0.0
+  },
+  "total_power_uW": 196.20864646534199,
+  "conversion_ns_mean": 37.644526376765725,
+  "conversion_ns_max": 37.93726302623415,
+  "sum_chunk_wall_s": 18700.639029620215,
+  "wall_s": 2375.940152645111,
+  "wall_time_scope": "first chunk start to last finish; excludes initial queue wait and deck generation",
+  "FFT_valid": true,
+  "binary_metrics": {
+    "sndr_dB": 65.97030970291607,
+    "sfdr_dB": 78.85030069134149,
+    "enob": 10.666164402477753,
+    "largest_spur_bin": 96
+  },
+  "metrics": {
+    "sndr_dB": 65.97030970291607,
+    "sfdr_dB": 78.85030069134149,
+    "enob": 10.666164402477753,
+    "largest_spur_bin": 96
+  },
+  "fom_fJ": 23.58374427459758
+}

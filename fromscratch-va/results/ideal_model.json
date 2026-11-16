@@ -1,0 +1,9 @@
+{
+  "samples": 256,
+  "bin": 7,
+  "scope": "ideal architecture only; no mismatch or transistor timing",
+  "sndr_dB": 66.88892203025607,
+  "sfdr_dB": 78.06819003387027,
+  "enob": 10.818757812334894,
+  "largest_spur_bin": 39
+}

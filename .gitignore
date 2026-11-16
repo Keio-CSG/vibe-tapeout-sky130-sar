@@ -1,0 +1,13 @@
+**/runs/
+**/__pycache__/
+*.pyc
+*.raw
+*.dat
+*.ext
+*.sim
+*.nodes
+.venv/
+.spiceinit
+/pdk/
+.cache/
+*.log

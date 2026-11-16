@@ -1,0 +1,25 @@
+.subckt reset_driver track_b reset_gate vdda vss
+xn0 mid track_b vss vss sky130_fd_pr__nfet_01v8 w=4 l=.15 m=1
+xp0 mid track_b vdda vdda sky130_fd_pr__pfet_01v8 w=4 l=.15 m=2
+xn1 reset_gate mid vss vss sky130_fd_pr__nfet_01v8 w=4 l=.15 m=2
+xp1 reset_gate mid vdda vdda sky130_fd_pr__pfet_01v8 w=4 l=.15 m=4
+.ends reset_driver
+.subckt sar_adc vinp vinn clk d10 d9 d8 d7 d6 d5 d4 d3 d2 d1 d0 dv vdda vddd vss vrefp vrefn
+xlogic clk coP coN trkA_b trkB trkB_b cnv clkc lo_p0 lo_p1 lo_p2 lo_p3 lo_p4 lo_p5 lo_p6 lo_p7 lo_p8 lo_p9 lo_p10 hib_p0 hib_p1 hib_p2 hib_p3 hib_p4 hib_p5 hib_p6 hib_p7 hib_p8 hib_p9 lo_n0 lo_n1 lo_n2 lo_n3 lo_n4 lo_n5 lo_n6 lo_n7 lo_n8 lo_n9 lo_n10 hib_n0 hib_n1 hib_n2 hib_n3 hib_n4 hib_n5 hib_n6 hib_n7 hib_n8 hib_n9 d10 d9 d8 d7 d6 d5 d4 d3 d2 d1 d0 dv vddd vss sar_logic
+xreset trkA_b reset_gate vdda vss reset_driver
+xdac_p vinp top_p vrefp vrefn vdda vss trkB trkB_b reset_gate lo_p0 lo_p1 lo_p2 lo_p3 lo_p4 lo_p5 lo_p6 lo_p7 lo_p8 lo_p9 lo_p10 hib_p0 hib_p1 hib_p2 hib_p3 hib_p4 hib_p5 hib_p6 hib_p7 hib_p8 hib_p9 cdac_side
+xdac_n vinn top_n vrefp vrefn vdda vss trkB trkB_b reset_gate lo_n0 lo_n1 lo_n2 lo_n3 lo_n4 lo_n5 lo_n6 lo_n7 lo_n8 lo_n9 lo_n10 hib_n0 hib_n1 hib_n2 hib_n3 hib_n4 hib_n5 hib_n6 hib_n7 hib_n8 hib_n9 cdac_side
+xcmp top_n top_p clkc coP coN vdda vss comparator
+xtopshunt_p0 top_p vss sky130_fd_pr__cap_mim_m3_1 w=27 l=18.92
+xtopshunt_p1 top_p vss sky130_fd_pr__cap_mim_m3_1 w=27 l=18.92
+xtopshunt_p2 top_p vss sky130_fd_pr__cap_mim_m3_1 w=27 l=18.92
+xtopshunt_p3 top_p vss sky130_fd_pr__cap_mim_m3_1 w=27 l=18.92
+xtopshunt_p4 top_p vss sky130_fd_pr__cap_mim_m3_1 w=27 l=18.92
+xtopshunt_p5 top_p vss sky130_fd_pr__cap_mim_m3_1 w=27 l=18.92
+xtopshunt_n0 top_n vss sky130_fd_pr__cap_mim_m3_1 w=27 l=18.92
+xtopshunt_n1 top_n vss sky130_fd_pr__cap_mim_m3_1 w=27 l=18.92
+xtopshunt_n2 top_n vss sky130_fd_pr__cap_mim_m3_1 w=27 l=18.92
+xtopshunt_n3 top_n vss sky130_fd_pr__cap_mim_m3_1 w=27 l=18.92
+xtopshunt_n4 top_n vss sky130_fd_pr__cap_mim_m3_1 w=27 l=18.92
+xtopshunt_n5 top_n vss sky130_fd_pr__cap_mim_m3_1 w=27 l=18.92
+.ends sar_adc

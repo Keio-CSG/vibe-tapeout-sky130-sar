@@ -1,0 +1,21 @@
+{
+  "dly1_n": 2,
+  "dly2_n": 3,
+  "dlyclk_n": 2,
+  "drv_wp9": 60,
+  "sw_lvt": 1,
+  "sw_dummy": 1,
+  "sw_wn": 32,
+  "sw_wp": 32,
+  "cu_w": 3.0,
+  "cu_l": 3.0,
+  "sw_bigdrv": 1,
+  "det_vdda": 1,
+  "det_one_input": 1,
+  "early_reset": 1,
+  "late_track": 1,
+  "sw_dummy_match": 1,
+  "sw_fingered": 1,
+  "sampling_dummy_p_frame": 1,
+  "sampling_frame_w": 4
+}

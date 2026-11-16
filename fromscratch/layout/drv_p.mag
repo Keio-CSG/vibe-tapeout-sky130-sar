@@ -1,0 +1,97 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 0
+use sky130_fd_sc_hd__tapvpwrvgnd_1__drv tap0_0
+timestamp 0
+transform 1 0 0 0 1 0
+box 0 0 92 544
+use sky130_fd_sc_hd__inv_16__drv Xdrp1_0
+timestamp 0
+transform 1 0 92 0 1 0
+box 0 0 1472 544
+use sky130_fd_sc_hd__tapvpwrvgnd_1__drv tap0_1
+timestamp 0
+transform 1 0 1564 0 1 0
+box 0 0 92 544
+use sky130_fd_sc_hd__inv_16__drv Xdrp1_1
+timestamp 0
+transform 1 0 1656 0 1 0
+box 0 0 1472 544
+use sky130_fd_sc_hd__tapvpwrvgnd_1__drv tap0_2
+timestamp 0
+transform 1 0 3128 0 1 0
+box 0 0 92 544
+use sky130_fd_sc_hd__inv_16__drv Xdrp1_2
+timestamp 0
+transform 1 0 3220 0 1 0
+box 0 0 1472 544
+use sky130_fd_sc_hd__tapvpwrvgnd_1__drv tap0_3
+timestamp 0
+transform 1 0 4692 0 1 0
+box 0 0 92 544
+use sky130_fd_sc_hd__inv_16__drv Xdrp1_3
+timestamp 0
+transform 1 0 4784 0 1 0
+box 0 0 1472 544
+use sky130_fd_sc_hd__tapvpwrvgnd_1__drv tap0_4
+timestamp 0
+transform 1 0 6256 0 1 0
+box 0 0 92 544
+use sky130_fd_sc_hd__inv_16__drv Xdrp2_0
+timestamp 0
+transform 1 0 6348 0 1 0
+box 0 0 1472 544
+use sky130_fd_sc_hd__tapvpwrvgnd_1__drv tap0_5
+timestamp 0
+transform 1 0 7820 0 1 0
+box 0 0 92 544
+use sky130_fd_sc_hd__inv_16__drv Xdrp2_1
+timestamp 0
+transform 1 0 7912 0 1 0
+box 0 0 1472 544
+use sky130_fd_sc_hd__tapvpwrvgnd_1__drv tap0_6
+timestamp 0
+transform 1 0 9384 0 1 0
+box 0 0 92 544
+use sky130_fd_sc_hd__inv_16__drv Xdrp3_0
+timestamp 0
+transform 1 0 9476 0 1 0
+box 0 0 1472 544
+use sky130_fd_sc_hd__inv_8__drv Xdrp4_0
+timestamp 0
+transform 1 0 10948 0 1 0
+box 0 0 828 544
+use sky130_fd_sc_hd__tapvpwrvgnd_1__drv tap0_8
+timestamp 0
+transform 1 0 11776 0 1 0
+box 0 0 92 544
+use sky130_fd_sc_hd__inv_4__drv Xdrp5_0
+timestamp 0
+transform 1 0 11868 0 1 0
+box 0 0 460 544
+use sky130_fd_sc_hd__inv_2__drv Xdrp6_0
+timestamp 0
+transform 1 0 12328 0 1 0
+box 0 0 276 544
+use sky130_fd_sc_hd__inv_1__drv Xdrp7_0
+timestamp 0
+transform 1 0 12604 0 1 0
+box 0 0 276 544
+use sky130_fd_sc_hd__inv_1__drv Xdrp8_0
+timestamp 0
+transform 1 0 12880 0 1 0
+box 0 0 276 544
+use sky130_fd_sc_hd__inv_1__drv Xdrp9_0
+timestamp 0
+transform 1 0 13156 0 1 0
+box 0 0 276 544
+use sky130_fd_sc_hd__inv_1__drv Xdrp10_0
+timestamp 0
+transform 1 0 13432 0 1 0
+box 0 0 276 544
+use sky130_fd_sc_hd__tapvpwrvgnd_1__drv tap0_e
+timestamp 0
+transform 1 0 13708 0 1 0
+box 0 0 92 544
+<< end >>

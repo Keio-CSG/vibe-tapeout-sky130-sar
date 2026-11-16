@@ -1,0 +1,166 @@
+// Functional (Verilog-A) models for the FromScratch-VA 11-bit monotonic-switching SAR ADC.
+// Blocks: vsw (switch), cmp_fm (comparator), sar_fm (SAR/sequencer + output register).
+`include "disciplines.vams"
+`include "constants.vams"
+
+// ---------------------------------------------------------------------------
+// Switch: Ron(v) with a quadratic dependence on the terminal voltage, turn-off charge injection
+// (q0 + kq*(V(a)-vmid)) delivered into node b (and qa into a), control threshold vth.
+// ---------------------------------------------------------------------------
+module vsw(a, b, c);
+  inout a, b; electrical a, b;
+  input c; electrical c;
+  parameter real ron  = 200;     // on resistance at V(a)=vmid
+  parameter real kr   = 0.0;     // Ron = ron*(1 + kr*(V(a)-vmid)^2)
+  parameter real vmid = 0.95;
+  parameter real roff = 1e10;
+  parameter real vth  = 0.9;
+  parameter real tr   = 50p;
+  parameter real q0   = 0.0;     // charge injected into b when the switch opens [C]
+  parameter real kq   = 0.0;     // signal-dependent part [C/V]
+  parameter real qa0  = 0.0;     // charge injected into a
+  real x, g, qinj;
+  analog begin
+    x = transition((V(c) > vth) ? 1.0 : 0.0, 0, tr, tr);
+    g = x / (ron*(1.0 + kr*pow(V(a)-vmid, 2))) + (1.0-x)/roff;
+    I(a, b) <+ V(a, b) * g;
+    // injection proportional to (1-x): charge pushed into the node while the switch opens
+    I(b) <+ -ddt((q0 + kq*(V(a)-vmid)) * (1.0 - x));
+    I(a) <+ -ddt(qa0 * (1.0 - x));
+  end
+endmodule
+
+// ---------------------------------------------------------------------------
+// Comparator: samples the differential input at the rising edge of clk, decides with offset
+// vos0 + kcm*(vcm-vcm0) + noise, resolves after td0 + tau*ln(vsat/|d|), outputs rails vhi/0,
+// resets to 0 on falling clk.  Kickback: charge qk_cm (both inputs) and +-qk_d (decision) at eval.
+// ---------------------------------------------------------------------------
+module cmp_fm(inp, inn, clk, outp, outn, rst);
+  input inp, inn, clk, rst; output outp, outn;
+  electrical inp, inn, clk, outp, outn, rst;
+  parameter real vos0  = 0.0;
+  parameter real kcm   = 0.0;     // offset slope vs input common mode [V/V]
+  parameter real vcm0  = 1.3;
+  parameter real vnoise = 0.0;    // input-referred rms noise [V] (0 = noiseless)
+  parameter real td0   = 0.4n;
+  parameter real tau   = 0.15n;
+  parameter real vsat  = 0.5;
+  parameter real vhi   = 1.8;
+  parameter real vth   = 0.9;
+  parameter real tr    = 50p;
+  parameter real qk_cm = 0.0;     // recovered (reset) kickback charge on both inputs while clk is high [C]
+  parameter real qk_d  = 0.0;     // non-recovered decision-dependent charge per decision: +qk_d*(2*dec-1) on inp, - on inn [C]
+  parameter real trst  = 0.9;
+  parameter integer seed = 12345;
+  real tn, d, dec, td, dd, vos, accp;
+  integer st, sd;
+  analog begin
+    @(initial_step) begin tn = 1e30; st = 0; dec = 0; sd = seed; accp = 0; end
+    @(cross(V(rst) - trst, +1)) begin accp = 0; end
+    @(cross(V(clk) - vth, +1)) begin
+      d = V(inp) - V(inn);
+      vos = vos0 + kcm*(0.5*(V(inp)+V(inn)) - vcm0);
+      if (vnoise > 0) dd = d - vos + vnoise*$rdist_normal(sd, 0, 1); else dd = d - vos;
+      dec = (dd > 0) ? 1 : 0;
+      if (abs(dd) < 1e-9) td = 1e-6; else td = td0 + tau*ln(vsat/abs(dd));
+      if (td < td0) td = td0;
+      tn = $abstime + td; st = 1;
+    end
+    @(cross(V(clk) - vth, -1)) begin st = 0; tn = 1e30; end
+    @(timer(tn)) begin if (st == 1) begin st = 2; tn = 1e30; accp = accp + qk_d*(2*dec-1); end end
+    V(outp) <+ transition((st == 2 && dec > 0.5) ? vhi : 0.0, 0, tr, tr);
+    V(outn) <+ transition((st == 2 && dec < 0.5) ? vhi : 0.0, 0, tr, tr);
+    // kickback: recovered part while clk is high, plus non-recovered decision dependent charge (reset by rst=track)
+    I(inp) <+ -ddt(transition((V(clk) > vth) ? qk_cm : 0.0, 0, 100p, 100p) + transition(accp, 0, 100p, 100p));
+    I(inn) <+ -ddt(transition((V(clk) > vth) ? qk_cm : 0.0, 0, 100p, 100p) - transition(accp, 0, 100p, 100p));
+  end
+endmodule
+
+// ---------------------------------------------------------------------------
+// SAR sequencer / logic.  Time line after the falling edge of clk (sampling instant):
+//   t_open : top-plate reset switches open (trk -> 0)      <- sampling instant
+//   +t_bt  : bottom input switches open (tg -> 0)
+//   +t_bm  : bottom plates to VREFN (lo -> 1)
+//   +t_set0: first comparator clock; later every tstep.  Decision is read t_read after clkc rises,
+//   +t_logic later the winning side is switched: lo off, (+t_bm) hi on.
+// After the 11th decision the output register is loaded (dq), dv rises, and the array returns to track.
+// c0=1 means VINP > VINN (top node of P side lower) -> raise P side.
+// ---------------------------------------------------------------------------
+module sar_fm(clk, clkc, outp, outn, trk, tg, lop, hip, lon, hin, dq, dv);
+  input clk, outp, outn; output clkc, trk, dv;
+  output [10:0] tg, lop, hip, lon, hin, dq;
+  electrical clk, clkc, outp, outn, trk, dv;
+  electrical [10:0] tg, lop, hip, lon, hin, dq;
+  parameter real vdd    = 1.8;
+  parameter real vth    = 0.9;
+  parameter real t_open = 0.5n;
+  parameter real t_bt   = 0.3n;
+  parameter real t_bm   = 0.2n;
+  parameter real t_set0 = 1.0n;
+  parameter real tstep  = 8n;
+  parameter real t_ev   = 4n;
+  parameter real t_read = 3.5n;
+  parameter real t_logic= 0.3n;
+  parameter real t_eoc  = 0.3n;
+  parameter real tr     = 50p;
+  real tA, tB, tc;
+  integer st, k, i, sd;
+  integer cb[0:10];
+  integer s_tg, s_trk, s_clkc, s_dv;
+  integer s_lop[0:10], s_hip[0:10], s_lon[0:10], s_hin[0:10], s_dq[0:10];
+  genvar g;
+  analog begin
+    @(initial_step) begin
+      sd = 777; tA = 1e30; tB = 1e30; st = 0; k = 0; s_tg = 1; s_trk = 1; s_clkc = 0; s_dv = 0;
+      for (i = 0; i <= 10; i = i + 1) begin s_lop[i]=0; s_hip[i]=0; s_lon[i]=0; s_hin[i]=0; s_dq[i]=0; cb[i]=0; end
+    end
+    @(cross(V(clk) - vth, -1)) begin
+      s_dv = 0; tA = $abstime + t_open; st = 1; k = 0;
+    end
+    @(timer(tB)) begin s_clkc = 0; tB = 1e30; end
+    @(timer(tA)) begin
+      if (st == 1) begin s_trk = 0; tA = $abstime + t_bt; st = 2; end
+      else if (st == 2) begin s_tg = 0; tA = $abstime + t_bm; st = 3; end
+      else if (st == 3) begin
+        for (i = 0; i <= 10; i = i + 1) begin s_lop[i]=1; s_lon[i]=1; end
+        tA = $abstime + t_set0; st = 4;
+      end
+      else if (st == 4) begin           // comparator clock rises
+        s_clkc = 1; tB = $abstime + t_ev; tc = $abstime; tA = $abstime + t_read; st = 5;
+      end
+      else if (st == 5) begin           // read decision
+        if (abs(V(outp) - V(outn)) > vth) cb[k] = ((V(outp) - V(outn)) > 0) ? 1 : 0;      // resolved
+        else cb[k] = ($rdist_uniform(sd, 0, 1000) > 500) ? 1 : 0;                          // metastable: random
+        s_dq[k] = cb[k];
+        if (k < 10) begin tA = $abstime + t_logic; st = 6; end
+        else begin tA = $abstime + t_eoc; st = 9; end
+      end
+      else if (st == 6) begin           // break: lo off on winning side
+        if (cb[k] == 1) s_lop[k] = 0; else s_lon[k] = 0;
+        tA = $abstime + t_bm; st = 7;
+      end
+      else if (st == 7) begin           // make: hi on
+        if (cb[k] == 1) s_hip[k] = 1; else s_hin[k] = 1;
+        k = k + 1;
+        tA = tc + tstep; st = 4;
+      end
+      else if (st == 9) begin           // end of conversion: output valid, array back to track
+        s_dv = 1;
+        for (i = 0; i <= 10; i = i + 1) begin s_lop[i]=0; s_lon[i]=0; s_hip[i]=0; s_hin[i]=0; end
+        tA = $abstime + t_bm; st = 10;
+      end
+      else if (st == 10) begin s_tg = 1; s_trk = 1; tA = 1e30; st = 0; end
+    end
+    V(clkc) <+ transition(s_clkc * vdd, 0, tr, tr);
+    V(trk)  <+ transition(s_trk * vdd, 0, tr, tr);
+    V(dv)   <+ transition(s_dv * vdd, 0, tr, tr);
+    for (i = 0; i <= 10; i = i + 1) begin
+      V(tg[i])  <+ transition(s_tg * vdd, 0, tr, tr);
+      V(lop[i]) <+ transition(s_lop[i] * vdd, 0, tr, tr);
+      V(hip[i]) <+ transition(s_hip[i] * vdd, 0, tr, tr);
+      V(lon[i]) <+ transition(s_lon[i] * vdd, 0, tr, tr);
+      V(hin[i]) <+ transition(s_hin[i] * vdd, 0, tr, tr);
+      V(dq[i])  <+ transition(s_dq[i] * vdd, 0, tr, tr);
+    end
+  end
+endmodule

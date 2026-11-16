@@ -1,0 +1,1494 @@
+{
+  "date": "2026-11-16",
+  "algorithm": "SHA256",
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 101,
+      "sha256": "83b3ca3dc59422671453df7c7b577089d613b9cf53c7936fa11dbfaf7422d07a",
+      "role": "publication source or clean documentation"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "role": "publication source or clean documentation"
+    },
+    {
+      "path": "Makefile",
+      "bytes": 2010,
+      "sha256": "20752968b4b2f7116e8bd1c290ed6e38335621e3a5dc71f3e20b9510e08239b7",
+      "role": "publication source or clean documentation"
+    },
+    {
+      "path": "NOTICE",
+      "bytes": 391,
+      "sha256": "1181d685dc1deda15685e08bb63f10feea697654659a29fd86f6d6cdb09476e1",
+      "role": "publication source or clean documentation"
+    },
+    {
+      "path": "README.md",
+      "bytes": 5734,
+      "sha256": "0bf235b031fd55a601db63c0d313e432ddb3cdbab332443a59e9b39bd348e03e",
+      "role": "publication source or clean documentation"
+    },
+    {
+      "path": "VALIDATION.md",
+      "bytes": 4754,
+      "sha256": "17d15fd2041e6a8dbe8addc88db500fa9369ba6a1708774234e5089b6d732c61",
+      "role": "publication source or clean documentation"
+    },
+    {
+      "path": "env.example.sh",
+      "bytes": 369,
+      "sha256": "7cfa0bf06e1d1d23c0ae5161c17f35171b158472d76908ebdb47e43bf7161640",
+      "role": "publication source or clean documentation"
+    },
+    {
+      "path": "flow/README.md",
+      "bytes": 5222,
+      "sha256": "d169d1e133be8f8942c870a6ac542f7211b8187287b06e762b14660e5c10a114",
+      "role": "publication source or clean documentation"
+    },
+    {
+      "path": "flow/_common.sh",
+      "bytes": 606,
+      "sha256": "d8389c599b9e531d99b92eaeeea450f5eea4a1bfec566166f126d5d9b85b3603",
+      "role": "publication source or clean documentation"
+    },
+    {
+      "path": "flow/behavioural.py",
+      "bytes": 1203,
+      "sha256": "7c3b5c1f0c3e63e03e12bf9fe785ad557901dd18938562332eda6392dfb2729c",
+      "role": "publication source or clean documentation"
+    },
+    {
+      "path": "flow/compare_gds.py",
+      "bytes": 2290,
+      "sha256": "140f7a996f3c0047b3d83feb57e1f794bfc878ca1543e8798a356bf18a804095",
+      "role": "publication source or clean documentation"
+    },
+    {
+      "path": "flow/compare_netlists.py",
+      "bytes": 1666,
+      "sha256": "945f50800324ecc678ff9a76ebebee1bcd83464af717dc62a50d538d0cfe5d91",
+      "role": "publication source or clean documentation"
+    },
+    {
+      "path": "flow/drc.sh",
+      "bytes": 2010,
+      "sha256": "b796670478edb9adde50fa69f0efce71b7696b8d073f63c2fb120f2813188da7",
+      "role": "publication source or clean documentation"
+    },
+    {
+      "path": "flow/export_gds.py",
+      "bytes": 986,
+      "sha256": "be27527bbab51e9f80fd92686e024144b635bd775d57b10524e55c790e29a216",
+      "role": "publication source or clean documentation"
+    },
+    {
+      "path": "flow/extract.py",
+      "bytes": 1519,
+      "sha256": "28d759a7570760a42eff3581e09044f2db0d9702ab1929a117e7f7f43750ee17",
+      "role": "publication source or clean documentation"
+    },
+    {
+      "path": "flow/lvs.sh",
+      "bytes": 1851,
+      "sha256": "7c993a945fcdbe4473368e95832b31c00a7cd0856290b190d02a07620c2211ef",
+      "role": "publication source or clean documentation"
+    },
+    {
+      "path": "flow/pex.sh",
+      "bytes": 2455,
+      "sha256": "62c635ddd66422b952f28b9e14f399658d2403253cd575f60ad395d03b5f0818",
+      "role": "publication source or clean documentation"
+    },
+    {
+      "path": "flow/plot_fft.py",
+      "bytes": 1521,
+      "sha256": "6a0d6a91b4d21beec2d160452bc5b599958b85aacb09a14fb5805460155f2474",
+      "role": "publication source or clean documentation"
+    },
+    {
+      "path": "flow/plot_schematic_diagnosis.py",
+      "bytes": 2640,
+      "sha256": "2d8a3075185a9d718719e12569eb6b25b6e2408c316465916cc5ce830596d5e1",
+      "role": "publication source or clean documentation"
+    },
+    {
+      "path": "flow/probe_fromscratch.py",
+      "bytes": 2235,
+      "sha256": "4f6b55d8936ac6ee73d5d8cf2037d60681f38fd48e62ee307465f15c12c1238a",
+      "role": "publication source or clean documentation"
+    },
+    {
+      "path": "flow/render.py",
+      "bytes": 2983,
+      "sha256": "f4cbc112dbecd9745bca6f69434366f475e23ef43220268d7e03b7ee68996884",
+      "role": "publication source or clean documentation"
+    },
+    {
+      "path": "flow/run_fft.py",
+      "bytes": 12488,
+      "sha256": "7baa15b8558d1c29c27e969c52441ed81f1fe7705a9ee5d7ab03c4878d5dbab8",
+      "role": "publication source or clean documentation"
+    },
+    {
+      "path": "fromscratch/DESIGN.md",
+      "bytes": 5367,
+      "sha256": "52cbed3192f338b7b203eadc0f49573e82a349528541dd6d673945fc4a066ba6",
+      "role": "publication source or clean documentation"
+    },
+    {
+      "path": "fromscratch/PROVENANCE.md",
+      "bytes": 3228,
+      "sha256": "f4b462ec0d23a992509275ba8ded51ef9bec22c4ef77325befd1b771a170fa3a",
+      "role": "publication source or clean documentation"
+    },
+    {
+      "path": "fromscratch/README.md",
+      "bytes": 1402,
+      "sha256": "176e804cffae8aeb5ec41de66016763e91c4a726a4efb9037f15a92a8f3026ce",
+      "role": "publication source or clean documentation"
+    },
+    {
+      "path": "fromscratch/layout/analog.mag",
+      "bytes": 3022,
+      "sha256": "b28d804ff364a2ccddd390a222c68a5bcbcb1b40a2460c55d62f01fe816cca24",
+      "role": "frozen locked MAG snapshot or cached leaf; see arm PROVENANCE.md"
+    },
+    {
+      "path": "fromscratch/layout/cdac_n.mag",
+      "bytes": 276360,
+      "sha256": "b7489b935a73b9150861fbf3362414e0948606075660833cff5c36db89515c8e",
+      "role": "frozen locked MAG snapshot or cached leaf; see arm PROVENANCE.md"
+    },
+    {
+      "path": "fromscratch/layout/cdac_p.mag",
+      "bytes": 276360,
+      "sha256": "ec854689ac1cb1cc16be05ba467389957bc4136d54635165d0b46111f7e9aab2",
+      "role": "frozen locked MAG snapshot or cached leaf; see arm PROVENANCE.md"
+    },
+    {
+      "path": "fromscratch/layout/cmp_half_a.mag",
+      "bytes": 23144,
+      "sha256": "514cbfe51b9b166b34bd9256fa2242638e32d4b4b194c8b68d504f814c6a80f7",
+      "role": "frozen locked MAG snapshot or cached leaf; see arm PROVENANCE.md"
+    },
+    {
+      "path": "fromscratch/layout/cmp_half_b.mag",
+      "bytes": 23144,
+      "sha256": "514cbfe51b9b166b34bd9256fa2242638e32d4b4b194c8b68d504f814c6a80f7",
+      "role": "frozen locked MAG snapshot or cached leaf; see arm PROVENANCE.md"
+    },
+    {
+      "path": "fromscratch/layout/dig.mag",
+      "bytes": 14607,
+      "sha256": "9a33dcd3085971151be6fb2cbee83d956af5c5bfc97d97c7147034927a12a685",
+      "role": "frozen locked MAG snapshot or cached leaf; see arm PROVENANCE.md"
+    },
+    {
+      "path": "fromscratch/layout/drv_n.mag",
+      "bytes": 2266,
+      "sha256": "2373789b4abac4b6855ccc217b3659167e3e9a941249a55d5ab62a3cf67a6cac",
+      "role": "frozen locked MAG snapshot or cached leaf; see arm PROVENANCE.md"
+    },
+    {
+      "path": "fromscratch/layout/drv_p.mag",
+      "bytes": 2266,
+      "sha256": "0c430eef97dd59ffc43c2ee37116bc731441eef9b4eaaf779a491baede93a7bf",
+      "role": "frozen locked MAG snapshot or cached leaf; see arm PROVENANCE.md"
+    },
+    {
+      "path": "fromscratch/layout/floorplan.png",
+      "bytes": 194462,
+      "sha256": "7ae71f80ab2645b4a9bb6c73cc75a5ccee22234f843bc35bc6b8dd0dfde6dcbd",
+      "role": "rendered artifact from flow/render.py or flow/plot_fft.py"
+    },
+    {
+      "path": "fromscratch/layout/g_nl_w4_l0p15_nf4.mag",
+      "bytes": 3966,
+      "sha256": "4d0b3991224420301718dfde59d6b656f26f454ddab32a119dee0987ff6f22d3",
+      "role": "frozen locked MAG snapshot or cached leaf; see arm PROVENANCE.md"
+    },
+    {
+      "path": "fromscratch/layout/g_nl_w4_l0p15_nf8.mag",
+      "bytes": 6450,
+      "sha256": "724a4c76512e54b5fd23cff2b9d4630acb04c803d94aa52a12e034a311791d39",
+      "role": "frozen locked MAG snapshot or cached leaf; see arm PROVENANCE.md"
+    },
+    {
+      "path": "fromscratch/layout/g_pl_w2_l0p35_nf16.mag",
+      "bytes": 15092,
+      "sha256": "695b9b5048c53dcd7ef429e4d4934b5330cb58b4f1eba07fb93e750296228ccd",
+      "role": "frozen locked MAG snapshot or cached leaf; see arm PROVENANCE.md"
+    },
+    {
+      "path": "fromscratch/layout/g_pl_w2_l0p35_nf8.mag",
+      "bytes": 8197,
+      "sha256": "612878eb730fadabb06401549776b9ca3bdb2d76ea36cb216fa7d84468252749",
+      "role": "frozen locked MAG snapshot or cached leaf; see arm PROVENANCE.md"
+    },
+    {
+      "path": "fromscratch/layout/m_nl_w4_l0p15_nf4.mag",
+      "bytes": 1305,
+      "sha256": "c187bb326d464aa84910826a841645aeaefbf7401a74766c41d434d8806cd06c",
+      "role": "frozen locked MAG snapshot or cached leaf; see arm PROVENANCE.md"
+    },
+    {
+      "path": "fromscratch/layout/m_nl_w4_l0p15_nf8.mag",
+      "bytes": 1859,
+      "sha256": "e04f513a7b2ec043293455ff388d242b83434f2ad6167762530137222ffe920e",
+      "role": "frozen locked MAG snapshot or cached leaf; see arm PROVENANCE.md"
+    },
+    {
+      "path": "fromscratch/layout/m_pl_w2_l0p35_nf16.mag",
+      "bytes": 4212,
+      "sha256": "def766cd43b0a3ea95a0162d6f7ac10d08993aa3366d752248d6ad7a16b3b4a1",
+      "role": "frozen locked MAG snapshot or cached leaf; see arm PROVENANCE.md"
+    },
+    {
+      "path": "fromscratch/layout/m_pl_w2_l0p35_nf8.mag",
+      "bytes": 2433,
+      "sha256": "73bca59caa66cf1d0b530ae2a1dbf8d3553f178d2cf0fdd8231a10240c6a57db",
+      "role": "frozen locked MAG snapshot or cached leaf; see arm PROVENANCE.md"
+    },
+    {
+      "path": "fromscratch/layout/sar_adc_top.gds",
+      "bytes": 7069284,
+      "sha256": "2b81d91a60995599a2e70c99e6591c7d399fefb8da1fc274217e6a7107778725",
+      "role": "frozen locked GDS; flow/export_gds.py regenerates identical geometry"
+    },
+    {
+      "path": "fromscratch/layout/sar_adc_top.mag",
+      "bytes": 138732,
+      "sha256": "7e59892d6cf0655178481d386dce4530facbfeb4327ad5ca0fdb9bcb999faed3",
+      "role": "frozen locked MAG snapshot or cached leaf; see arm PROVENANCE.md"
+    },
+    {
+      "path": "fromscratch/layout/sky130_fd_sc_hd__and2_4__dig.mag",
+      "bytes": 7552,
+      "sha256": "95be3a0fd0b28893ca591fdd55c36d41417122db3e8f72e0f79a2144b73210e5",
+      "role": "frozen locked MAG snapshot or cached leaf; see arm PROVENANCE.md"
+    },
+    {
+      "path": "fromscratch/layout/sky130_fd_sc_hd__and3b_1__dig.mag",
+      "bytes": 6932,
+      "sha256": "d086d61a9b67fe1be1ba9db77b3973e09a69df9a6be54daca6c40f2de803504f",
+      "role": "frozen locked MAG snapshot or cached leaf; see arm PROVENANCE.md"
+    },
+    {
+      "path": "fromscratch/layout/sky130_fd_sc_hd__buf_2__dig.mag",
+      "bytes": 5202,
+      "sha256": "5b9f4b0f0a13290a0ce9631c357231d4a51bbd6edd11ef4baf1076ad65fabef1",
+      "role": "frozen locked MAG snapshot or cached leaf; see arm PROVENANCE.md"
+    },
+    {
+      "path": "fromscratch/layout/sky130_fd_sc_hd__buf_4__dig.mag",
+      "bytes": 6685,
+      "sha256": "ef20d19330b2341f57b287deb8e989df05b7d9fcd64e4a97a71ec8ba0cd28a97",
+      "role": "frozen locked MAG snapshot or cached leaf; see arm PROVENANCE.md"
+    },
+    {
+      "path": "fromscratch/layout/sky130_fd_sc_hd__clkbuf_16__dig.mag",
+      "bytes": 18517,
+      "sha256": "5eee81f682e6154fdcf1c0e419f90cfbb03919dee7f6ede5c5c6a2e67113f5e8",
+      "role": "frozen locked MAG snapshot or cached leaf; see arm PROVENANCE.md"
+    },
+    {
+      "path": "fromscratch/layout/sky130_fd_sc_hd__dfrtn_1__dig.mag",
+      "bytes": 18328,
+      "sha256": "fa240f684cea490016d21fe3bc2f4931e1d2a7a0b5aa7c5ead65032489ca215d",
+      "role": "frozen locked MAG snapshot or cached leaf; see arm PROVENANCE.md"
+    },
+    {
+      "path": "fromscratch/layout/sky130_fd_sc_hd__dfrtp_1__dig.mag",
+      "bytes": 18406,
+      "sha256": "1c0ad4e75f4cd71f7f3d997c5b66fc62b72c60b37dda4fd27d3c841a3a9ba617",
+      "role": "frozen locked MAG snapshot or cached leaf; see arm PROVENANCE.md"
+    },
+    {
+      "path": "fromscratch/layout/sky130_fd_sc_hd__dlygate4sd3_1__dig.mag",
+      "bytes": 6615,
+      "sha256": "de3ff882b2f31b09796112f0623aeb7fdb93f3d6733089e64df78f9949a5d2da",
+      "role": "frozen locked MAG snapshot or cached leaf; see arm PROVENANCE.md"
+    },
+    {
+      "path": "fromscratch/layout/sky130_fd_sc_hd__inv_16__dig.mag",
+      "bytes": 17051,
+      "sha256": "8fcf5b844ab37fac18c7132ec5c3ce6584567015187bfd6edcdafdd33e801471",
+      "role": "frozen locked MAG snapshot or cached leaf; see arm PROVENANCE.md"
+    },
+    {
+      "path": "fromscratch/layout/sky130_fd_sc_hd__inv_16__drv.mag",
+      "bytes": 17054,
+      "sha256": "af0c5f150ae0e13bb5598be64b08475f9c9c0cf3210971048952dc5758d8e62f",
+      "role": "frozen locked MAG snapshot or cached leaf; see arm PROVENANCE.md"
+    },
+    {
+      "path": "fromscratch/layout/sky130_fd_sc_hd__inv_1__dig.mag",
+      "bytes": 3662,
+      "sha256": "9b93a4a1c7bd0fe4d83c3eeee636ad5cb050632d07f36d63db164388045b4d23",
+      "role": "frozen locked MAG snapshot or cached leaf; see arm PROVENANCE.md"
+    },
+    {
+      "path": "fromscratch/layout/sky130_fd_sc_hd__inv_1__drv.mag",
+      "bytes": 3665,
+      "sha256": "0b382cc2e1051f2de3bcb463e1921c35b613285b86afb036f973005440356074",
+      "role": "frozen locked MAG snapshot or cached leaf; see arm PROVENANCE.md"
+    },
+    {
+      "path": "fromscratch/layout/sky130_fd_sc_hd__inv_2__dig.mag",
+      "bytes": 4507,
+      "sha256": "e6cedceffd0ceb6343fb0a9b9b4e0bfd4bf32740ba0e8e3403bb920fc4192ce2",
+      "role": "frozen locked MAG snapshot or cached leaf; see arm PROVENANCE.md"
+    },
+    {
+      "path": "fromscratch/layout/sky130_fd_sc_hd__inv_2__drv.mag",
+      "bytes": 4510,
+      "sha256": "29876743270d52c32c2c6e4db3019ecc8815928af3b97e2d1a7add500977d9dc",
+      "role": "frozen locked MAG snapshot or cached leaf; see arm PROVENANCE.md"
+    },
+    {
+      "path": "fromscratch/layout/sky130_fd_sc_hd__inv_4__dig.mag",
+      "bytes": 5892,
+      "sha256": "18710355aacf0a1327ac56926e76728c7c8f3efb269affa3aa82d41e56aa9c89",
+      "role": "frozen locked MAG snapshot or cached leaf; see arm PROVENANCE.md"
+    },
+    {
+      "path": "fromscratch/layout/sky130_fd_sc_hd__inv_4__drv.mag",
+      "bytes": 5895,
+      "sha256": "9601d8366e1b5db2065f57ec083b495f8d1427109b13806ffebfea679e3df649",
+      "role": "frozen locked MAG snapshot or cached leaf; see arm PROVENANCE.md"
+    },
+    {
+      "path": "fromscratch/layout/sky130_fd_sc_hd__inv_8__drv.mag",
+      "bytes": 9929,
+      "sha256": "614aa5cf741ca879c7e0b821ed7ad671042d069cc8a97a499be98b0aaa4100ee",
+      "role": "frozen locked MAG snapshot or cached leaf; see arm PROVENANCE.md"
+    },
+    {
+      "path": "fromscratch/layout/sky130_fd_sc_hd__nor3_1__ana.mag",
+      "bytes": 4475,
+      "sha256": "c90aba8ba5f1a081f2c45a1906365da9474446d3936fb804250628ee7a3c8e48",
+      "role": "frozen locked MAG snapshot or cached leaf; see arm PROVENANCE.md"
+    },
+    {
+      "path": "fromscratch/layout/sky130_fd_sc_hd__nor3_1__dig.mag",
+      "bytes": 4475,
+      "sha256": "7a6dfa965d658c3c88fe6a8fe8472eaf2d0feb84378abde09b9f166d10033775",
+      "role": "frozen locked MAG snapshot or cached leaf; see arm PROVENANCE.md"
+    },
+    {
+      "path": "fromscratch/layout/sky130_fd_sc_hd__or2_1__dig.mag",
+      "bytes": 4784,
+      "sha256": "1058a2ae0d34c08c591800431c25bab6f1b8c6b910ae3fb18f213cfbaec5adbf",
+      "role": "frozen locked MAG snapshot or cached leaf; see arm PROVENANCE.md"
+    },
+    {
+      "path": "fromscratch/layout/sky130_fd_sc_hd__tapvpwrvgnd_1__ana.mag",
+      "bytes": 1554,
+      "sha256": "a74a84a2a3440f6fdbe0b1068d23df8eef8f5e2ffd13093e9fd9853e8b328b01",
+      "role": "frozen locked MAG snapshot or cached leaf; see arm PROVENANCE.md"
+    },
+    {
+      "path": "fromscratch/layout/sky130_fd_sc_hd__tapvpwrvgnd_1__dig.mag",
+      "bytes": 1554,
+      "sha256": "23465f249f44db093804c99a2e7f4973960b1e2d7c3f1a56e3e8dbd283be0f95",
+      "role": "frozen locked MAG snapshot or cached leaf; see arm PROVENANCE.md"
+    },
+    {
+      "path": "fromscratch/layout/sky130_fd_sc_hd__tapvpwrvgnd_1__drv.mag",
+      "bytes": 1556,
+      "sha256": "95955263fce54108ad48a20e6cb4c93aa0821c35474d5dca07f6369d68ff1b52",
+      "role": "frozen locked MAG snapshot or cached leaf; see arm PROVENANCE.md"
+    },
+    {
+      "path": "fromscratch/model/sar_model.py",
+      "bytes": 3034,
+      "sha256": "a5ed4f83650d517bc708cde70fcfd587ed482cff58146c3a573c9fee3f88a4bf",
+      "role": "frozen original behavioural source"
+    },
+    {
+      "path": "fromscratch/results/extraction_comparison.json",
+      "bytes": 271,
+      "sha256": "11af7485363657ac67f801e9a5b2c80c4667054397c8ad3b7ea508ad1d98cb2f",
+      "role": "flow/compare_netlists.py"
+    },
+    {
+      "path": "fromscratch/results/geometry_comparison.json",
+      "bytes": 512,
+      "sha256": "48f97eedde451b8c8bbc321ede59859005cd1a0510e7a7a2048b65ac4684cb6f",
+      "role": "flow/compare_gds.py"
+    },
+    {
+      "path": "fromscratch/results/ideal_model.json",
+      "bytes": 223,
+      "sha256": "4890db3199a1505760f2e2ec94935a73309cfb5da99870fd93198bb5a7f6586e",
+      "role": "flow/behavioural.py"
+    },
+    {
+      "path": "fromscratch/results/ngspice_pex_tt.json",
+      "bytes": 1548,
+      "sha256": "04407749fb31cda695838398e7e575be9466f9b5bd2d9666e0da624aaa4eff00",
+      "role": "flow/run_fft.py"
+    },
+    {
+      "path": "fromscratch/results/ngspice_pex_tt.png",
+      "bytes": 116940,
+      "sha256": "2058b8a480695768a80d0c52228e22c5b1873ce3c4014f5974ada13e34117570",
+      "role": "flow/plot_fft.py"
+    },
+    {
+      "path": "fromscratch/results/ngspice_pex_tt_codes.csv",
+      "bytes": 2083,
+      "sha256": "f5c8c2613a4271523e3685640673621e0a4188dc68f95273938b32d42ee07602",
+      "role": "flow/run_fft.py"
+    },
+    {
+      "path": "fromscratch/results/ngspice_schematic_tt.json",
+      "bytes": 1450,
+      "sha256": "87d6d73e1772af47de6770bf8c3fcda7cfdd4c0854accb085f08e71132f8ce4d",
+      "role": "flow/run_fft.py"
+    },
+    {
+      "path": "fromscratch/results/ngspice_schematic_tt.png",
+      "bytes": 115520,
+      "sha256": "f026d78030f212e21210ec6750acf4703dbf5fe2636c06ad8876dda81574dce5",
+      "role": "flow/plot_fft.py"
+    },
+    {
+      "path": "fromscratch/results/ngspice_schematic_tt_codes.csv",
+      "bytes": 2083,
+      "sha256": "71c5ee5b21ac370ae102fe0e53170e9e488d06f1b67e12c7ace58472790e473d",
+      "role": "flow/run_fft.py"
+    },
+    {
+      "path": "fromscratch/results/original.json",
+      "bytes": 2764,
+      "sha256": "5a03364a510b91c21568d84cace96f689dac8443cd508da95d1692d1faf4a3bd",
+      "role": "frozen design-time electrical evidence, whitelisted fields"
+    },
+    {
+      "path": "fromscratch/results/probe_aliases.json",
+      "bytes": 2613,
+      "sha256": "bd05689dfd4abe334534faab8460d62d8686d1cb2142018f13aa950f771b49d8",
+      "role": "frozen topology-matched internal probe aliases; flow/probe_fromscratch.py"
+    },
+    {
+      "path": "fromscratch/results/schematic_tt_diagnosis.csv",
+      "bytes": 51297,
+      "sha256": "275146eb4acdd7e4f3870d92c570294138368de22bc27eac870cfb1283fa2cc5",
+      "role": "frozen ngspice-only short-probe evidence; flow/probe_fromscratch.py and diagnostic controls documented in VALIDATION.md"
+    },
+    {
+      "path": "fromscratch/results/schematic_tt_diagnosis.json",
+      "bytes": 6007,
+      "sha256": "928ce4a67950374064293b072eeca70fc4d0b6205c057a0ce4330c8652ff0d48",
+      "role": "frozen ngspice-only short-probe evidence; flow/probe_fromscratch.py and diagnostic controls documented in VALIDATION.md"
+    },
+    {
+      "path": "fromscratch/results/schematic_tt_diagnosis.png",
+      "bytes": 244753,
+      "sha256": "9f489b56359c2de998a299ac2356058d82da5807854180acc42c9ed028f8d161",
+      "role": "flow/plot_schematic_diagnosis.py from frozen short-window CSV"
+    },
+    {
+      "path": "fromscratch/schematic/C20G_RECONSTRUCTION.json",
+      "bytes": 1693,
+      "sha256": "f9dae316b7e3b058e50d2f40258d9d5129d0a8b36f96d1336c1657db70f4595a",
+      "role": "frozen schematic or decoder; see arm PROVENANCE.md for generator"
+    },
+    {
+      "path": "fromscratch/schematic/c20g_decoder.py",
+      "bytes": 1115,
+      "sha256": "86b397a4030d5d0be3c8daa87966a519a473d63124264c5a8134b88936fe0476",
+      "role": "frozen schematic or decoder; see arm PROVENANCE.md for generator"
+    },
+    {
+      "path": "fromscratch/schematic/lvs_reference.spice",
+      "bytes": 310329,
+      "sha256": "7398a554544729c20cae3db4f473e0de5fc4326fb02bc59beb9facd30d49f07c",
+      "role": "frozen schematic or decoder; see arm PROVENANCE.md for generator"
+    },
+    {
+      "path": "fromscratch/schematic/sar_adc_m3.spice",
+      "bytes": 13927,
+      "sha256": "ec5f7824fe2b3f2a2f9182d8840ac70eef66a43921893cc2fe5af88cbc53b45d",
+      "role": "frozen schematic or decoder; see arm PROVENANCE.md for generator"
+    },
+    {
+      "path": "fromscratch/scripts/comp_def.py",
+      "bytes": 1106,
+      "sha256": "70a70603b8b68fe750b739e1ac6d3fbb503f379590b07303407ee55f6d1850c1",
+      "role": "source program"
+    },
+    {
+      "path": "fromscratch/scripts/gen_m3_netlist.py",
+      "bytes": 11820,
+      "sha256": "764fcac48fc47b5ed88dcd323a61cb62a805b57f33a8920c6d6ff247f0b93d2b",
+      "role": "source program"
+    },
+    {
+      "path": "fromscratch/scripts/generate_layout.py",
+      "bytes": 1093,
+      "sha256": "959935bcb97df164e4ce201ec4814ca7f3c9b606b9f7743ab252adcca2d7a375",
+      "role": "source program"
+    },
+    {
+      "path": "fromscratch/scripts/generate_schematic.py",
+      "bytes": 736,
+      "sha256": "3c69bfcf347b06c233364c04f1d484cce93eeab41829ab94832364033d7d5d16",
+      "role": "source program"
+    },
+    {
+      "path": "fromscratch/scripts/layout/analog.py",
+      "bytes": 15720,
+      "sha256": "bc93b7d1cf3844196e8c8e195a773c05af92055b27cb4fd5e1f2cf21bec073d8",
+      "role": "source program"
+    },
+    {
+      "path": "fromscratch/scripts/layout/cdac.py",
+      "bytes": 7100,
+      "sha256": "03ac6c6416d8c0aa43e33c93f6d6b3fdce5b64ac082bfcbcbd4b097c9e0b728f",
+      "role": "source program"
+    },
+    {
+      "path": "fromscratch/scripts/layout/digital.py",
+      "bytes": 3006,
+      "sha256": "bfcc8378f8e204fa9ac307c743220ad2f277b38475388f46169d76b8bab3fe4d",
+      "role": "source program"
+    },
+    {
+      "path": "fromscratch/scripts/layout/lib/devlib.py",
+      "bytes": 7933,
+      "sha256": "32b80351b5d707f67aef89029c91e97f94ce617e4799435dcb04e54244d211e4",
+      "role": "source program"
+    },
+    {
+      "path": "fromscratch/scripts/layout/lib/flatten.py",
+      "bytes": 2957,
+      "sha256": "d64dac038b01f0cf2fdd2e7987a85b765782a4d3bdf6f4147ae37877f60f36c4",
+      "role": "source program"
+    },
+    {
+      "path": "fromscratch/scripts/layout/lib/maglib.py",
+      "bytes": 3404,
+      "sha256": "cea509074f28474df65c5344b41b2ae5c92dfd70a86b4b364302b479cca1b628",
+      "role": "source program"
+    },
+    {
+      "path": "fromscratch/scripts/layout/lib/netlist.py",
+      "bytes": 1719,
+      "sha256": "052b9ed8b4f17997921772625418d5b8cbe9199e781d84b8ca6d7798425ad6ac",
+      "role": "source program"
+    },
+    {
+      "path": "fromscratch/scripts/layout/lib/router.py",
+      "bytes": 12213,
+      "sha256": "27886a3ffab5a5d771ad0f5e1905574d285fca083fb0d4b2b12982aa5dd0a01e",
+      "role": "source program"
+    },
+    {
+      "path": "fromscratch/scripts/layout/lib/stdlib.py",
+      "bytes": 1328,
+      "sha256": "9df1f7c85832aeccf2290563b21d2ed317d695eced59f4f6db52cb577ff15a48",
+      "role": "source program"
+    },
+    {
+      "path": "fromscratch/scripts/layout/lib/stdplace.py",
+      "bytes": 2554,
+      "sha256": "2f6dfc924a5f450dbfb6a2bd3111bac3f32667ffea0329dffb30b1f1ac238760",
+      "role": "source program"
+    },
+    {
+      "path": "fromscratch/scripts/layout/structs.py",
+      "bytes": 6795,
+      "sha256": "c21d77bdd0aa8317553b0c476f8de0d823b624f8968bbed4f1a9c2ab1c2fd8b7",
+      "role": "source program"
+    },
+    {
+      "path": "fromscratch/scripts/layout/top.py",
+      "bytes": 16330,
+      "sha256": "80fb47fba84074c032db36cf93145d8ec3cf2b818eec869874c12d6d824b04fd",
+      "role": "source program"
+    },
+    {
+      "path": "fromscratch/scripts/p_M3.json",
+      "bytes": 353,
+      "sha256": "b97f4f8ec5463b1d5a3ba327b2eab1c59f0766b4bcce0f8c2ae7b523b94b0d54",
+      "role": "frozen generator parameters/interface data; see arm PROVENANCE.md"
+    },
+    {
+      "path": "fromscratch/scripts/spicegen.py",
+      "bytes": 914,
+      "sha256": "a5392220771fbaca8a22a610df059b690d879fc039d5072da5f8dd69ffddde49",
+      "role": "source program"
+    },
+    {
+      "path": "fromscratch/verify/original_drc_gds.rpt",
+      "bytes": 932,
+      "sha256": "52d184726a268b2bd4ee8d55b489cc366ffaaf2cdda97928b27b52d966be490c",
+      "role": "frozen verification evidence; flow/drc.sh or flow/lvs.sh, locations removed"
+    },
+    {
+      "path": "fromscratch/verify/original_drc_mag.rpt",
+      "bytes": 932,
+      "sha256": "cb76567a8a803f9d543b803d8200e74ab6d1fe200bd7bdfdf001df70b53e48e6",
+      "role": "frozen verification evidence; flow/drc.sh or flow/lvs.sh, locations removed"
+    },
+    {
+      "path": "fromscratch/verify/original_lvs_gds.txt",
+      "bytes": 10502,
+      "sha256": "d1dce369e2587f0ee07356a38333a078bdab6dc46dab3833a3a0fed8845a2621",
+      "role": "frozen verification evidence; flow/drc.sh or flow/lvs.sh, locations removed"
+    },
+    {
+      "path": "fromscratch/verify/original_lvs_mag.txt",
+      "bytes": 10502,
+      "sha256": "d1dce369e2587f0ee07356a38333a078bdab6dc46dab3833a3a0fed8845a2621",
+      "role": "frozen verification evidence; flow/drc.sh or flow/lvs.sh, locations removed"
+    },
+    {
+      "path": "fromscratch/verify/pex_c.spice",
+      "bytes": 868238,
+      "sha256": "31a0e0c97aff486b3e5e01b8865d4ef166a9ed01169456e7ab40cf5bbc1b4e1d",
+      "role": "frozen small C-only extraction; flow/extract.py"
+    },
+    {
+      "path": "fromscratch/verify/reproduced_drc_reference_gds.rpt",
+      "bytes": 932,
+      "sha256": "783137508a2e1bd3706abdb280c070f44691f2597da733fd58a61919f4283394",
+      "role": "frozen verification evidence; flow/drc.sh or flow/lvs.sh, locations removed"
+    },
+    {
+      "path": "fromscratch/verify/reproduced_drc_reference_mag.rpt",
+      "bytes": 932,
+      "sha256": "f01613c689da8f5646bb01c12eac7140387040b163cbe42637c588a87e1a3c03",
+      "role": "frozen verification evidence; flow/drc.sh or flow/lvs.sh, locations removed"
+    },
+    {
+      "path": "fromscratch/verify/reproduced_drc_regenerated_gds.rpt",
+      "bytes": 932,
+      "sha256": "dd2629657680d8701584ee4c33cc86d0f03c601fd345c09268d3f9281f867aca",
+      "role": "frozen verification evidence; flow/drc.sh or flow/lvs.sh, locations removed"
+    },
+    {
+      "path": "fromscratch/verify/reproduced_drc_regenerated_mag.rpt",
+      "bytes": 932,
+      "sha256": "024c40990cae379a67292239351cbe58ce34d53333deeef70cfb0eec3b689509",
+      "role": "frozen verification evidence; flow/drc.sh or flow/lvs.sh, locations removed"
+    },
+    {
+      "path": "fromscratch/verify/reproduced_lvs_reference_gds.txt",
+      "bytes": 10502,
+      "sha256": "d1dce369e2587f0ee07356a38333a078bdab6dc46dab3833a3a0fed8845a2621",
+      "role": "frozen verification evidence; flow/drc.sh or flow/lvs.sh, locations removed"
+    },
+    {
+      "path": "fromscratch/verify/reproduced_lvs_reference_mag.txt",
+      "bytes": 10502,
+      "sha256": "d1dce369e2587f0ee07356a38333a078bdab6dc46dab3833a3a0fed8845a2621",
+      "role": "frozen verification evidence; flow/drc.sh or flow/lvs.sh, locations removed"
+    },
+    {
+      "path": "fromscratch/verify/reproduced_lvs_regenerated_gds.txt",
+      "bytes": 10502,
+      "sha256": "d1dce369e2587f0ee07356a38333a078bdab6dc46dab3833a3a0fed8845a2621",
+      "role": "frozen verification evidence; flow/drc.sh or flow/lvs.sh, locations removed"
+    },
+    {
+      "path": "fromscratch/verify/reproduced_lvs_regenerated_mag.txt",
+      "bytes": 10502,
+      "sha256": "d1dce369e2587f0ee07356a38333a078bdab6dc46dab3833a3a0fed8845a2621",
+      "role": "frozen verification evidence; flow/drc.sh or flow/lvs.sh, locations removed"
+    },
+    {
+      "path": "fromscratch-va/DESIGN.md",
+      "bytes": 4512,
+      "sha256": "e96f33391ed5b0f1167c37288f4ba87d96339f96d7f58950f8f5121fea893d69",
+      "role": "publication source or clean documentation"
+    },
+    {
+      "path": "fromscratch-va/PROVENANCE.md",
+      "bytes": 2662,
+      "sha256": "95bececac7aebcc75473567b13fe1a99d5ca69c997e6514d43e6c06d7a520ab4",
+      "role": "publication source or clean documentation"
+    },
+    {
+      "path": "fromscratch-va/README.md",
+      "bytes": 1450,
+      "sha256": "198a9f48c392ae9cd2efdbc3456658ef5e15e0302ca8243345308e931f7b120a",
+      "role": "publication source or clean documentation"
+    },
+    {
+      "path": "fromscratch-va/layout/bank_side.mag",
+      "bytes": 49605,
+      "sha256": "1ba46f6447fc40f41afc4d64953136fe37884dd9e95899cbefe7af3ec01ff413",
+      "role": "frozen locked MAG snapshot or cached leaf; see arm PROVENANCE.md"
+    },
+    {
+      "path": "fromscratch-va/layout/cdac_core.mag",
+      "bytes": 317262,
+      "sha256": "0ef014e8cfc9aae55d2ead92b1987085df072b07524169ae845a2caae31dd67e",
+      "role": "frozen locked MAG snapshot or cached leaf; see arm PROVENANCE.md"
+    },
+    {
+      "path": "fromscratch-va/layout/comparator_core.mag",
+      "bytes": 25255,
+      "sha256": "1a3e8a90021a500f45816e923db458c2301ef3b9ddf3fe9741b62d637c71583b",
+      "role": "frozen locked MAG snapshot or cached leaf; see arm PROVENANCE.md"
+    },
+    {
+      "path": "fromscratch-va/layout/dev_mim_w27_l18p92.mag",
+      "bytes": 961,
+      "sha256": "f3a63019993d7f4ef8697ebb5c68328113e91c7fddca56bec3d1551564f6751a",
+      "role": "frozen locked MAG snapshot or cached leaf; see arm PROVENANCE.md"
+    },
+    {
+      "path": "fromscratch-va/layout/dev_mim_w3p16_l3p16.mag",
+      "bytes": 886,
+      "sha256": "b7d560198307e6f8aceedb50b90a8dfccda7a43d626afdbcc84f9d6ee927ad2d",
+      "role": "frozen locked MAG snapshot or cached leaf; see arm PROVENANCE.md"
+    },
+    {
+      "path": "fromscratch-va/layout/dev_mim_w3p23_l3p23.mag",
+      "bytes": 885,
+      "sha256": "782697ddd22d51d7d548fa5c9a67acfa75cc4e923eebb53654bb8c978d29ab44",
+      "role": "frozen locked MAG snapshot or cached leaf; see arm PROVENANCE.md"
+    },
+    {
+      "path": "fromscratch-va/layout/dev_mim_w7p07_l7p07.mag",
+      "bytes": 887,
+      "sha256": "ef74743465ad1060de72ece48d45a6e514eb4fa5d22c7be60563c4a95e2d159b",
+      "role": "frozen locked MAG snapshot or cached leaf; see arm PROVENANCE.md"
+    },
+    {
+      "path": "fromscratch-va/layout/dev_nfet_lvt_w4_l0p15_nf2_g0.mag",
+      "bytes": 2321,
+      "sha256": "ae680cce2a61290b625a7be9e30be261d4316c3fba663f4396acc7e4ae0da34e",
+      "role": "frozen locked MAG snapshot or cached leaf; see arm PROVENANCE.md"
+    },
+    {
+      "path": "fromscratch-va/layout/dev_nfet_w1p5_l0p15_nf1_g0.mag",
+      "bytes": 1923,
+      "sha256": "24a25015b5f9251ccbb6220bddec581972196eb7dcc6a91625eb34c3030ce39f",
+      "role": "frozen locked MAG snapshot or cached leaf; see arm PROVENANCE.md"
+    },
+    {
+      "path": "fromscratch-va/layout/dev_nfet_w1p8_l0p15_nf1_g0.mag",
+      "bytes": 1923,
+      "sha256": "6d8f5a02c6c6b039f79ec2ef37e002c5192f54ae08167bb71377a06112cb33cc",
+      "role": "frozen locked MAG snapshot or cached leaf; see arm PROVENANCE.md"
+    },
+    {
+      "path": "fromscratch-va/layout/dev_nfet_w2_l0p15_nf1_g0.mag",
+      "bytes": 1921,
+      "sha256": "d2ad018df36b4786cf43f402c962f4e83067ab72f60b2eef9f8d17081482aa4b",
+      "role": "frozen locked MAG snapshot or cached leaf; see arm PROVENANCE.md"
+    },
+    {
+      "path": "fromscratch-va/layout/dev_nfet_w3_l0p15_nf1_g0.mag",
+      "bytes": 1921,
+      "sha256": "649c1d4793f9cb02ac4d51069db881bac5c6dcba24dfcc42b8f629eb9751644d",
+      "role": "frozen locked MAG snapshot or cached leaf; see arm PROVENANCE.md"
+    },
+    {
+      "path": "fromscratch-va/layout/dev_nfet_w3_l0p15_nf2_g0.mag",
+      "bytes": 2314,
+      "sha256": "37cfa95a322e2e75d28a56c86eb54c7eefe597c1f869cd7f5eb77abffeeccd56",
+      "role": "frozen locked MAG snapshot or cached leaf; see arm PROVENANCE.md"
+    },
+    {
+      "path": "fromscratch-va/layout/dev_nfet_w4_l0p15_nf1_g0.mag",
+      "bytes": 1921,
+      "sha256": "9fb2dd84979406eb9fdfb72804d2d8ded459f20707a4e78b3ed16fb462323538",
+      "role": "frozen locked MAG snapshot or cached leaf; see arm PROVENANCE.md"
+    },
+    {
+      "path": "fromscratch-va/layout/dev_nfet_w4_l0p15_nf2_g0.mag",
+      "bytes": 2314,
+      "sha256": "b2d522b35f6c67d99ed01c6c8fac8259757d71cdc94110a874d47ff7ef54ffb1",
+      "role": "frozen locked MAG snapshot or cached leaf; see arm PROVENANCE.md"
+    },
+    {
+      "path": "fromscratch-va/layout/dev_nfet_w4_l0p15_nf3_g0.mag",
+      "bytes": 2919,
+      "sha256": "c49f016119b520a4649f1df24b93e6176e66f1051024cf7647964d9a501f5c13",
+      "role": "frozen locked MAG snapshot or cached leaf; see arm PROVENANCE.md"
+    },
+    {
+      "path": "fromscratch-va/layout/dev_nfet_w4p8_l0p15_nf10_g0.mag",
+      "bytes": 7285,
+      "sha256": "975db0fbac86db676dc055abf0c0d8511e73903efd83c67368f8b614ea212d11",
+      "role": "frozen locked MAG snapshot or cached leaf; see arm PROVENANCE.md"
+    },
+    {
+      "path": "fromscratch-va/layout/dev_nfet_w4p8_l0p15_nf5_g0.mag",
+      "bytes": 4163,
+      "sha256": "b53f22e196282aca98a799607fcd51c89d2804eb12f5f46fb33293d36e979282",
+      "role": "frozen locked MAG snapshot or cached leaf; see arm PROVENANCE.md"
+    },
+    {
+      "path": "fromscratch-va/layout/dev_pfet_w1p5_l0p15_nf1_g0.mag",
+      "bytes": 1779,
+      "sha256": "a0e0957bdb479ebb401dad0506fab330f657222d96a64601ffb9cf168c793b36",
+      "role": "frozen locked MAG snapshot or cached leaf; see arm PROVENANCE.md"
+    },
+    {
+      "path": "fromscratch-va/layout/dev_pfet_w1p88_l0p15_nf1_g0.mag",
+      "bytes": 1780,
+      "sha256": "e0d7c77b8d98ba1314d6fd6e6bdf8866533ef3833fbb650f4386dba6851a19e7",
+      "role": "frozen locked MAG snapshot or cached leaf; see arm PROVENANCE.md"
+    },
+    {
+      "path": "fromscratch-va/layout/dev_pfet_w3_l0p15_nf1_g0.mag",
+      "bytes": 1777,
+      "sha256": "5be6295f4922c8ef4144fbdea6065e7211b59f8e22f4e523139ca60210500256",
+      "role": "frozen locked MAG snapshot or cached leaf; see arm PROVENANCE.md"
+    },
+    {
+      "path": "fromscratch-va/layout/dev_pfet_w3_l0p15_nf2_g0.mag",
+      "bytes": 2214,
+      "sha256": "d8071afad2d3080136eab034758f1618178abc11751fc91df7867e21615e93cf",
+      "role": "frozen locked MAG snapshot or cached leaf; see arm PROVENANCE.md"
+    },
+    {
+      "path": "fromscratch-va/layout/dev_pfet_w3p75_l0p15_nf1_g0.mag",
+      "bytes": 1780,
+      "sha256": "20fe83406e14e01a7142cd6affb227efa36119297566d0a788d0e17da6ccb52f",
+      "role": "frozen locked MAG snapshot or cached leaf; see arm PROVENANCE.md"
+    },
+    {
+      "path": "fromscratch-va/layout/dev_pfet_w3p75_l0p15_nf2_g0.mag",
+      "bytes": 2217,
+      "sha256": "cd73104bc0c2f49b324b1555414d7a8f7341d3178d561070b7fb4b7c46e86f3d",
+      "role": "frozen locked MAG snapshot or cached leaf; see arm PROVENANCE.md"
+    },
+    {
+      "path": "fromscratch-va/layout/dev_pfet_w4_l0p15_nf2_g0.mag",
+      "bytes": 2214,
+      "sha256": "61a8fc3be0fcb482cf813626e5c07fe0daf8eecdb8a1e7d8c37242926037f148",
+      "role": "frozen locked MAG snapshot or cached leaf; see arm PROVENANCE.md"
+    },
+    {
+      "path": "fromscratch-va/layout/dev_pfet_w4_l0p15_nf3_g0.mag",
+      "bytes": 2797,
+      "sha256": "d2dabc0bf9b520463781a26a817d46480d0ee5bbd138b0a5570af9a38b7d1bdc",
+      "role": "frozen locked MAG snapshot or cached leaf; see arm PROVENANCE.md"
+    },
+    {
+      "path": "fromscratch-va/layout/dev_pfet_w4_l0p15_nf4_g0.mag",
+      "bytes": 3458,
+      "sha256": "468fa29bf37aa1879951f6cec66b6a55c3a2fc2f8afb6e85222570049b46b9db",
+      "role": "frozen locked MAG snapshot or cached leaf; see arm PROVENANCE.md"
+    },
+    {
+      "path": "fromscratch-va/layout/dev_pfet_w4p8_l0p15_nf10_g0.mag",
+      "bytes": 7187,
+      "sha256": "68b225710684e8c2bc2b7f9fe49cb18dddc96a00cc77bbed35bdcb72580e5d7e",
+      "role": "frozen locked MAG snapshot or cached leaf; see arm PROVENANCE.md"
+    },
+    {
+      "path": "fromscratch-va/layout/dev_pfet_w4p8_l0p15_nf20_g0.mag",
+      "bytes": 13401,
+      "sha256": "1f6c6330be70643c11c4567f0d907afaf878ad07f766962fbe593eb1f1346156",
+      "role": "frozen locked MAG snapshot or cached leaf; see arm PROVENANCE.md"
+    },
+    {
+      "path": "fromscratch-va/layout/dev_pfet_w4p8_l0p15_nf5_g0.mag",
+      "bytes": 4041,
+      "sha256": "92564dd84a47698ba5cb92965321053eee5e1cda545f93c72851f5bd7bf8e202",
+      "role": "frozen locked MAG snapshot or cached leaf; see arm PROVENANCE.md"
+    },
+    {
+      "path": "fromscratch-va/layout/dev_pfet_w4p92_l0p15_nf26_g0.mag",
+      "bytes": 17424,
+      "sha256": "2341ec6f5e417b302e3ba1337a0e0a1225448c2199ad53a852725f78f610aaa1",
+      "role": "frozen locked MAG snapshot or cached leaf; see arm PROVENANCE.md"
+    },
+    {
+      "path": "fromscratch-va/layout/dev_pfet_w5_l0p15_nf3_g0.mag",
+      "bytes": 2797,
+      "sha256": "67bd1937465557b14136d513ee1176058635da284a5c88020f9e27741aed3270",
+      "role": "frozen locked MAG snapshot or cached leaf; see arm PROVENANCE.md"
+    },
+    {
+      "path": "fromscratch-va/layout/dev_pfet_w5_l0p15_nf6_g0.mag",
+      "bytes": 4700,
+      "sha256": "f7e0334a363f13077ea5cbc891234d102d77fb909f81884d68b5926636cfb954",
+      "role": "frozen locked MAG snapshot or cached leaf; see arm PROVENANCE.md"
+    },
+    {
+      "path": "fromscratch-va/layout/floorplan.png",
+      "bytes": 268658,
+      "sha256": "44f8a6f956d4d02e152351b88ecf25540dce48bcb0307bc96ada17b133aa5287",
+      "role": "rendered artifact from flow/render.py or flow/plot_fft.py"
+    },
+    {
+      "path": "fromscratch-va/layout/sar_adc_macro.gds",
+      "bytes": 2345638,
+      "sha256": "017fa9500d027441cfad2d3ed8a4901e71439ee7dd80983e033985cd108a8259",
+      "role": "frozen locked GDS; flow/export_gds.py regenerates identical geometry"
+    },
+    {
+      "path": "fromscratch-va/layout/sar_adc_macro.mag",
+      "bytes": 37237,
+      "sha256": "43e2e104719e48f9de490e5f9cda6dab03963c30e80aa10d23218e3d59a361c2",
+      "role": "frozen locked MAG snapshot or cached leaf; see arm PROVENANCE.md"
+    },
+    {
+      "path": "fromscratch-va/layout/sar_logic_core.mag",
+      "bytes": 248285,
+      "sha256": "8b689f988b5cddf766db1a2e813ecaf45189d7d021fa7a11bbc30281e5af7244",
+      "role": "frozen locked MAG snapshot or cached leaf; see arm PROVENANCE.md"
+    },
+    {
+      "path": "fromscratch-va/layout/sky130_fd_sc_hd__and2_1.mag",
+      "bytes": 5256,
+      "sha256": "968c6088fabb8502d61be454451aa912a201ee407c0d878ab181c0d1ce697de8",
+      "role": "frozen locked MAG snapshot or cached leaf; see arm PROVENANCE.md"
+    },
+    {
+      "path": "fromscratch-va/layout/sky130_fd_sc_hd__and2_2.mag",
+      "bytes": 6181,
+      "sha256": "b268b34018064366850a0aff6d08963e441e1af05c384e77c38bd4804f9108ba",
+      "role": "frozen locked MAG snapshot or cached leaf; see arm PROVENANCE.md"
+    },
+    {
+      "path": "fromscratch-va/layout/sky130_fd_sc_hd__and2b_1.mag",
+      "bytes": 5989,
+      "sha256": "1e0de26ceda615cc0c96251ae971bd7883bc30fd88a8a13a44cd6cedc6e410ef",
+      "role": "frozen locked MAG snapshot or cached leaf; see arm PROVENANCE.md"
+    },
+    {
+      "path": "fromscratch-va/layout/sky130_fd_sc_hd__buf_16.mag",
+      "bytes": 23667,
+      "sha256": "f62e721afca98259e83df60797cdce22749ae323e14b22658bf2fdcbfb0797fb",
+      "role": "frozen locked MAG snapshot or cached leaf; see arm PROVENANCE.md"
+    },
+    {
+      "path": "fromscratch-va/layout/sky130_fd_sc_hd__buf_2.mag",
+      "bytes": 5204,
+      "sha256": "af9684b8b5e4afe0c5cee35c93a04ce6d3080ff1c5d33a53d7fdd2131b5a568a",
+      "role": "frozen locked MAG snapshot or cached leaf; see arm PROVENANCE.md"
+    },
+    {
+      "path": "fromscratch-va/layout/sky130_fd_sc_hd__buf_4.mag",
+      "bytes": 6687,
+      "sha256": "439dcdfd8af4169d4d1f156e448bc18f868d0af84f3f4d5dcdf15547e17f44c1",
+      "role": "frozen locked MAG snapshot or cached leaf; see arm PROVENANCE.md"
+    },
+    {
+      "path": "fromscratch-va/layout/sky130_fd_sc_hd__conb_1.mag",
+      "bytes": 3259,
+      "sha256": "e02a70d7b14d7c03b958d06fe9e5d53d53a327a2baf7f12164b45690586e8b70",
+      "role": "frozen locked MAG snapshot or cached leaf; see arm PROVENANCE.md"
+    },
+    {
+      "path": "fromscratch-va/layout/sky130_fd_sc_hd__dfstp_1.mag",
+      "bytes": 19184,
+      "sha256": "d77bbb1b0af6b904608d08933c717a6cd11ca92dcaf233a300b25a2151fb34ce",
+      "role": "frozen locked MAG snapshot or cached leaf; see arm PROVENANCE.md"
+    },
+    {
+      "path": "fromscratch-va/layout/sky130_fd_sc_hd__dlygate4sd1_1.mag",
+      "bytes": 6225,
+      "sha256": "3b4d0e81f91fe790547399825ee47fc1881169b8d289695fffbecf0f4da8354c",
+      "role": "frozen locked MAG snapshot or cached leaf; see arm PROVENANCE.md"
+    },
+    {
+      "path": "fromscratch-va/layout/sky130_fd_sc_hd__dlygate4sd3_1.mag",
+      "bytes": 6616,
+      "sha256": "e9a6d8d3d0a08696e1daed5b8487f36a8d3b380d4313f975e5075ba91c8760a3",
+      "role": "frozen locked MAG snapshot or cached leaf; see arm PROVENANCE.md"
+    },
+    {
+      "path": "fromscratch-va/layout/sky130_fd_sc_hd__fill_1.mag",
+      "bytes": 1264,
+      "sha256": "0783877c765fb5946cdf5c43bf515a774021ebc5ba3c43f2029b78868527db2b",
+      "role": "frozen locked MAG snapshot or cached leaf; see arm PROVENANCE.md"
+    },
+    {
+      "path": "fromscratch-va/layout/sky130_fd_sc_hd__fill_2.mag",
+      "bytes": 1398,
+      "sha256": "a91e7d6996b923b07e0f2e874706bf2d2d7d2a861f34cb6425a06d7f79e54a6e",
+      "role": "frozen locked MAG snapshot or cached leaf; see arm PROVENANCE.md"
+    },
+    {
+      "path": "fromscratch-va/layout/sky130_fd_sc_hd__fill_4.mag",
+      "bytes": 1643,
+      "sha256": "8514749dd816e84343b8f0f97b7c8b5c77d77994928e78fac1b0881000f99e12",
+      "role": "frozen locked MAG snapshot or cached leaf; see arm PROVENANCE.md"
+    },
+    {
+      "path": "fromscratch-va/layout/sky130_fd_sc_hd__fill_8.mag",
+      "bytes": 2137,
+      "sha256": "1c2d3917f71186d5080c19f61117dc76b8cf70c6d324d47b2da68235dd3e282f",
+      "role": "frozen locked MAG snapshot or cached leaf; see arm PROVENANCE.md"
+    },
+    {
+      "path": "fromscratch-va/layout/sky130_fd_sc_hd__inv_1.mag",
+      "bytes": 3663,
+      "sha256": "0c56bd6927e5b90b8683db088a1326a78fdd886234436c2b991499eabdc73bcc",
+      "role": "frozen locked MAG snapshot or cached leaf; see arm PROVENANCE.md"
+    },
+    {
+      "path": "fromscratch-va/layout/sky130_fd_sc_hd__inv_16.mag",
+      "bytes": 17052,
+      "sha256": "11d4d2cbff21dca78501a6f4d60524bf37172c64b083569d5a6fa3d7ec4ce5c6",
+      "role": "frozen locked MAG snapshot or cached leaf; see arm PROVENANCE.md"
+    },
+    {
+      "path": "fromscratch-va/layout/sky130_fd_sc_hd__inv_2.mag",
+      "bytes": 4508,
+      "sha256": "404ea4bc36db1f8bcc39d25a59a9c6b254d126e534d7cb549c9d82103b0ff592",
+      "role": "frozen locked MAG snapshot or cached leaf; see arm PROVENANCE.md"
+    },
+    {
+      "path": "fromscratch-va/layout/sky130_fd_sc_hd__inv_4.mag",
+      "bytes": 5893,
+      "sha256": "05fffc24ee31c75e6b9df3e92ecb6e0e0d2667459d1f00466183fd9302e8cdb9",
+      "role": "frozen locked MAG snapshot or cached leaf; see arm PROVENANCE.md"
+    },
+    {
+      "path": "fromscratch-va/layout/sky130_fd_sc_hd__mux2_1.mag",
+      "bytes": 7506,
+      "sha256": "f1804a9eba4a72093013aac5831433e172952969d1d2ea7888464af6a59d173a",
+      "role": "frozen locked MAG snapshot or cached leaf; see arm PROVENANCE.md"
+    },
+    {
+      "path": "fromscratch-va/layout/sky130_fd_sc_hd__nand3_1.mag",
+      "bytes": 5134,
+      "sha256": "d6a110cd8f6e9536c40d1bf7f6333e98f9ba6e12d136d30295226fb059dc0ab9",
+      "role": "frozen locked MAG snapshot or cached leaf; see arm PROVENANCE.md"
+    },
+    {
+      "path": "fromscratch-va/layout/sky130_fd_sc_hd__nor2_1.mag",
+      "bytes": 4230,
+      "sha256": "b74c1d2ee2235b3171482e51619a84d020345b3bda4676b745f671f026495795",
+      "role": "frozen locked MAG snapshot or cached leaf; see arm PROVENANCE.md"
+    },
+    {
+      "path": "fromscratch-va/layout/sky130_fd_sc_hd__nor2_2.mag",
+      "bytes": 5908,
+      "sha256": "26cde7a45c787adef22f29b8fe3b219312d7293aeab92387f25b9cfa9b2f2306",
+      "role": "frozen locked MAG snapshot or cached leaf; see arm PROVENANCE.md"
+    },
+    {
+      "path": "fromscratch-va/layout/sky130_fd_sc_hd__nor2_4.mag",
+      "bytes": 9505,
+      "sha256": "f813bf533cad87dfcce9a40120194607a43b2e42eb69081cf6edbe217058bf03",
+      "role": "frozen locked MAG snapshot or cached leaf; see arm PROVENANCE.md"
+    },
+    {
+      "path": "fromscratch-va/layout/sky130_fd_sc_hd__nor3_1.mag",
+      "bytes": 4476,
+      "sha256": "582621844c020e198e40f32f8360eeb30f04b46ef6e99df3224851212b1aa563",
+      "role": "frozen locked MAG snapshot or cached leaf; see arm PROVENANCE.md"
+    },
+    {
+      "path": "fromscratch-va/layout/sky130_fd_sc_hd__nor3_2.mag",
+      "bytes": 8492,
+      "sha256": "364fcfc9628143acb7d5737e01042b29375c7e6165015259e6b9b6e71d4667aa",
+      "role": "frozen locked MAG snapshot or cached leaf; see arm PROVENANCE.md"
+    },
+    {
+      "path": "fromscratch-va/layout/sky130_fd_sc_hd__or2_1.mag",
+      "bytes": 4785,
+      "sha256": "a1dbfa269797982e181dcd80d000f4cbfe6b4e2a0c29d418939c2425d47f389f",
+      "role": "frozen locked MAG snapshot or cached leaf; see arm PROVENANCE.md"
+    },
+    {
+      "path": "fromscratch-va/layout/sky130_fd_sc_hd__or2_2.mag",
+      "bytes": 4988,
+      "sha256": "83010cd69a4db65efb2abcfbdab3266e965ccf3323f7a6f6ad58adfb1e2c9c8e",
+      "role": "frozen locked MAG snapshot or cached leaf; see arm PROVENANCE.md"
+    },
+    {
+      "path": "fromscratch-va/layout/sky130_fd_sc_hd__tapvpwrvgnd_1.mag",
+      "bytes": 1556,
+      "sha256": "11bd53e3df2544b2b758c775f5639bffd5b4c9c78e1c19ee34988adc9bf6d378",
+      "role": "frozen locked MAG snapshot or cached leaf; see arm PROVENANCE.md"
+    },
+    {
+      "path": "fromscratch-va/model/fm_blocks.va",
+      "bytes": 8195,
+      "sha256": "2bcfe3f8a995d11e3e64c9065173088197ee1d5c74ccb0f91c9ec17708f10c4e",
+      "role": "frozen original behavioural source"
+    },
+    {
+      "path": "fromscratch-va/results/extraction_comparison.json",
+      "bytes": 253,
+      "sha256": "1de365422419287d518e62cd0e18bc47e832f3c8b93a9b19dd912c37f3d9bd6e",
+      "role": "flow/compare_netlists.py"
+    },
+    {
+      "path": "fromscratch-va/results/geometry_comparison.json",
+      "bytes": 506,
+      "sha256": "5c2ecc5a4ea3340ad6d4df2428d158997386c9631b82218fe066fb222885b27f",
+      "role": "flow/compare_gds.py"
+    },
+    {
+      "path": "fromscratch-va/results/ideal_model.json",
+      "bytes": 225,
+      "sha256": "7703f3347604a219a65d3e5ba40d726a91c72951424450fc5cb345c84ab8b683",
+      "role": "flow/behavioural.py"
+    },
+    {
+      "path": "fromscratch-va/results/ngspice_pex_klu_smoke.json",
+      "bytes": 919,
+      "sha256": "1150ccd7b56251ed51a1a5c59063f5b7aeb3a33d65f636d4a6161dc678d4e97d",
+      "role": "flow/run_fft.py"
+    },
+    {
+      "path": "fromscratch-va/results/ngspice_pex_smoke.json",
+      "bytes": 899,
+      "sha256": "ab3b30a9d20ab8b2354a66d7f3341620fdb9a4480dbd4e92b192872a6106aad0",
+      "role": "flow/run_fft.py"
+    },
+    {
+      "path": "fromscratch-va/results/ngspice_pex_tt.json",
+      "bytes": 1346,
+      "sha256": "ae46509b305e435b56da9fd9673c30a86e83c8a735ab35d1de3eb6db6cb3aa95",
+      "role": "flow/run_fft.py"
+    },
+    {
+      "path": "fromscratch-va/results/ngspice_pex_tt.png",
+      "bytes": 111200,
+      "sha256": "d1f98a803184e407812f305d24f5b2135895d1065776c2c54fc494a166734479",
+      "role": "flow/plot_fft.py"
+    },
+    {
+      "path": "fromscratch-va/results/ngspice_pex_tt_codes.csv",
+      "bytes": 2085,
+      "sha256": "f691b1f83f599805c1e99132df47f00cf3a5bbf7af082740950e9a0230af34b0",
+      "role": "flow/run_fft.py"
+    },
+    {
+      "path": "fromscratch-va/results/ngspice_schematic_tt.json",
+      "bytes": 1480,
+      "sha256": "16574ebf3c6a52dbf7121ba44202636979ae0f03a010cffdbecdacd467c60a8b",
+      "role": "flow/run_fft.py"
+    },
+    {
+      "path": "fromscratch-va/results/ngspice_schematic_tt.png",
+      "bytes": 109572,
+      "sha256": "d594aa3b5838155ef4d4cbfd694223201d3eba9bde1a3d35c8287020f3974386",
+      "role": "flow/plot_fft.py"
+    },
+    {
+      "path": "fromscratch-va/results/ngspice_schematic_tt_codes.csv",
+      "bytes": 2083,
+      "sha256": "d014f4dc34bd3158c806e0bd8f899e38c0fac3c80c5cd949767c7f0b97bab348",
+      "role": "flow/run_fft.py"
+    },
+    {
+      "path": "fromscratch-va/results/original.json",
+      "bytes": 2641,
+      "sha256": "340823e7520bd68aea871492a4d74f92ac91e85078fc0043a94214e89517f0cd",
+      "role": "frozen design-time electrical evidence, whitelisted fields"
+    },
+    {
+      "path": "fromscratch-va/schematic/cdac.spice",
+      "bytes": 8596,
+      "sha256": "a4f30f45f13bf3977fd4f2c8bfa904c5ad3f73e4428eaa9cfa73a31045aaf1b4",
+      "role": "frozen schematic or decoder; see arm PROVENANCE.md for generator"
+    },
+    {
+      "path": "fromscratch-va/schematic/comparator.spice",
+      "bytes": 915,
+      "sha256": "0b73b2515f0a18c31f97c4ae1eca656657731b17783dd358cea84c5bc62f9bf7",
+      "role": "frozen schematic or decoder; see arm PROVENANCE.md for generator"
+    },
+    {
+      "path": "fromscratch-va/schematic/lvs_reference.spice",
+      "bytes": 110556,
+      "sha256": "1610e8df808351dac369b8415540c170b61ec556827a0a56112d3b3b58233157",
+      "role": "frozen schematic or decoder; see arm PROVENANCE.md for generator"
+    },
+    {
+      "path": "fromscratch-va/schematic/sar_adc.spice",
+      "bytes": 2081,
+      "sha256": "7638a0601c129f29e275f4da016751c9604068ca32f9966289b621d6aaa35daa",
+      "role": "frozen schematic or decoder; see arm PROVENANCE.md for generator"
+    },
+    {
+      "path": "fromscratch-va/schematic/sar_adc_all.spice",
+      "bytes": 23419,
+      "sha256": "f76ccf5daba5a6bccd4a08e48eba4e583f3aeef5a6e3d90f8962c6e72f50e03d",
+      "role": "frozen schematic or decoder; see arm PROVENANCE.md for generator"
+    },
+    {
+      "path": "fromscratch-va/schematic/sar_logic.spice",
+      "bytes": 11823,
+      "sha256": "9439a44c0f8ecda28b8ad648747e9b992ce519b640d76d50d9f94a762847cb71",
+      "role": "frozen schematic or decoder; see arm PROVENANCE.md for generator"
+    },
+    {
+      "path": "fromscratch-va/scripts/compact_caps.py",
+      "bytes": 1836,
+      "sha256": "1656ab43d7b4181605d6a198f7e78a58070741b7235e390279ad3d61b388c2a9",
+      "role": "source program"
+    },
+    {
+      "path": "fromscratch-va/scripts/gen_adc.py",
+      "bytes": 11418,
+      "sha256": "6bae15ffaf7e092217e52e85763409019f0fd31c356c2cc5f448315fc671e37c",
+      "role": "source program"
+    },
+    {
+      "path": "fromscratch-va/scripts/gen_comp.py",
+      "bytes": 2565,
+      "sha256": "a63b85a871bfc40801a636794ca0b493f9a40bf0be922b7980a729ceb6a35252",
+      "role": "source program"
+    },
+    {
+      "path": "fromscratch-va/scripts/generate_layout.py",
+      "bytes": 2254,
+      "sha256": "df4cbfc27a97470048b591ce9fbc2422c8a7d0a2821be5fcf13640e67218eea2",
+      "role": "source program"
+    },
+    {
+      "path": "fromscratch-va/scripts/generate_schematic.py",
+      "bytes": 1053,
+      "sha256": "3c29fd20a8e6c981b22d6201c58d9bfce476cfbd5eab8e32d4fd273bc236a5b0",
+      "role": "source program"
+    },
+    {
+      "path": "fromscratch-va/scripts/layout/bank_antenna/bank_side_ref.spice",
+      "bytes": 6766,
+      "sha256": "8cededef8937aaaab2c747d31abcebd58d7d0bc62e31a123250174dc3ceb4272",
+      "role": "frozen generator parameters/interface data; see arm PROVENANCE.md"
+    },
+    {
+      "path": "fromscratch-va/scripts/layout/bank_antenna/meta.json",
+      "bytes": 5543,
+      "sha256": "0f874a796128b987d10a866aa8c55fa8b12567d3e5e8eb5f193e8251b0408567",
+      "role": "frozen generator parameters/interface data; see arm PROVENANCE.md"
+    },
+    {
+      "path": "fromscratch-va/scripts/layout/bank_lvs_ref.py",
+      "bytes": 706,
+      "sha256": "294d703c2be723a955f594ee190aa9d0ab73b9130574780751a30008a03d3678",
+      "role": "source program"
+    },
+    {
+      "path": "fromscratch-va/scripts/layout/cdac/cdac_core_ref.spice",
+      "bytes": 65421,
+      "sha256": "3f22ae0cce7bfb5d8078a16948195e577562304d4303c011ee933a086891ce6c",
+      "role": "frozen generator parameters/interface data; see arm PROVENANCE.md"
+    },
+    {
+      "path": "fromscratch-va/scripts/layout/cdac/meta.json",
+      "bytes": 686,
+      "sha256": "f46937d2e37062e44c47e95c4a7e269e1cc24b9cd7f0716d4491df34d89f0473",
+      "role": "frozen generator parameters/interface data; see arm PROVENANCE.md"
+    },
+    {
+      "path": "fromscratch-va/scripts/layout/comp_reset_center/comparator_core_ref.spice",
+      "bytes": 5184,
+      "sha256": "e144c0cb24b8b1fbf2ea61e4500ddd7a217c746fa5de9d6b424437d9cb58b314",
+      "role": "frozen generator parameters/interface data; see arm PROVENANCE.md"
+    },
+    {
+      "path": "fromscratch-va/scripts/layout/comp_reset_center/meta.json",
+      "bytes": 51,
+      "sha256": "addb4f4a5b9a4bd3ddb3ccf5530e6d29678e02c1e14fff043a9e709cb2bb7320",
+      "role": "frozen generator parameters/interface data; see arm PROVENANCE.md"
+    },
+    {
+      "path": "fromscratch-va/scripts/layout/cpb_routes.py",
+      "bytes": 4185,
+      "sha256": "4d82ec02d1eee9cc0a344836e678971a9a6c6e61ffd9acb0e0617c7cb9599286",
+      "role": "source program"
+    },
+    {
+      "path": "fromscratch-va/scripts/layout/cpb_shunt.py",
+      "bytes": 2483,
+      "sha256": "02bc72b9e760fd39811769794deb48fa79994e8e82d1e6b8f1fc63a5837f437c",
+      "role": "source program"
+    },
+    {
+      "path": "fromscratch-va/scripts/layout/devgen.py",
+      "bytes": 7970,
+      "sha256": "1ec83383d862a90390365c1537e7f6b18f7af1b86fb8a17c6426f0a69be98e05",
+      "role": "source program"
+    },
+    {
+      "path": "fromscratch-va/scripts/layout/fp.py",
+      "bytes": 380,
+      "sha256": "9f3dcdd0a00ddadd4682b15177595a36a0db8158e24a0d9e0ae61857d932ac28",
+      "role": "source program"
+    },
+    {
+      "path": "fromscratch-va/scripts/layout/gen_bank.py",
+      "bytes": 11010,
+      "sha256": "e9deb8b6688037fe369a3918c90565f047caebe9f493d46b4a7e8fdaaf68d727",
+      "role": "source program"
+    },
+    {
+      "path": "fromscratch-va/scripts/layout/gen_cdac.py",
+      "bytes": 9779,
+      "sha256": "cc779275abbc75fcc6374b3efc995dadb56fbc28ef32c76a66b940b32a0b1d66",
+      "role": "source program"
+    },
+    {
+      "path": "fromscratch-va/scripts/layout/gen_comp_layout.py",
+      "bytes": 11065,
+      "sha256": "c20fa50cc5ec314115bbe1e9ffc3f5d96749c2d13e96c7b8fb58deda989c9c9f",
+      "role": "source program"
+    },
+    {
+      "path": "fromscratch-va/scripts/layout/gen_top.py",
+      "bytes": 17344,
+      "sha256": "167845c6f41eddbdbfcabb5cd57493d1887dfa12f68fc9f72a5126505a4c0b78",
+      "role": "source program"
+    },
+    {
+      "path": "fromscratch-va/scripts/layout/lay.py",
+      "bytes": 2895,
+      "sha256": "814662819b4196f36c2f6faea0a8fdf845f57e48d1165da5f8ecc6bf95323674",
+      "role": "source program"
+    },
+    {
+      "path": "fromscratch-va/scripts/layout/logic/meta.json",
+      "bytes": 1941,
+      "sha256": "819f6a2352898454e186894d3977a4b08e5ea31af7baf4d2dd9e6c0204bae6f0",
+      "role": "frozen generator parameters/interface data; see arm PROVENANCE.md"
+    },
+    {
+      "path": "fromscratch-va/scripts/layout/logic/sar_logic_core_ref.spice",
+      "bytes": 31318,
+      "sha256": "d49493132b259c11b9e9b3d585a85cc1c5d611295123a60de80c2b7a94eaeb77",
+      "role": "frozen generator parameters/interface data; see arm PROVENANCE.md"
+    },
+    {
+      "path": "fromscratch-va/scripts/layout/route.py",
+      "bytes": 25827,
+      "sha256": "56ec86df1036013bd462063d9edac35d8ceaa8badf0963bfbe5f6e687a186ade",
+      "role": "source program"
+    },
+    {
+      "path": "fromscratch-va/scripts/layout/stdlib.py",
+      "bytes": 8342,
+      "sha256": "2d784a9777e84470bca60d0f0529e2329e275c1241204f3f0bd39cd79ac0db09",
+      "role": "source program"
+    },
+    {
+      "path": "fromscratch-va/verify/original_drc_gds.rpt",
+      "bytes": 1676,
+      "sha256": "4ab7a4d0794e7199d0b6c8f7a5ac989c4f536d47310942cc0c331c52c5ab304b",
+      "role": "frozen verification evidence; flow/drc.sh or flow/lvs.sh, locations removed"
+    },
+    {
+      "path": "fromscratch-va/verify/original_drc_mag.rpt",
+      "bytes": 1676,
+      "sha256": "1e81babb86b59bccee5a2b32cbe181edcc83d525f4bad7e6b9df79eb75337f51",
+      "role": "frozen verification evidence; flow/drc.sh or flow/lvs.sh, locations removed"
+    },
+    {
+      "path": "fromscratch-va/verify/original_lvs_gds.txt",
+      "bytes": 12962,
+      "sha256": "33a959d47c4a22f5bc6b2ec1b354bed2c7a6baae00acaf2122542b18a10455ec",
+      "role": "frozen verification evidence; flow/drc.sh or flow/lvs.sh, locations removed"
+    },
+    {
+      "path": "fromscratch-va/verify/original_lvs_mag.txt",
+      "bytes": 12962,
+      "sha256": "33a959d47c4a22f5bc6b2ec1b354bed2c7a6baae00acaf2122542b18a10455ec",
+      "role": "frozen verification evidence; flow/drc.sh or flow/lvs.sh, locations removed"
+    },
+    {
+      "path": "fromscratch-va/verify/pex_c.spice",
+      "bytes": 771643,
+      "sha256": "8bf145c22389d9ba95607c0db20931719bfd5188b2ceff4043932c81e6ce3c5c",
+      "role": "frozen small C-only extraction; flow/extract.py"
+    },
+    {
+      "path": "fromscratch-va/verify/reproduced_drc_reference_gds.rpt",
+      "bytes": 1676,
+      "sha256": "bb8bf4ac5aacdad05119f53d86eb29db15cfccd37bd2083604f9ed599baba51c",
+      "role": "frozen verification evidence; flow/drc.sh or flow/lvs.sh, locations removed"
+    },
+    {
+      "path": "fromscratch-va/verify/reproduced_drc_reference_mag.rpt",
+      "bytes": 1676,
+      "sha256": "539f5a4908ae54a0b3fb5f37c000d8bb5eea904da0a7068934070e69499c2a36",
+      "role": "frozen verification evidence; flow/drc.sh or flow/lvs.sh, locations removed"
+    },
+    {
+      "path": "fromscratch-va/verify/reproduced_drc_regenerated_gds.rpt",
+      "bytes": 1676,
+      "sha256": "ae682f3270e37d54d5b447e9aed697eb5980521c6c3d9826b401a77122fbadab",
+      "role": "frozen verification evidence; flow/drc.sh or flow/lvs.sh, locations removed"
+    },
+    {
+      "path": "fromscratch-va/verify/reproduced_drc_regenerated_mag.rpt",
+      "bytes": 1676,
+      "sha256": "289ad732473c181b03a79cdbab309f2bbb9456d6498ab1647c9138ced711e8a9",
+      "role": "frozen verification evidence; flow/drc.sh or flow/lvs.sh, locations removed"
+    },
+    {
+      "path": "fromscratch-va/verify/reproduced_lvs_reference_gds.txt",
+      "bytes": 12962,
+      "sha256": "33a959d47c4a22f5bc6b2ec1b354bed2c7a6baae00acaf2122542b18a10455ec",
+      "role": "frozen verification evidence; flow/drc.sh or flow/lvs.sh, locations removed"
+    },
+    {
+      "path": "fromscratch-va/verify/reproduced_lvs_reference_mag.txt",
+      "bytes": 12962,
+      "sha256": "33a959d47c4a22f5bc6b2ec1b354bed2c7a6baae00acaf2122542b18a10455ec",
+      "role": "frozen verification evidence; flow/drc.sh or flow/lvs.sh, locations removed"
+    },
+    {
+      "path": "fromscratch-va/verify/reproduced_lvs_regenerated_gds.txt",
+      "bytes": 12962,
+      "sha256": "33a959d47c4a22f5bc6b2ec1b354bed2c7a6baae00acaf2122542b18a10455ec",
+      "role": "frozen verification evidence; flow/drc.sh or flow/lvs.sh, locations removed"
+    },
+    {
+      "path": "fromscratch-va/verify/reproduced_lvs_regenerated_mag.txt",
+      "bytes": 12962,
+      "sha256": "33a959d47c4a22f5bc6b2ec1b354bed2c7a6baae00acaf2122542b18a10455ec",
+      "role": "frozen verification evidence; flow/drc.sh or flow/lvs.sh, locations removed"
+    },
+    {
+      "path": "protocol/METHOD_LAYOUT.md",
+      "bytes": 1001,
+      "sha256": "9a198dc49c45d69162bb78e8d36ada22dffe657ddc394f6da97c9ceccd035a00",
+      "role": "publication source or clean documentation"
+    },
+    {
+      "path": "protocol/METHOD_VA_BLOCKWISE.md",
+      "bytes": 1321,
+      "sha256": "158b50dce6bbe6ed408646e40da8ff07d02bb9a2962056295321a791b619268b",
+      "role": "publication source or clean documentation"
+    },
+    {
+      "path": "protocol/README.md",
+      "bytes": 1801,
+      "sha256": "c3b3f0d44a874dd8f1d00cb326c3ed852aa0f2887e11e6e97420d399c0883285",
+      "role": "publication source or clean documentation"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 62,
+      "sha256": "53f6c479deae4c4fe670aec1ce8776b5a200fe5637435a5c6d2212edf6db15e6",
+      "role": "publication source or clean documentation"
+    },
+    {
+      "path": "spec/SAR_SPEC.md",
+      "bytes": 2406,
+      "sha256": "94e68c90056f6a800d6089574773430a27bc78b389902824ae9bd1012d7a4c2f",
+      "role": "publication source or clean documentation"
+    },
+    {
+      "path": "tools/INSTALL.md",
+      "bytes": 2391,
+      "sha256": "e1206043cfce86bd75311aafad8d723ff1c1844b5af8e9aed1f6dbdae6417bcb",
+      "role": "publication source or clean documentation"
+    }
+  ]
+}

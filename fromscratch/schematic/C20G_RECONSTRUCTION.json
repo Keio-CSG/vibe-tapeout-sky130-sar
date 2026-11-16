@@ -1,0 +1,50 @@
+{
+  "version": "C20G",
+  "timestamp": "2026-10-10T20:47:28.886620+09:00",
+  "method": "Raw 11 decision bits plus documented fixed capacitance-derived reconstruction, explicitly permitted by SAR_SPEC interface. No tone, code fit or per-corner calibration.",
+  "output": "q=1023.5 + normalization*sum((2*D_i-1)*weight_i); fractional or rounded11-bit derived outputs reported separately.",
+  "physical_unit_MIM_fF": 19.96225,
+  "physical_unit_MIM_dimension_um": 3.0,
+  "wire_top_to_bank_fF": [
+    1.44978,
+    2.63111,
+    5.03794,
+    9.96054,
+    20.4792,
+    39.6835,
+    78.2044,
+    151.60999999999999,
+    297.64000000000004,
+    588.49
+  ],
+  "bank_total_fF": [
+    21.41203,
+    42.55561,
+    84.88694000000001,
+    169.65854000000002,
+    339.8752,
+    678.4755,
+    1355.7884000000001,
+    2706.7780000000002,
+    5407.976000000001,
+    10809.162
+  ],
+  "bit_weights_D0_to_D10": [
+    0.5,
+    1.0,
+    1.987462655339078,
+    3.964450825073569,
+    7.923514958647078,
+    15.873095638293051,
+    31.686649981342264,
+    63.31900338267787,
+    126.41388976197025,
+    252.5671783572132,
+    504.8172452588568
+  ],
+  "normalization": 1.0133136735989607,
+  "physical_GDS_sha256": "2b81d91a60995599a2e70c99e6591c7d399fefb8da1fc274217e6a7107778725",
+  "scope": "Frozen single decoder for all three physical corners; conversion window/power unchanged. C20G reconstruction is a late deterministic control after its raw spectra were known; coefficients still use physical data alone.",
+  "original_source_C_netlist_sha256": "549e71ac41008328f80b974fa7a0e6caa4abead5a3a5918cb7c0213c6d06a886",
+  "published_C_netlist_sha256": "31a0e0c97aff486b3e5e01b8865d4ef166a9ed01169456e7ab40cf5bbc1b4e1d"
+}

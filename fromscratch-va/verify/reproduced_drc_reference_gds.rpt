@@ -1,0 +1,57 @@
+cell sar_adc_macro  style drc(full)
+--- magic per-cell error counts (hierarchical, may double count) ---
+dev_pfet_w4_l0p15_nf3_g0 2
+sky130_fd_sc_hd__nor2_1 4
+dev_pfet_w4p8_l0p15_nf10_g0 3
+dev_pfet_w4p8_l0p15_nf20_g0 3
+dev_nfet_w4p8_l0p15_nf10_g0 41
+sky130_fd_sc_hd__nor3_1 5
+sky130_fd_sc_hd__or2_2 7
+dev_pfet_w3p75_l0p15_nf1_g0 1
+dev_nfet_w3_l0p15_nf2_g0 9
+sky130_fd_sc_hd__inv_2 4
+dev_pfet_w5_l0p15_nf3_g0 2
+sky130_fd_sc_hd__buf_16 24
+dev_nfet_w4_l0p15_nf2_g0 9
+dev_pfet_w4p8_l0p15_nf5_g0 2
+dev_pfet_w5_l0p15_nf6_g0 3
+dev_nfet_w4_l0p15_nf1_g0 8
+dev_pfet_w4_l0p15_nf4_g0 3
+sky130_fd_sc_hd__buf_2 6
+sky130_fd_sc_hd__inv_16 18
+sky130_fd_sc_hd__dlygate4sd1_1 8
+sky130_fd_sc_hd__fill_4 1
+dev_pfet_w4p92_l0p15_nf26_g0 3
+dev_nfet_w2_l0p15_nf1_g0 8
+sky130_fd_sc_hd__buf_4 7
+sky130_fd_sc_hd__and2_1 7
+dev_pfet_w3_l0p15_nf2_g0 3
+dev_pfet_w1p5_l0p15_nf1_g0 1
+dev_pfet_w3p75_l0p15_nf2_g0 3
+dev_nfet_w1p5_l0p15_nf1_g0 8
+sky130_fd_sc_hd__nor2_4 10
+sky130_fd_sc_hd__fill_1 1
+sky130_fd_sc_hd__nand3_1 5
+dev_pfet_w4_l0p15_nf2_g0 3
+dev_pfet_w1p88_l0p15_nf1_g0 1
+dev_nfet_lvt_w4_l0p15_nf2_g0 9
+sky130_fd_sc_hd__nor2_2 6
+sky130_fd_sc_hd__conb_1 1
+sky130_fd_sc_hd__fill_8 1
+dev_nfet_w1p8_l0p15_nf1_g0 8
+dev_nfet_w4p8_l0p15_nf5_g0 21
+sky130_fd_sc_hd__inv_1 3
+dev_nfet_w3_l0p15_nf1_g0 8
+sky130_fd_sc_hd__and2b_1 8
+dev_pfet_w3_l0p15_nf1_g0 1
+sky130_fd_sc_hd__dfstp_1 25
+sky130_fd_sc_hd__mux2_1 9
+sky130_fd_sc_hd__nor3_2 9
+sky130_fd_sc_hd__fill_2 1
+sky130_fd_sc_hd__and2_2 8
+dev_nfet_w4_l0p15_nf3_g0 13
+sky130_fd_sc_hd__dlygate4sd3_1 8
+sky130_fd_sc_hd__or2_1 6
+sky130_fd_sc_hd__inv_4 6
+--- rules violated in the whole hierarchy (rule : error rectangles) ---
+--- total (non-waived): 0   waived: 0 ---

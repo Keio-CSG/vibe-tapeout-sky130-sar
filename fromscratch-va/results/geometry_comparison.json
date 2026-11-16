@@ -1,0 +1,23 @@
+{
+  "cell": "sar_adc_macro",
+  "geometry_equal": true,
+  "xor_by_layer": [],
+  "byte_equal": false,
+  "equal_except_timestamps": true,
+  "reference_sha256": "017fa9500d027441cfad2d3ed8a4901e71439ee7dd80983e033985cd108a8259",
+  "generated_sha256": "3a57c0189e34a29b76887c88bd92c3222751ca6423da56d0113864e56d336f45",
+  "reference_cells": 63,
+  "generated_cells": 63,
+  "reference_bbox_um": [
+    0.0,
+    0.0,
+    276.0,
+    201.08
+  ],
+  "generated_bbox_um": [
+    0.0,
+    0.0,
+    276.0,
+    201.08
+  ]
+}

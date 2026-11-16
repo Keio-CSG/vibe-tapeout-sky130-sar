@@ -1,0 +1,9 @@
+{
+  "noncapacitor_lines_equal": true,
+  "capacitance_pairs_reference": 11661,
+  "capacitance_pairs_generated": 11661,
+  "max_capacitance_difference_F": 0.0,
+  "exact": true,
+  "rounding_tolerance_F": 1e-19,
+  "equivalent_within_print_precision": true
+}

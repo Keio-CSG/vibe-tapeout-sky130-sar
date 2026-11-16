@@ -1,0 +1,1894 @@
+.subckt cdac_core TOP VSS B0 B1 B2 B3 B4 B5 B6 B7 B8 B9 B10
+xc_0_0 VSS VSS sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_1_0 VSS VSS sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_2_0 VSS VSS sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_3_0 VSS VSS sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_4_0 VSS VSS sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_5_0 VSS VSS sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_6_0 VSS VSS sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_7_0 VSS VSS sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_8_0 VSS VSS sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_9_0 VSS VSS sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_10_0 VSS VSS sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_11_0 VSS VSS sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_12_0 VSS VSS sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_13_0 VSS VSS sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_14_0 VSS VSS sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_15_0 VSS VSS sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_16_0 VSS VSS sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_17_0 VSS VSS sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_18_0 VSS VSS sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_19_0 VSS VSS sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_20_0 VSS VSS sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_21_0 VSS VSS sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_22_0 VSS VSS sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_23_0 VSS VSS sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_24_0 VSS VSS sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_25_0 VSS VSS sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_26_0 VSS VSS sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_27_0 VSS VSS sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_28_0 VSS VSS sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_29_0 VSS VSS sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_30_0 VSS VSS sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_31_0 VSS VSS sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_32_0 VSS VSS sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_33_0 VSS VSS sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_0_1 VSS VSS sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_1_1 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_2_1 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_3_1 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_4_1 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_5_1 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_6_1 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_7_1 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_8_1 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_9_1 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_10_1 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_11_1 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_12_1 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_13_1 TOP B2 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_14_1 TOP B2 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_15_1 TOP B3 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_16_1 TOP B4 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_17_1 TOP B4 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_18_1 TOP B3 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_19_1 TOP B2 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_20_1 TOP B2 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_21_1 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_22_1 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_23_1 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_24_1 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_25_1 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_26_1 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_27_1 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_28_1 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_29_1 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_30_1 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_31_1 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_32_1 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_33_1 VSS VSS sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_0_2 VSS VSS sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_1_2 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_2_2 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_3_2 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_4_2 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_5_2 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_6_2 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_7_2 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_8_2 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_9_2 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_10_2 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_11_2 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_12_2 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_13_2 TOP B2 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_14_2 TOP B2 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_15_2 TOP B3 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_16_2 TOP B4 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_17_2 TOP B4 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_18_2 TOP B3 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_19_2 TOP B2 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_20_2 TOP B2 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_21_2 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_22_2 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_23_2 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_24_2 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_25_2 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_26_2 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_27_2 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_28_2 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_29_2 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_30_2 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_31_2 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_32_2 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_33_2 VSS VSS sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_0_3 VSS VSS sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_1_3 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_2_3 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_3_3 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_4_3 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_5_3 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_6_3 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_7_3 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_8_3 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_9_3 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_10_3 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_11_3 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_12_3 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_13_3 TOP B2 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_14_3 TOP B2 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_15_3 TOP B3 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_16_3 TOP B4 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_17_3 TOP B4 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_18_3 TOP B3 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_19_3 TOP B2 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_20_3 TOP B2 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_21_3 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_22_3 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_23_3 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_24_3 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_25_3 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_26_3 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_27_3 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_28_3 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_29_3 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_30_3 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_31_3 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_32_3 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_33_3 VSS VSS sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_0_4 VSS VSS sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_1_4 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_2_4 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_3_4 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_4_4 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_5_4 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_6_4 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_7_4 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_8_4 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_9_4 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_10_4 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_11_4 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_12_4 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_13_4 TOP B2 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_14_4 TOP B2 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_15_4 TOP B3 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_16_4 TOP B4 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_17_4 TOP B4 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_18_4 TOP B3 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_19_4 TOP B2 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_20_4 TOP B2 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_21_4 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_22_4 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_23_4 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_24_4 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_25_4 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_26_4 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_27_4 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_28_4 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_29_4 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_30_4 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_31_4 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_32_4 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_33_4 VSS VSS sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_0_5 VSS VSS sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_1_5 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_2_5 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_3_5 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_4_5 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_5_5 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_6_5 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_7_5 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_8_5 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_9_5 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_10_5 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_11_5 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_12_5 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_13_5 TOP B2 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_14_5 TOP B2 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_15_5 TOP B3 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_16_5 TOP B4 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_17_5 TOP B4 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_18_5 TOP B3 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_19_5 TOP B2 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_20_5 TOP B2 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_21_5 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_22_5 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_23_5 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_24_5 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_25_5 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_26_5 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_27_5 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_28_5 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_29_5 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_30_5 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_31_5 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_32_5 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_33_5 VSS VSS sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_0_6 VSS VSS sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_1_6 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_2_6 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_3_6 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_4_6 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_5_6 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_6_6 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_7_6 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_8_6 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_9_6 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_10_6 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_11_6 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_12_6 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_13_6 TOP B2 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_14_6 TOP B2 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_15_6 TOP B3 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_16_6 TOP B4 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_17_6 TOP B4 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_18_6 TOP B3 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_19_6 TOP B2 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_20_6 TOP B2 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_21_6 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_22_6 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_23_6 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_24_6 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_25_6 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_26_6 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_27_6 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_28_6 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_29_6 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_30_6 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_31_6 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_32_6 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_33_6 VSS VSS sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_0_7 VSS VSS sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_1_7 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_2_7 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_3_7 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_4_7 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_5_7 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_6_7 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_7_7 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_8_7 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_9_7 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_10_7 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_11_7 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_12_7 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_13_7 TOP B2 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_14_7 TOP B2 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_15_7 TOP B3 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_16_7 TOP B4 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_17_7 TOP B4 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_18_7 TOP B3 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_19_7 TOP B2 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_20_7 TOP B2 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_21_7 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_22_7 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_23_7 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_24_7 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_25_7 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_26_7 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_27_7 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_28_7 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_29_7 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_30_7 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_31_7 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_32_7 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_33_7 VSS VSS sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_0_8 VSS VSS sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_1_8 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_2_8 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_3_8 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_4_8 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_5_8 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_6_8 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_7_8 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_8_8 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_9_8 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_10_8 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_11_8 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_12_8 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_13_8 TOP B2 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_14_8 TOP B2 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_15_8 TOP B3 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_16_8 TOP B4 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_17_8 TOP B4 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_18_8 TOP B3 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_19_8 TOP B2 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_20_8 TOP B2 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_21_8 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_22_8 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_23_8 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_24_8 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_25_8 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_26_8 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_27_8 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_28_8 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_29_8 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_30_8 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_31_8 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_32_8 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_33_8 VSS VSS sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_0_9 VSS VSS sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_1_9 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_2_9 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_3_9 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_4_9 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_5_9 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_6_9 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_7_9 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_8_9 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_9_9 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_10_9 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_11_9 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_12_9 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_13_9 TOP B2 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_14_9 TOP B2 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_15_9 TOP B3 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_16_9 TOP B5 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_17_9 TOP B5 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_18_9 TOP B3 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_19_9 TOP B2 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_20_9 TOP B2 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_21_9 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_22_9 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_23_9 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_24_9 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_25_9 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_26_9 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_27_9 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_28_9 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_29_9 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_30_9 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_31_9 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_32_9 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_33_9 VSS VSS sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_0_10 VSS VSS sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_1_10 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_2_10 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_3_10 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_4_10 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_5_10 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_6_10 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_7_10 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_8_10 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_9_10 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_10_10 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_11_10 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_12_10 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_13_10 TOP B2 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_14_10 TOP B2 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_15_10 TOP B3 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_16_10 TOP B5 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_17_10 TOP B5 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_18_10 TOP B3 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_19_10 TOP B2 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_20_10 TOP B2 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_21_10 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_22_10 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_23_10 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_24_10 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_25_10 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_26_10 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_27_10 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_28_10 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_29_10 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_30_10 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_31_10 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_32_10 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_33_10 VSS VSS sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_0_11 VSS VSS sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_1_11 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_2_11 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_3_11 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_4_11 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_5_11 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_6_11 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_7_11 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_8_11 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_9_11 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_10_11 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_11_11 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_12_11 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_13_11 TOP B2 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_14_11 TOP B2 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_15_11 TOP B3 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_16_11 TOP B5 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_17_11 TOP B5 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_18_11 TOP B3 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_19_11 TOP B2 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_20_11 TOP B2 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_21_11 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_22_11 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_23_11 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_24_11 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_25_11 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_26_11 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_27_11 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_28_11 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_29_11 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_30_11 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_31_11 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_32_11 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_33_11 VSS VSS sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_0_12 VSS VSS sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_1_12 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_2_12 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_3_12 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_4_12 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_5_12 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_6_12 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_7_12 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_8_12 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_9_12 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_10_12 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_11_12 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_12_12 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_13_12 TOP B2 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_14_12 TOP B2 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_15_12 TOP B3 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_16_12 TOP B5 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_17_12 TOP B5 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_18_12 TOP B3 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_19_12 TOP B2 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_20_12 TOP B2 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_21_12 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_22_12 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_23_12 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_24_12 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_25_12 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_26_12 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_27_12 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_28_12 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_29_12 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_30_12 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_31_12 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_32_12 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_33_12 VSS VSS sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_0_13 VSS VSS sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_1_13 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_2_13 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_3_13 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_4_13 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_5_13 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_6_13 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_7_13 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_8_13 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_9_13 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_10_13 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_11_13 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_12_13 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_13_13 TOP B2 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_14_13 TOP B2 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_15_13 TOP B3 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_16_13 TOP B6 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_17_13 TOP B6 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_18_13 TOP B3 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_19_13 TOP B2 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_20_13 TOP B2 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_21_13 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_22_13 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_23_13 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_24_13 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_25_13 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_26_13 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_27_13 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_28_13 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_29_13 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_30_13 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_31_13 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_32_13 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_33_13 VSS VSS sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_0_14 VSS VSS sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_1_14 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_2_14 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_3_14 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_4_14 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_5_14 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_6_14 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_7_14 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_8_14 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_9_14 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_10_14 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_11_14 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_12_14 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_13_14 TOP B2 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_14_14 TOP B2 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_15_14 TOP B3 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_16_14 TOP B6 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_17_14 TOP B6 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_18_14 TOP B3 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_19_14 TOP B2 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_20_14 TOP B2 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_21_14 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_22_14 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_23_14 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_24_14 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_25_14 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_26_14 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_27_14 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_28_14 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_29_14 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_30_14 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_31_14 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_32_14 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_33_14 VSS VSS sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_0_15 VSS VSS sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_1_15 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_2_15 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_3_15 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_4_15 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_5_15 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_6_15 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_7_15 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_8_15 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_9_15 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_10_15 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_11_15 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_12_15 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_13_15 TOP B2 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_14_15 TOP B2 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_15_15 TOP B3 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_16_15 TOP B7 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_17_15 TOP B7 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_18_15 TOP B3 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_19_15 TOP B2 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_20_15 TOP B2 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_21_15 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_22_15 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_23_15 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_24_15 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_25_15 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_26_15 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_27_15 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_28_15 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_29_15 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_30_15 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_31_15 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_32_15 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_33_15 VSS VSS sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_0_16 VSS VSS sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_1_16 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_2_16 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_3_16 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_4_16 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_5_16 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_6_16 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_7_16 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_8_16 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_9_16 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_10_16 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_11_16 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_12_16 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_13_16 TOP B2 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_14_16 TOP B2 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_15_16 TOP B3 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_16_16 TOP B8 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_17_16 TOP B9 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_18_16 TOP B3 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_19_16 TOP B2 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_20_16 TOP B2 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_21_16 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_22_16 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_23_16 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_24_16 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_25_16 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_26_16 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_27_16 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_28_16 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_29_16 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_30_16 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_31_16 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_32_16 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_33_16 VSS VSS sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_0_17 VSS VSS sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_1_17 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_2_17 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_3_17 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_4_17 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_5_17 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_6_17 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_7_17 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_8_17 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_9_17 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_10_17 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_11_17 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_12_17 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_13_17 TOP B2 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_14_17 TOP B2 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_15_17 TOP B3 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_16_17 TOP B10 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_17_17 TOP B8 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_18_17 TOP B3 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_19_17 TOP B2 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_20_17 TOP B2 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_21_17 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_22_17 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_23_17 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_24_17 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_25_17 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_26_17 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_27_17 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_28_17 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_29_17 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_30_17 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_31_17 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_32_17 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_33_17 VSS VSS sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_0_18 VSS VSS sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_1_18 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_2_18 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_3_18 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_4_18 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_5_18 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_6_18 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_7_18 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_8_18 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_9_18 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_10_18 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_11_18 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_12_18 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_13_18 TOP B2 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_14_18 TOP B2 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_15_18 TOP B3 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_16_18 TOP B7 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_17_18 TOP B7 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_18_18 TOP B3 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_19_18 TOP B2 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_20_18 TOP B2 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_21_18 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_22_18 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_23_18 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_24_18 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_25_18 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_26_18 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_27_18 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_28_18 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_29_18 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_30_18 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_31_18 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_32_18 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_33_18 VSS VSS sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_0_19 VSS VSS sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_1_19 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_2_19 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_3_19 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_4_19 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_5_19 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_6_19 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_7_19 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_8_19 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_9_19 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_10_19 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_11_19 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_12_19 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_13_19 TOP B2 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_14_19 TOP B2 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_15_19 TOP B3 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_16_19 TOP B6 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_17_19 TOP B6 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_18_19 TOP B3 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_19_19 TOP B2 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_20_19 TOP B2 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_21_19 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_22_19 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_23_19 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_24_19 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_25_19 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_26_19 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_27_19 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_28_19 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_29_19 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_30_19 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_31_19 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_32_19 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_33_19 VSS VSS sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_0_20 VSS VSS sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_1_20 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_2_20 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_3_20 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_4_20 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_5_20 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_6_20 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_7_20 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_8_20 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_9_20 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_10_20 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_11_20 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_12_20 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_13_20 TOP B2 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_14_20 TOP B2 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_15_20 TOP B3 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_16_20 TOP B6 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_17_20 TOP B6 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_18_20 TOP B3 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_19_20 TOP B2 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_20_20 TOP B2 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_21_20 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_22_20 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_23_20 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_24_20 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_25_20 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_26_20 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_27_20 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_28_20 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_29_20 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_30_20 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_31_20 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_32_20 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_33_20 VSS VSS sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_0_21 VSS VSS sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_1_21 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_2_21 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_3_21 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_4_21 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_5_21 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_6_21 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_7_21 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_8_21 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_9_21 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_10_21 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_11_21 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_12_21 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_13_21 TOP B2 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_14_21 TOP B2 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_15_21 TOP B3 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_16_21 TOP B5 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_17_21 TOP B5 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_18_21 TOP B3 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_19_21 TOP B2 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_20_21 TOP B2 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_21_21 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_22_21 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_23_21 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_24_21 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_25_21 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_26_21 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_27_21 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_28_21 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_29_21 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_30_21 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_31_21 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_32_21 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_33_21 VSS VSS sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_0_22 VSS VSS sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_1_22 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_2_22 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_3_22 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_4_22 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_5_22 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_6_22 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_7_22 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_8_22 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_9_22 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_10_22 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_11_22 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_12_22 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_13_22 TOP B2 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_14_22 TOP B2 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_15_22 TOP B3 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_16_22 TOP B5 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_17_22 TOP B5 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_18_22 TOP B3 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_19_22 TOP B2 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_20_22 TOP B2 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_21_22 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_22_22 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_23_22 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_24_22 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_25_22 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_26_22 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_27_22 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_28_22 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_29_22 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_30_22 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_31_22 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_32_22 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_33_22 VSS VSS sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_0_23 VSS VSS sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_1_23 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_2_23 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_3_23 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_4_23 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_5_23 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_6_23 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_7_23 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_8_23 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_9_23 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_10_23 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_11_23 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_12_23 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_13_23 TOP B2 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_14_23 TOP B2 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_15_23 TOP B3 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_16_23 TOP B5 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_17_23 TOP B5 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_18_23 TOP B3 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_19_23 TOP B2 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_20_23 TOP B2 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_21_23 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_22_23 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_23_23 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_24_23 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_25_23 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_26_23 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_27_23 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_28_23 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_29_23 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_30_23 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_31_23 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_32_23 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_33_23 VSS VSS sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_0_24 VSS VSS sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_1_24 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_2_24 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_3_24 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_4_24 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_5_24 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_6_24 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_7_24 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_8_24 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_9_24 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_10_24 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_11_24 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_12_24 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_13_24 TOP B2 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_14_24 TOP B2 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_15_24 TOP B3 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_16_24 TOP B5 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_17_24 TOP B5 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_18_24 TOP B3 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_19_24 TOP B2 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_20_24 TOP B2 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_21_24 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_22_24 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_23_24 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_24_24 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_25_24 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_26_24 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_27_24 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_28_24 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_29_24 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_30_24 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_31_24 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_32_24 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_33_24 VSS VSS sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_0_25 VSS VSS sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_1_25 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_2_25 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_3_25 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_4_25 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_5_25 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_6_25 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_7_25 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_8_25 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_9_25 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_10_25 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_11_25 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_12_25 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_13_25 TOP B2 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_14_25 TOP B2 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_15_25 TOP B3 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_16_25 TOP B4 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_17_25 TOP B4 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_18_25 TOP B3 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_19_25 TOP B2 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_20_25 TOP B2 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_21_25 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_22_25 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_23_25 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_24_25 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_25_25 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_26_25 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_27_25 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_28_25 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_29_25 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_30_25 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_31_25 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_32_25 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_33_25 VSS VSS sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_0_26 VSS VSS sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_1_26 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_2_26 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_3_26 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_4_26 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_5_26 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_6_26 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_7_26 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_8_26 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_9_26 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_10_26 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_11_26 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_12_26 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_13_26 TOP B2 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_14_26 TOP B2 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_15_26 TOP B3 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_16_26 TOP B4 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_17_26 TOP B4 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_18_26 TOP B3 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_19_26 TOP B2 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_20_26 TOP B2 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_21_26 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_22_26 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_23_26 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_24_26 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_25_26 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_26_26 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_27_26 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_28_26 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_29_26 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_30_26 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_31_26 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_32_26 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_33_26 VSS VSS sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_0_27 VSS VSS sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_1_27 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_2_27 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_3_27 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_4_27 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_5_27 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_6_27 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_7_27 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_8_27 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_9_27 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_10_27 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_11_27 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_12_27 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_13_27 TOP B2 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_14_27 TOP B2 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_15_27 TOP B3 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_16_27 TOP B4 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_17_27 TOP B4 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_18_27 TOP B3 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_19_27 TOP B2 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_20_27 TOP B2 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_21_27 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_22_27 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_23_27 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_24_27 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_25_27 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_26_27 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_27_27 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_28_27 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_29_27 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_30_27 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_31_27 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_32_27 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_33_27 VSS VSS sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_0_28 VSS VSS sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_1_28 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_2_28 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_3_28 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_4_28 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_5_28 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_6_28 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_7_28 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_8_28 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_9_28 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_10_28 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_11_28 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_12_28 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_13_28 TOP B2 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_14_28 TOP B2 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_15_28 TOP B3 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_16_28 TOP B4 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_17_28 TOP B4 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_18_28 TOP B3 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_19_28 TOP B2 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_20_28 TOP B2 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_21_28 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_22_28 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_23_28 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_24_28 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_25_28 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_26_28 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_27_28 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_28_28 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_29_28 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_30_28 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_31_28 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_32_28 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_33_28 VSS VSS sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_0_29 VSS VSS sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_1_29 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_2_29 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_3_29 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_4_29 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_5_29 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_6_29 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_7_29 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_8_29 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_9_29 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_10_29 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_11_29 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_12_29 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_13_29 TOP B2 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_14_29 TOP B2 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_15_29 TOP B3 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_16_29 TOP B4 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_17_29 TOP B4 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_18_29 TOP B3 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_19_29 TOP B2 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_20_29 TOP B2 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_21_29 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_22_29 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_23_29 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_24_29 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_25_29 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_26_29 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_27_29 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_28_29 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_29_29 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_30_29 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_31_29 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_32_29 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_33_29 VSS VSS sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_0_30 VSS VSS sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_1_30 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_2_30 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_3_30 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_4_30 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_5_30 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_6_30 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_7_30 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_8_30 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_9_30 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_10_30 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_11_30 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_12_30 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_13_30 TOP B2 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_14_30 TOP B2 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_15_30 TOP B3 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_16_30 TOP B4 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_17_30 TOP B4 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_18_30 TOP B3 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_19_30 TOP B2 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_20_30 TOP B2 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_21_30 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_22_30 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_23_30 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_24_30 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_25_30 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_26_30 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_27_30 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_28_30 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_29_30 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_30_30 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_31_30 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_32_30 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_33_30 VSS VSS sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_0_31 VSS VSS sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_1_31 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_2_31 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_3_31 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_4_31 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_5_31 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_6_31 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_7_31 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_8_31 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_9_31 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_10_31 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_11_31 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_12_31 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_13_31 TOP B2 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_14_31 TOP B2 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_15_31 TOP B3 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_16_31 TOP B4 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_17_31 TOP B4 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_18_31 TOP B3 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_19_31 TOP B2 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_20_31 TOP B2 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_21_31 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_22_31 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_23_31 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_24_31 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_25_31 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_26_31 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_27_31 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_28_31 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_29_31 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_30_31 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_31_31 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_32_31 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_33_31 VSS VSS sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_0_32 VSS VSS sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_1_32 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_2_32 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_3_32 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_4_32 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_5_32 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_6_32 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_7_32 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_8_32 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_9_32 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_10_32 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_11_32 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_12_32 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_13_32 TOP B2 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_14_32 TOP B2 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_15_32 TOP B3 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_16_32 TOP B4 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_17_32 TOP B4 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_18_32 TOP B3 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_19_32 TOP B2 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_20_32 TOP B2 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_21_32 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_22_32 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_23_32 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_24_32 TOP B1 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_25_32 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_26_32 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_27_32 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_28_32 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_29_32 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_30_32 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_31_32 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_32_32 TOP B0 sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_33_32 VSS VSS sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_0_33 VSS VSS sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_1_33 VSS VSS sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_2_33 VSS VSS sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_3_33 VSS VSS sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_4_33 VSS VSS sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_5_33 VSS VSS sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_6_33 VSS VSS sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_7_33 VSS VSS sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_8_33 VSS VSS sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_9_33 VSS VSS sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_10_33 VSS VSS sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_11_33 VSS VSS sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_12_33 VSS VSS sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_13_33 VSS VSS sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_14_33 VSS VSS sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_15_33 VSS VSS sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_16_33 VSS VSS sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_17_33 VSS VSS sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_18_33 VSS VSS sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_19_33 VSS VSS sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_20_33 VSS VSS sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_21_33 VSS VSS sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_22_33 VSS VSS sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_23_33 VSS VSS sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_24_33 VSS VSS sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_25_33 VSS VSS sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_26_33 VSS VSS sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_27_33 VSS VSS sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_28_33 VSS VSS sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_29_33 VSS VSS sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_30_33 VSS VSS sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_31_33 VSS VSS sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_32_33 VSS VSS sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+xc_33_33 VSS VSS sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24
+.ends cdac_core
+
+.subckt bank_side VIN TRK TRKB VREFP VREFN VDDA VSS BOT0 BOT1 BOT2 BOT3 BOT4 BOT5 BOT6 BOT7 BOT8 BOT9 BOT10 LO0 LO1 LO2 LO3 LO4 LO5 LO6 LO7 LO8 LO9 LO10 HIB0 HIB1 HIB2 HIB3 HIB4 HIB5 HIB6 HIB7 HIB8 HIB9
+xntg0_0 BOT0 TRK VIN VSS sky130_fd_pr__nfet_01v8 w=4.8 l=0.15
+xntg0_1 BOT0 TRK VIN VSS sky130_fd_pr__nfet_01v8 w=4.8 l=0.15
+xntg0_2 BOT0 TRK VIN VSS sky130_fd_pr__nfet_01v8 w=4.8 l=0.15
+xntg0_3 BOT0 TRK VIN VSS sky130_fd_pr__nfet_01v8 w=4.8 l=0.15
+xntg0_4 BOT0 TRK VIN VSS sky130_fd_pr__nfet_01v8 w=4.8 l=0.15
+xntg0_5 BOT0 TRK VIN VSS sky130_fd_pr__nfet_01v8 w=4.8 l=0.15
+xntg0_6 BOT0 TRK VIN VSS sky130_fd_pr__nfet_01v8 w=4.8 l=0.15
+xntg0_7 BOT0 TRK VIN VSS sky130_fd_pr__nfet_01v8 w=4.8 l=0.15
+xntg0_8 BOT0 TRK VIN VSS sky130_fd_pr__nfet_01v8 w=4.8 l=0.15
+xntg0_9 BOT0 TRK VIN VSS sky130_fd_pr__nfet_01v8 w=4.8 l=0.15
+xptg0_0 BOT0 TRKB VIN VDDA sky130_fd_pr__pfet_01v8 w=4.8 l=0.15
+xptg0_1 BOT0 TRKB VIN VDDA sky130_fd_pr__pfet_01v8 w=4.8 l=0.15
+xptg0_2 BOT0 TRKB VIN VDDA sky130_fd_pr__pfet_01v8 w=4.8 l=0.15
+xptg0_3 BOT0 TRKB VIN VDDA sky130_fd_pr__pfet_01v8 w=4.8 l=0.15
+xptg0_4 BOT0 TRKB VIN VDDA sky130_fd_pr__pfet_01v8 w=4.8 l=0.15
+xptg0_5 BOT0 TRKB VIN VDDA sky130_fd_pr__pfet_01v8 w=4.8 l=0.15
+xptg0_6 BOT0 TRKB VIN VDDA sky130_fd_pr__pfet_01v8 w=4.8 l=0.15
+xptg0_7 BOT0 TRKB VIN VDDA sky130_fd_pr__pfet_01v8 w=4.8 l=0.15
+xptg0_8 BOT0 TRKB VIN VDDA sky130_fd_pr__pfet_01v8 w=4.8 l=0.15
+xptg0_9 BOT0 TRKB VIN VDDA sky130_fd_pr__pfet_01v8 w=4.8 l=0.15
+xptg0_10 BOT0 TRKB VIN VDDA sky130_fd_pr__pfet_01v8 w=4.8 l=0.15
+xptg0_11 BOT0 TRKB VIN VDDA sky130_fd_pr__pfet_01v8 w=4.8 l=0.15
+xptg0_12 BOT0 TRKB VIN VDDA sky130_fd_pr__pfet_01v8 w=4.8 l=0.15
+xptg0_13 BOT0 TRKB VIN VDDA sky130_fd_pr__pfet_01v8 w=4.8 l=0.15
+xptg0_14 BOT0 TRKB VIN VDDA sky130_fd_pr__pfet_01v8 w=4.8 l=0.15
+xptg0_15 BOT0 TRKB VIN VDDA sky130_fd_pr__pfet_01v8 w=4.8 l=0.15
+xptg0_16 BOT0 TRKB VIN VDDA sky130_fd_pr__pfet_01v8 w=4.8 l=0.15
+xptg0_17 BOT0 TRKB VIN VDDA sky130_fd_pr__pfet_01v8 w=4.8 l=0.15
+xptg0_18 BOT0 TRKB VIN VDDA sky130_fd_pr__pfet_01v8 w=4.8 l=0.15
+xptg0_19 BOT0 TRKB VIN VDDA sky130_fd_pr__pfet_01v8 w=4.8 l=0.15
+xndr0_0 BOT0 LO0 VREFN VSS sky130_fd_pr__nfet_01v8 w=3 l=0.15
+xndr0_1 BOT0 LO0 VREFN VSS sky130_fd_pr__nfet_01v8 w=3 l=0.15
+xpdr0_0 BOT0 HIB0 VREFP VDDA sky130_fd_pr__pfet_01v8 w=5 l=0.15
+xpdr0_1 BOT0 HIB0 VREFP VDDA sky130_fd_pr__pfet_01v8 w=5 l=0.15
+xpdr0_2 BOT0 HIB0 VREFP VDDA sky130_fd_pr__pfet_01v8 w=5 l=0.15
+xpdr0_3 BOT0 HIB0 VREFP VDDA sky130_fd_pr__pfet_01v8 w=5 l=0.15
+xpdr0_4 BOT0 HIB0 VREFP VDDA sky130_fd_pr__pfet_01v8 w=5 l=0.15
+xpdr0_5 BOT0 HIB0 VREFP VDDA sky130_fd_pr__pfet_01v8 w=5 l=0.15
+xntg1_0 BOT1 TRK VIN VSS sky130_fd_pr__nfet_01v8 w=4.8 l=0.15
+xntg1_1 BOT1 TRK VIN VSS sky130_fd_pr__nfet_01v8 w=4.8 l=0.15
+xntg1_2 BOT1 TRK VIN VSS sky130_fd_pr__nfet_01v8 w=4.8 l=0.15
+xntg1_3 BOT1 TRK VIN VSS sky130_fd_pr__nfet_01v8 w=4.8 l=0.15
+xntg1_4 BOT1 TRK VIN VSS sky130_fd_pr__nfet_01v8 w=4.8 l=0.15
+xptg1_0 BOT1 TRKB VIN VDDA sky130_fd_pr__pfet_01v8 w=4.8 l=0.15
+xptg1_1 BOT1 TRKB VIN VDDA sky130_fd_pr__pfet_01v8 w=4.8 l=0.15
+xptg1_2 BOT1 TRKB VIN VDDA sky130_fd_pr__pfet_01v8 w=4.8 l=0.15
+xptg1_3 BOT1 TRKB VIN VDDA sky130_fd_pr__pfet_01v8 w=4.8 l=0.15
+xptg1_4 BOT1 TRKB VIN VDDA sky130_fd_pr__pfet_01v8 w=4.8 l=0.15
+xptg1_5 BOT1 TRKB VIN VDDA sky130_fd_pr__pfet_01v8 w=4.8 l=0.15
+xptg1_6 BOT1 TRKB VIN VDDA sky130_fd_pr__pfet_01v8 w=4.8 l=0.15
+xptg1_7 BOT1 TRKB VIN VDDA sky130_fd_pr__pfet_01v8 w=4.8 l=0.15
+xptg1_8 BOT1 TRKB VIN VDDA sky130_fd_pr__pfet_01v8 w=4.8 l=0.15
+xptg1_9 BOT1 TRKB VIN VDDA sky130_fd_pr__pfet_01v8 w=4.8 l=0.15
+xndr1_0 BOT1 LO1 VREFN VSS sky130_fd_pr__nfet_01v8 w=3 l=0.15
+xpdr1_0 BOT1 HIB1 VREFP VDDA sky130_fd_pr__pfet_01v8 w=5 l=0.15
+xpdr1_1 BOT1 HIB1 VREFP VDDA sky130_fd_pr__pfet_01v8 w=5 l=0.15
+xpdr1_2 BOT1 HIB1 VREFP VDDA sky130_fd_pr__pfet_01v8 w=5 l=0.15
+xntg2_0 BOT2 TRK VIN VSS sky130_fd_pr__nfet_01v8 w=4 l=0.15
+xntg2_1 BOT2 TRK VIN VSS sky130_fd_pr__nfet_01v8 w=4 l=0.15
+xntg2_2 BOT2 TRK VIN VSS sky130_fd_pr__nfet_01v8 w=4 l=0.15
+xptg2_0 BOT2 TRKB VIN VDDA sky130_fd_pr__pfet_01v8 w=4.8 l=0.15
+xptg2_1 BOT2 TRKB VIN VDDA sky130_fd_pr__pfet_01v8 w=4.8 l=0.15
+xptg2_2 BOT2 TRKB VIN VDDA sky130_fd_pr__pfet_01v8 w=4.8 l=0.15
+xptg2_3 BOT2 TRKB VIN VDDA sky130_fd_pr__pfet_01v8 w=4.8 l=0.15
+xptg2_4 BOT2 TRKB VIN VDDA sky130_fd_pr__pfet_01v8 w=4.8 l=0.15
+xndr2_0 BOT2 LO2 VREFN VSS sky130_fd_pr__nfet_01v8 w=1.5 l=0.15
+xpdr2_0 BOT2 HIB2 VREFP VDDA sky130_fd_pr__pfet_01v8 w=3.75 l=0.15
+xpdr2_1 BOT2 HIB2 VREFP VDDA sky130_fd_pr__pfet_01v8 w=3.75 l=0.15
+xntg3_0 BOT3 TRK VIN VSS sky130_fd_pr__nfet_01v8 w=3 l=0.15
+xntg3_1 BOT3 TRK VIN VSS sky130_fd_pr__nfet_01v8 w=3 l=0.15
+xptg3_0 BOT3 TRKB VIN VDDA sky130_fd_pr__pfet_01v8 w=4 l=0.15
+xptg3_1 BOT3 TRKB VIN VDDA sky130_fd_pr__pfet_01v8 w=4 l=0.15
+xptg3_2 BOT3 TRKB VIN VDDA sky130_fd_pr__pfet_01v8 w=4 l=0.15
+xndr3_0 BOT3 LO3 VREFN VSS sky130_fd_pr__nfet_01v8 w=1.5 l=0.15
+xpdr3_0 BOT3 HIB3 VREFP VDDA sky130_fd_pr__pfet_01v8 w=3.75 l=0.15
+xntg4_0 BOT4 TRK VIN VSS sky130_fd_pr__nfet_01v8 w=3 l=0.15
+xptg4_0 BOT4 TRKB VIN VDDA sky130_fd_pr__pfet_01v8 w=3 l=0.15
+xptg4_1 BOT4 TRKB VIN VDDA sky130_fd_pr__pfet_01v8 w=3 l=0.15
+xndr4_0 BOT4 LO4 VREFN VSS sky130_fd_pr__nfet_01v8 w=1.5 l=0.15
+xpdr4_0 BOT4 HIB4 VREFP VDDA sky130_fd_pr__pfet_01v8 w=1.88 l=0.15
+xntg5_0 BOT5 TRK VIN VSS sky130_fd_pr__nfet_01v8 w=1.5 l=0.15
+xptg5_0 BOT5 TRKB VIN VDDA sky130_fd_pr__pfet_01v8 w=3 l=0.15
+xndr5_0 BOT5 LO5 VREFN VSS sky130_fd_pr__nfet_01v8 w=1.5 l=0.15
+xpdr5_0 BOT5 HIB5 VREFP VDDA sky130_fd_pr__pfet_01v8 w=1.5 l=0.15
+xntg6_0 BOT6 TRK VIN VSS sky130_fd_pr__nfet_01v8 w=1.5 l=0.15
+xptg6_0 BOT6 TRKB VIN VDDA sky130_fd_pr__pfet_01v8 w=1.5 l=0.15
+xndr6_0 BOT6 LO6 VREFN VSS sky130_fd_pr__nfet_01v8 w=1.8 l=0.15
+xpdr6_0 BOT6 HIB6 VREFP VDDA sky130_fd_pr__pfet_01v8 w=1.5 l=0.15
+xntg7_0 BOT7 TRK VIN VSS sky130_fd_pr__nfet_01v8 w=1.5 l=0.15
+xptg7_0 BOT7 TRKB VIN VDDA sky130_fd_pr__pfet_01v8 w=1.5 l=0.15
+xndr7_0 BOT7 LO7 VREFN VSS sky130_fd_pr__nfet_01v8 w=1.8 l=0.15
+xpdr7_0 BOT7 HIB7 VREFP VDDA sky130_fd_pr__pfet_01v8 w=1.5 l=0.15
+xntg8_0 BOT8 TRK VIN VSS sky130_fd_pr__nfet_01v8 w=1.5 l=0.15
+xptg8_0 BOT8 TRKB VIN VDDA sky130_fd_pr__pfet_01v8 w=1.5 l=0.15
+xndr8_0 BOT8 LO8 VREFN VSS sky130_fd_pr__nfet_01v8 w=1.5 l=0.15
+xpdr8_0 BOT8 HIB8 VREFP VDDA sky130_fd_pr__pfet_01v8 w=1.5 l=0.15
+xntg9_0 BOT9 TRK VIN VSS sky130_fd_pr__nfet_01v8 w=1.5 l=0.15
+xptg9_0 BOT9 TRKB VIN VDDA sky130_fd_pr__pfet_01v8 w=1.5 l=0.15
+xndr9_0 BOT9 LO9 VREFN VSS sky130_fd_pr__nfet_01v8 w=1.5 l=0.15
+xpdr9_0 BOT9 HIB9 VREFP VDDA sky130_fd_pr__pfet_01v8 w=1.5 l=0.15
+xntg10_0 BOT10 TRK VIN VSS sky130_fd_pr__nfet_01v8 w=1.5 l=0.15
+xptg10_0 BOT10 TRKB VIN VDDA sky130_fd_pr__pfet_01v8 w=1.5 l=0.15
+xndr10_0 BOT10 LO10 VREFN VSS sky130_fd_pr__nfet_01v8 w=1.5 l=0.15
+.ends bank_side
+
+.subckt comparator_core INP INN CLK OUTP OUTN VDD VSS TRKAB
+xM4_0 OUTN OUTP y VSS sky130_fd_pr__nfet_01v8 w=2 l=0.15
+xM2_0 y INN tail VSS sky130_fd_pr__nfet_01v8_lvt w=4 l=0.15
+xM2_1 y INN tail VSS sky130_fd_pr__nfet_01v8_lvt w=4 l=0.15
+xMT_0 tail CLK VSS VSS sky130_fd_pr__nfet_01v8 w=4 l=0.15
+xM1_0 x INP tail VSS sky130_fd_pr__nfet_01v8_lvt w=4 l=0.15
+xM1_1 x INP tail VSS sky130_fd_pr__nfet_01v8_lvt w=4 l=0.15
+xM3_0 OUTP OUTN x VSS sky130_fd_pr__nfet_01v8 w=2 l=0.15
+xM10_0 VDD CLK y VDD sky130_fd_pr__pfet_01v8 w=1.5 l=0.15
+xM8_0 VDD CLK OUTN VDD sky130_fd_pr__pfet_01v8 w=1.5 l=0.15
+xM6_0 VDD OUTP OUTN VDD sky130_fd_pr__pfet_01v8 w=3 l=0.15
+xMS1_0 INN resetGate VDD VDD sky130_fd_pr__pfet_01v8 w=4.92 l=0.15
+xMS1_1 INN resetGate VDD VDD sky130_fd_pr__pfet_01v8 w=4.92 l=0.15
+xMS1_2 INN resetGate VDD VDD sky130_fd_pr__pfet_01v8 w=4.92 l=0.15
+xMS1_3 INN resetGate VDD VDD sky130_fd_pr__pfet_01v8 w=4.92 l=0.15
+xMS1_4 INN resetGate VDD VDD sky130_fd_pr__pfet_01v8 w=4.92 l=0.15
+xMS1_5 INN resetGate VDD VDD sky130_fd_pr__pfet_01v8 w=4.92 l=0.15
+xMS1_6 INN resetGate VDD VDD sky130_fd_pr__pfet_01v8 w=4.92 l=0.15
+xMS1_7 INN resetGate VDD VDD sky130_fd_pr__pfet_01v8 w=4.92 l=0.15
+xMS1_8 INN resetGate VDD VDD sky130_fd_pr__pfet_01v8 w=4.92 l=0.15
+xMS1_9 INN resetGate VDD VDD sky130_fd_pr__pfet_01v8 w=4.92 l=0.15
+xMS1_10 INN resetGate VDD VDD sky130_fd_pr__pfet_01v8 w=4.92 l=0.15
+xMS1_11 INN resetGate VDD VDD sky130_fd_pr__pfet_01v8 w=4.92 l=0.15
+xMS1_12 INN resetGate VDD VDD sky130_fd_pr__pfet_01v8 w=4.92 l=0.15
+xMS1_13 INN resetGate VDD VDD sky130_fd_pr__pfet_01v8 w=4.92 l=0.15
+xMS1_14 INN resetGate VDD VDD sky130_fd_pr__pfet_01v8 w=4.92 l=0.15
+xMS1_15 INN resetGate VDD VDD sky130_fd_pr__pfet_01v8 w=4.92 l=0.15
+xMS1_16 INN resetGate VDD VDD sky130_fd_pr__pfet_01v8 w=4.92 l=0.15
+xMS1_17 INN resetGate VDD VDD sky130_fd_pr__pfet_01v8 w=4.92 l=0.15
+xMS1_18 INN resetGate VDD VDD sky130_fd_pr__pfet_01v8 w=4.92 l=0.15
+xMS1_19 INN resetGate VDD VDD sky130_fd_pr__pfet_01v8 w=4.92 l=0.15
+xMS1_20 INN resetGate VDD VDD sky130_fd_pr__pfet_01v8 w=4.92 l=0.15
+xMS1_21 INN resetGate VDD VDD sky130_fd_pr__pfet_01v8 w=4.92 l=0.15
+xMS1_22 INN resetGate VDD VDD sky130_fd_pr__pfet_01v8 w=4.92 l=0.15
+xMS1_23 INN resetGate VDD VDD sky130_fd_pr__pfet_01v8 w=4.92 l=0.15
+xMS1_24 INN resetGate VDD VDD sky130_fd_pr__pfet_01v8 w=4.92 l=0.15
+xMS1_25 INN resetGate VDD VDD sky130_fd_pr__pfet_01v8 w=4.92 l=0.15
+xMS2_0 INP resetGate VDD VDD sky130_fd_pr__pfet_01v8 w=4.92 l=0.15
+xMS2_1 INP resetGate VDD VDD sky130_fd_pr__pfet_01v8 w=4.92 l=0.15
+xMS2_2 INP resetGate VDD VDD sky130_fd_pr__pfet_01v8 w=4.92 l=0.15
+xMS2_3 INP resetGate VDD VDD sky130_fd_pr__pfet_01v8 w=4.92 l=0.15
+xMS2_4 INP resetGate VDD VDD sky130_fd_pr__pfet_01v8 w=4.92 l=0.15
+xMS2_5 INP resetGate VDD VDD sky130_fd_pr__pfet_01v8 w=4.92 l=0.15
+xMS2_6 INP resetGate VDD VDD sky130_fd_pr__pfet_01v8 w=4.92 l=0.15
+xMS2_7 INP resetGate VDD VDD sky130_fd_pr__pfet_01v8 w=4.92 l=0.15
+xMS2_8 INP resetGate VDD VDD sky130_fd_pr__pfet_01v8 w=4.92 l=0.15
+xMS2_9 INP resetGate VDD VDD sky130_fd_pr__pfet_01v8 w=4.92 l=0.15
+xMS2_10 INP resetGate VDD VDD sky130_fd_pr__pfet_01v8 w=4.92 l=0.15
+xMS2_11 INP resetGate VDD VDD sky130_fd_pr__pfet_01v8 w=4.92 l=0.15
+xMS2_12 INP resetGate VDD VDD sky130_fd_pr__pfet_01v8 w=4.92 l=0.15
+xMS2_13 INP resetGate VDD VDD sky130_fd_pr__pfet_01v8 w=4.92 l=0.15
+xMS2_14 INP resetGate VDD VDD sky130_fd_pr__pfet_01v8 w=4.92 l=0.15
+xMS2_15 INP resetGate VDD VDD sky130_fd_pr__pfet_01v8 w=4.92 l=0.15
+xMS2_16 INP resetGate VDD VDD sky130_fd_pr__pfet_01v8 w=4.92 l=0.15
+xMS2_17 INP resetGate VDD VDD sky130_fd_pr__pfet_01v8 w=4.92 l=0.15
+xMS2_18 INP resetGate VDD VDD sky130_fd_pr__pfet_01v8 w=4.92 l=0.15
+xMS2_19 INP resetGate VDD VDD sky130_fd_pr__pfet_01v8 w=4.92 l=0.15
+xMS2_20 INP resetGate VDD VDD sky130_fd_pr__pfet_01v8 w=4.92 l=0.15
+xMS2_21 INP resetGate VDD VDD sky130_fd_pr__pfet_01v8 w=4.92 l=0.15
+xMS2_22 INP resetGate VDD VDD sky130_fd_pr__pfet_01v8 w=4.92 l=0.15
+xMS2_23 INP resetGate VDD VDD sky130_fd_pr__pfet_01v8 w=4.92 l=0.15
+xMS2_24 INP resetGate VDD VDD sky130_fd_pr__pfet_01v8 w=4.92 l=0.15
+xMS2_25 INP resetGate VDD VDD sky130_fd_pr__pfet_01v8 w=4.92 l=0.15
+xM5_0 VDD OUTN OUTP VDD sky130_fd_pr__pfet_01v8 w=3 l=0.15
+xM7_0 VDD CLK OUTP VDD sky130_fd_pr__pfet_01v8 w=1.5 l=0.15
+xM9_0 VDD CLK x VDD sky130_fd_pr__pfet_01v8 w=1.5 l=0.15
+xBN0_0 resetMid TRKAB VSS VSS sky130_fd_pr__nfet_01v8 w=4 l=0.15
+xBP0_0 resetMid TRKAB VDD VDD sky130_fd_pr__pfet_01v8 w=4 l=0.15
+xBP0_1 resetMid TRKAB VDD VDD sky130_fd_pr__pfet_01v8 w=4 l=0.15
+xBN1_0 resetGate resetMid VSS VSS sky130_fd_pr__nfet_01v8 w=4 l=0.15
+xBN1_1 resetGate resetMid VSS VSS sky130_fd_pr__nfet_01v8 w=4 l=0.15
+xBP1_0 resetGate resetMid VDD VDD sky130_fd_pr__pfet_01v8 w=4 l=0.15
+xBP1_1 resetGate resetMid VDD VDD sky130_fd_pr__pfet_01v8 w=4 l=0.15
+xBP1_2 resetGate resetMid VDD VDD sky130_fd_pr__pfet_01v8 w=4 l=0.15
+xBP1_3 resetGate resetMid VDD VDD sky130_fd_pr__pfet_01v8 w=4 l=0.15
+xcy y VSS sky130_fd_pr__cap_mim_m3_1 w=7.07 l=7.07
+xcx x VSS sky130_fd_pr__cap_mim_m3_1 w=7.07 l=7.07
+xco1 OUTN VSS sky130_fd_pr__cap_mim_m3_1 w=3.23 l=3.23
+xco2 OUTP VSS sky130_fd_pr__cap_mim_m3_1 w=3.16 l=3.16
+.ends comparator_core
+
+.subckt sky130_fd_sc_hd__or2_2 A B VGND VNB VPB VPWR X
+X0 a_39_297# B a_121_297# VPB sky130_fd_pr__pfet_01v8_hvt w=420000u l=150000u
+X1 X a_39_297# VPWR VPB sky130_fd_pr__pfet_01v8_hvt w=1e+06u l=150000u
+X2 VGND a_39_297# X VNB sky130_fd_pr__nfet_01v8 w=650000u l=150000u
+X3 VPWR a_39_297# X VPB sky130_fd_pr__pfet_01v8_hvt w=1e+06u l=150000u
+X4 a_39_297# A VGND VNB sky130_fd_pr__nfet_01v8 w=420000u l=150000u
+X5 VGND B a_39_297# VNB sky130_fd_pr__nfet_01v8 w=420000u l=150000u
+X6 a_121_297# A VPWR VPB sky130_fd_pr__pfet_01v8_hvt w=420000u l=150000u
+X7 X a_39_297# VGND VNB sky130_fd_pr__nfet_01v8 w=650000u l=150000u
+.ends
+
+.subckt sky130_fd_sc_hd__tapvpwrvgnd_1 VGND VPWR
+.ends
+
+.subckt sky130_fd_sc_hd__nor2_4 A B VGND VNB VPB VPWR Y
+X0 a_27_297# B Y VPB sky130_fd_pr__pfet_01v8_hvt w=1e+06u l=150000u
+X1 Y A VGND VNB sky130_fd_pr__nfet_01v8 w=650000u l=150000u
+X2 VPWR A a_27_297# VPB sky130_fd_pr__pfet_01v8_hvt w=1e+06u l=150000u
+X3 VPWR A a_27_297# VPB sky130_fd_pr__pfet_01v8_hvt w=1e+06u l=150000u
+X4 Y B a_27_297# VPB sky130_fd_pr__pfet_01v8_hvt w=1e+06u l=150000u
+X5 VGND A Y VNB sky130_fd_pr__nfet_01v8 w=650000u l=150000u
+X6 a_27_297# A VPWR VPB sky130_fd_pr__pfet_01v8_hvt w=1e+06u l=150000u
+X7 a_27_297# A VPWR VPB sky130_fd_pr__pfet_01v8_hvt w=1e+06u l=150000u
+X8 VGND A Y VNB sky130_fd_pr__nfet_01v8 w=650000u l=150000u
+X9 Y B VGND VNB sky130_fd_pr__nfet_01v8 w=650000u l=150000u
+X10 a_27_297# B Y VPB sky130_fd_pr__pfet_01v8_hvt w=1e+06u l=150000u
+X11 Y A VGND VNB sky130_fd_pr__nfet_01v8 w=650000u l=150000u
+X12 Y B VGND VNB sky130_fd_pr__nfet_01v8 w=650000u l=150000u
+X13 Y B a_27_297# VPB sky130_fd_pr__pfet_01v8_hvt w=1e+06u l=150000u
+X14 VGND B Y VNB sky130_fd_pr__nfet_01v8 w=650000u l=150000u
+X15 VGND B Y VNB sky130_fd_pr__nfet_01v8 w=650000u l=150000u
+.ends
+
+.subckt sky130_fd_sc_hd__nor2_1 A B VGND VNB VPB VPWR Y
+X0 a_109_297# A VPWR VPB sky130_fd_pr__pfet_01v8_hvt w=1e+06u l=150000u
+X1 Y A VGND VNB sky130_fd_pr__nfet_01v8 w=650000u l=150000u
+X2 VGND B Y VNB sky130_fd_pr__nfet_01v8 w=650000u l=150000u
+X3 Y B a_109_297# VPB sky130_fd_pr__pfet_01v8_hvt w=1e+06u l=150000u
+.ends
+
+.subckt sky130_fd_sc_hd__nor3_1 A B C VGND VNB VPB VPWR Y
+X0 Y A VGND VNB sky130_fd_pr__nfet_01v8 w=650000u l=150000u
+X1 VGND B Y VNB sky130_fd_pr__nfet_01v8 w=650000u l=150000u
+X2 a_193_297# A VPWR VPB sky130_fd_pr__pfet_01v8_hvt w=1e+06u l=150000u
+X3 Y C VGND VNB sky130_fd_pr__nfet_01v8 w=650000u l=150000u
+X4 Y C a_109_297# VPB sky130_fd_pr__pfet_01v8_hvt w=1e+06u l=150000u
+X5 a_109_297# B a_193_297# VPB sky130_fd_pr__pfet_01v8_hvt w=1e+06u l=150000u
+.ends
+
+.subckt sky130_fd_sc_hd__or2_1 A B VGND VNB VPB VPWR X
+X0 a_150_297# A VPWR VPB sky130_fd_pr__pfet_01v8_hvt w=420000u l=150000u
+X1 VGND a_68_297# X VNB sky130_fd_pr__nfet_01v8 w=650000u l=150000u
+X2 VGND B a_68_297# VNB sky130_fd_pr__nfet_01v8 w=420000u l=150000u
+X3 a_68_297# A VGND VNB sky130_fd_pr__nfet_01v8 w=420000u l=150000u
+X4 a_68_297# B a_150_297# VPB sky130_fd_pr__pfet_01v8_hvt w=420000u l=150000u
+X5 VPWR a_68_297# X VPB sky130_fd_pr__pfet_01v8_hvt w=1e+06u l=150000u
+.ends
+
+.subckt sky130_fd_sc_hd__inv_16 A VGND VNB VPB VPWR Y
+X0 VGND A Y VNB sky130_fd_pr__nfet_01v8 w=650000u l=150000u
+X1 VGND A Y VNB sky130_fd_pr__nfet_01v8 w=650000u l=150000u
+X2 VPWR A Y VPB sky130_fd_pr__pfet_01v8_hvt w=1e+06u l=150000u
+X3 VPWR A Y VPB sky130_fd_pr__pfet_01v8_hvt w=1e+06u l=150000u
+X4 Y A VGND VNB sky130_fd_pr__nfet_01v8 w=650000u l=150000u
+X5 Y A VPWR VPB sky130_fd_pr__pfet_01v8_hvt w=1e+06u l=150000u
+X6 VGND A Y VNB sky130_fd_pr__nfet_01v8 w=650000u l=150000u
+X7 VPWR A Y VPB sky130_fd_pr__pfet_01v8_hvt w=1e+06u l=150000u
+X8 VGND A Y VNB sky130_fd_pr__nfet_01v8 w=650000u l=150000u
+X9 VPWR A Y VPB sky130_fd_pr__pfet_01v8_hvt w=1e+06u l=150000u
+X10 Y A VGND VNB sky130_fd_pr__nfet_01v8 w=650000u l=150000u
+X11 VPWR A Y VPB sky130_fd_pr__pfet_01v8_hvt w=1e+06u l=150000u
+X12 VPWR A Y VPB sky130_fd_pr__pfet_01v8_hvt w=1e+06u l=150000u
+X13 Y A VGND VNB sky130_fd_pr__nfet_01v8 w=650000u l=150000u
+X14 Y A VPWR VPB sky130_fd_pr__pfet_01v8_hvt w=1e+06u l=150000u
+X15 Y A VGND VNB sky130_fd_pr__nfet_01v8 w=650000u l=150000u
+X16 Y A VPWR VPB sky130_fd_pr__pfet_01v8_hvt w=1e+06u l=150000u
+X17 VGND A Y VNB sky130_fd_pr__nfet_01v8 w=650000u l=150000u
+X18 VGND A Y VNB sky130_fd_pr__nfet_01v8 w=650000u l=150000u
+X19 Y A VPWR VPB sky130_fd_pr__pfet_01v8_hvt w=1e+06u l=150000u
+X20 Y A VGND VNB sky130_fd_pr__nfet_01v8 w=650000u l=150000u
+X21 Y A VGND VNB sky130_fd_pr__nfet_01v8 w=650000u l=150000u
+X22 Y A VGND VNB sky130_fd_pr__nfet_01v8 w=650000u l=150000u
+X23 VPWR A Y VPB sky130_fd_pr__pfet_01v8_hvt w=1e+06u l=150000u
+X24 Y A VPWR VPB sky130_fd_pr__pfet_01v8_hvt w=1e+06u l=150000u
+X25 Y A VPWR VPB sky130_fd_pr__pfet_01v8_hvt w=1e+06u l=150000u
+X26 Y A VGND VNB sky130_fd_pr__nfet_01v8 w=650000u l=150000u
+X27 Y A VPWR VPB sky130_fd_pr__pfet_01v8_hvt w=1e+06u l=150000u
+X28 Y A VPWR VPB sky130_fd_pr__pfet_01v8_hvt w=1e+06u l=150000u
+X29 VGND A Y VNB sky130_fd_pr__nfet_01v8 w=650000u l=150000u
+X30 VGND A Y VNB sky130_fd_pr__nfet_01v8 w=650000u l=150000u
+X31 VPWR A Y VPB sky130_fd_pr__pfet_01v8_hvt w=1e+06u l=150000u
+.ends
+
+.subckt sky130_fd_sc_hd__and2b_1 A_N B VGND VNB VPB VPWR X
+X0 a_207_413# B VPWR VPB sky130_fd_pr__pfet_01v8_hvt w=420000u l=150000u
+X1 VPWR a_207_413# X VPB sky130_fd_pr__pfet_01v8_hvt w=1e+06u l=150000u
+X2 VGND a_207_413# X VNB sky130_fd_pr__nfet_01v8 w=650000u l=150000u
+X3 a_207_413# a_27_413# a_297_47# VNB sky130_fd_pr__nfet_01v8 w=420000u l=150000u
+X4 a_27_413# A_N VPWR VPB sky130_fd_pr__pfet_01v8_hvt w=420000u l=150000u
+X5 VPWR a_27_413# a_207_413# VPB sky130_fd_pr__pfet_01v8_hvt w=420000u l=150000u
+X6 VGND A_N a_27_413# VNB sky130_fd_pr__nfet_01v8 w=420000u l=150000u
+X7 a_297_47# B VGND VNB sky130_fd_pr__nfet_01v8 w=420000u l=150000u
+.ends
+
+.subckt sky130_fd_sc_hd__and2_1 A B VGND VNB VPB VPWR X
+X0 VGND a_59_75# X VNB sky130_fd_pr__nfet_01v8 w=650000u l=150000u
+X1 VPWR A a_59_75# VPB sky130_fd_pr__pfet_01v8_hvt w=420000u l=150000u
+X2 a_59_75# A a_145_75# VNB sky130_fd_pr__nfet_01v8 w=420000u l=150000u
+X3 a_59_75# B VPWR VPB sky130_fd_pr__pfet_01v8_hvt w=420000u l=150000u
+X4 a_145_75# B VGND VNB sky130_fd_pr__nfet_01v8 w=420000u l=150000u
+X5 VPWR a_59_75# X VPB sky130_fd_pr__pfet_01v8_hvt w=1e+06u l=150000u
+.ends
+
+.subckt sky130_fd_sc_hd__fill_2 VGND VNB VPB VPWR
+.ends
+
+.subckt sky130_fd_sc_hd__mux2_1 A0 A1 S VGND VNB VPB VPWR X
+X0 VPWR S a_218_374# VPB sky130_fd_pr__pfet_01v8_hvt w=420000u l=150000u
+X1 a_76_199# A0 a_439_47# VNB sky130_fd_pr__nfet_01v8 w=420000u l=150000u
+X2 a_535_374# a_505_21# VPWR VPB sky130_fd_pr__pfet_01v8_hvt w=420000u l=150000u
+X3 VPWR S a_505_21# VPB sky130_fd_pr__pfet_01v8_hvt w=420000u l=150000u
+X4 a_76_199# A1 a_535_374# VPB sky130_fd_pr__pfet_01v8_hvt w=420000u l=150000u
+X5 a_218_47# A1 a_76_199# VNB sky130_fd_pr__nfet_01v8 w=420000u l=150000u
+X6 a_218_374# A0 a_76_199# VPB sky130_fd_pr__pfet_01v8_hvt w=420000u l=150000u
+X7 X a_76_199# VGND VNB sky130_fd_pr__nfet_01v8 w=650000u l=150000u
+X8 X a_76_199# VPWR VPB sky130_fd_pr__pfet_01v8_hvt w=1e+06u l=150000u
+X9 VGND S a_218_47# VNB sky130_fd_pr__nfet_01v8 w=420000u l=150000u
+X10 VGND S a_505_21# VNB sky130_fd_pr__nfet_01v8 w=420000u l=150000u
+X11 a_439_47# a_505_21# VGND VNB sky130_fd_pr__nfet_01v8 w=420000u l=150000u
+.ends
+
+.subckt sky130_fd_sc_hd__inv_1 A VGND VNB VPB VPWR Y
+X0 VGND A Y VNB sky130_fd_pr__nfet_01v8 w=650000u l=150000u
+X1 VPWR A Y VPB sky130_fd_pr__pfet_01v8_hvt w=1e+06u l=150000u
+.ends
+
+.subckt sky130_fd_sc_hd__nor3_2 A B C VGND VNB VPB VPWR Y
+X0 Y B VGND VNB sky130_fd_pr__nfet_01v8 w=650000u l=150000u
+X1 Y C a_281_297# VPB sky130_fd_pr__pfet_01v8_hvt w=1e+06u l=150000u
+X2 VPWR A a_27_297# VPB sky130_fd_pr__pfet_01v8_hvt w=1e+06u l=150000u
+X3 a_281_297# B a_27_297# VPB sky130_fd_pr__pfet_01v8_hvt w=1e+06u l=150000u
+X4 VGND B Y VNB sky130_fd_pr__nfet_01v8 w=650000u l=150000u
+X5 a_27_297# B a_281_297# VPB sky130_fd_pr__pfet_01v8_hvt w=1e+06u l=150000u
+X6 a_27_297# A VPWR VPB sky130_fd_pr__pfet_01v8_hvt w=1e+06u l=150000u
+X7 VGND A Y VNB sky130_fd_pr__nfet_01v8 w=650000u l=150000u
+X8 Y A VGND VNB sky130_fd_pr__nfet_01v8 w=650000u l=150000u
+X9 Y C VGND VNB sky130_fd_pr__nfet_01v8 w=650000u l=150000u
+X10 a_281_297# C Y VPB sky130_fd_pr__pfet_01v8_hvt w=1e+06u l=150000u
+X11 VGND C Y VNB sky130_fd_pr__nfet_01v8 w=650000u l=150000u
+.ends
+
+.subckt sky130_fd_sc_hd__dlygate4sd1_1 A VGND VNB VPB VPWR X
+X0 VPWR a_299_93# X VPB sky130_fd_pr__pfet_01v8_hvt w=1e+06u l=150000u
+X1 a_299_93# a_193_47# VPWR VPB sky130_fd_pr__pfet_01v8_hvt w=420000u l=150000u
+X2 a_299_93# a_193_47# VGND VNB sky130_fd_pr__nfet_01v8 w=420000u l=150000u
+X3 a_27_47# A VPWR VPB sky130_fd_pr__pfet_01v8_hvt w=420000u l=150000u
+X4 VGND a_299_93# X VNB sky130_fd_pr__nfet_01v8 w=650000u l=150000u
+X5 VPWR a_27_47# a_193_47# VPB sky130_fd_pr__pfet_01v8_hvt w=420000u l=150000u
+X6 VGND a_27_47# a_193_47# VNB sky130_fd_pr__nfet_01v8 w=420000u l=150000u
+X7 a_27_47# A VGND VNB sky130_fd_pr__nfet_01v8 w=420000u l=150000u
+.ends
+
+.subckt sky130_fd_sc_hd__and2_2 A B VGND VNB VPB VPWR X
+X0 VPWR a_61_75# X VPB sky130_fd_pr__pfet_01v8_hvt w=1e+06u l=150000u
+X1 VPWR A a_61_75# VPB sky130_fd_pr__pfet_01v8_hvt w=420000u l=150000u
+X2 a_147_75# B VGND VNB sky130_fd_pr__nfet_01v8 w=420000u l=150000u
+X3 a_61_75# B VPWR VPB sky130_fd_pr__pfet_01v8_hvt w=420000u l=150000u
+X4 VGND a_61_75# X VNB sky130_fd_pr__nfet_01v8 w=650000u l=150000u
+X5 X a_61_75# VGND VNB sky130_fd_pr__nfet_01v8 w=650000u l=150000u
+X6 a_61_75# A a_147_75# VNB sky130_fd_pr__nfet_01v8 w=420000u l=150000u
+X7 X a_61_75# VPWR VPB sky130_fd_pr__pfet_01v8_hvt w=1e+06u l=150000u
+.ends
+
+.subckt sky130_fd_sc_hd__inv_4 A VGND VNB VPB VPWR Y
+X0 Y A VGND VNB sky130_fd_pr__nfet_01v8 w=650000u l=150000u
+X1 VGND A Y VNB sky130_fd_pr__nfet_01v8 w=650000u l=150000u
+X2 VPWR A Y VPB sky130_fd_pr__pfet_01v8_hvt w=1e+06u l=150000u
+X3 Y A VGND VNB sky130_fd_pr__nfet_01v8 w=650000u l=150000u
+X4 VGND A Y VNB sky130_fd_pr__nfet_01v8 w=650000u l=150000u
+X5 VPWR A Y VPB sky130_fd_pr__pfet_01v8_hvt w=1e+06u l=150000u
+X6 Y A VPWR VPB sky130_fd_pr__pfet_01v8_hvt w=1e+06u l=150000u
+X7 Y A VPWR VPB sky130_fd_pr__pfet_01v8_hvt w=1e+06u l=150000u
+.ends
+
+.subckt sky130_fd_sc_hd__nand3_1 A B C VGND VNB VPB VPWR Y
+X0 VPWR A Y VPB sky130_fd_pr__pfet_01v8_hvt w=1e+06u l=150000u
+X1 a_109_47# B a_193_47# VNB sky130_fd_pr__nfet_01v8 w=650000u l=150000u
+X2 VGND C a_109_47# VNB sky130_fd_pr__nfet_01v8 w=650000u l=150000u
+X3 a_193_47# A Y VNB sky130_fd_pr__nfet_01v8 w=650000u l=150000u
+X4 VPWR C Y VPB sky130_fd_pr__pfet_01v8_hvt w=1e+06u l=150000u
+X5 Y B VPWR VPB sky130_fd_pr__pfet_01v8_hvt w=1e+06u l=150000u
+.ends
+
+.subckt sky130_fd_sc_hd__nor2_2 A B VGND VNB VPB VPWR Y
+X0 Y B VGND VNB sky130_fd_pr__nfet_01v8 w=650000u l=150000u
+X1 VPWR A a_27_297# VPB sky130_fd_pr__pfet_01v8_hvt w=1e+06u l=150000u
+X2 Y B a_27_297# VPB sky130_fd_pr__pfet_01v8_hvt w=1e+06u l=150000u
+X3 VGND B Y VNB sky130_fd_pr__nfet_01v8 w=650000u l=150000u
+X4 a_27_297# B Y VPB sky130_fd_pr__pfet_01v8_hvt w=1e+06u l=150000u
+X5 a_27_297# A VPWR VPB sky130_fd_pr__pfet_01v8_hvt w=1e+06u l=150000u
+X6 VGND A Y VNB sky130_fd_pr__nfet_01v8 w=650000u l=150000u
+X7 Y A VGND VNB sky130_fd_pr__nfet_01v8 w=650000u l=150000u
+.ends
+
+.subckt sky130_fd_sc_hd__buf_4 A VGND VNB VPB VPWR X
+X0 X a_27_47# VGND VNB sky130_fd_pr__nfet_01v8 w=650000u l=150000u
+X1 VGND a_27_47# X VNB sky130_fd_pr__nfet_01v8 w=650000u l=150000u
+X2 X a_27_47# VGND VNB sky130_fd_pr__nfet_01v8 w=650000u l=150000u
+X3 VGND a_27_47# X VNB sky130_fd_pr__nfet_01v8 w=650000u l=150000u
+X4 X a_27_47# VPWR VPB sky130_fd_pr__pfet_01v8_hvt w=1e+06u l=150000u
+X5 a_27_47# A VGND VNB sky130_fd_pr__nfet_01v8 w=650000u l=150000u
+X6 X a_27_47# VPWR VPB sky130_fd_pr__pfet_01v8_hvt w=1e+06u l=150000u
+X7 a_27_47# A VPWR VPB sky130_fd_pr__pfet_01v8_hvt w=1e+06u l=150000u
+X8 VPWR a_27_47# X VPB sky130_fd_pr__pfet_01v8_hvt w=1e+06u l=150000u
+X9 VPWR a_27_47# X VPB sky130_fd_pr__pfet_01v8_hvt w=1e+06u l=150000u
+.ends
+
+.subckt sky130_fd_sc_hd__buf_16 A VGND VNB VPB VPWR X
+X0 X a_109_47# VPWR VPB sky130_fd_pr__pfet_01v8_hvt w=1e+06u l=150000u
+X1 VPWR a_109_47# X VPB sky130_fd_pr__pfet_01v8_hvt w=1e+06u l=150000u
+X2 VGND a_109_47# X VNB sky130_fd_pr__nfet_01v8 w=650000u l=150000u
+X3 VGND A a_109_47# VNB sky130_fd_pr__nfet_01v8 w=650000u l=150000u
+X4 X a_109_47# VGND VNB sky130_fd_pr__nfet_01v8 w=650000u l=150000u
+X5 VPWR a_109_47# X VPB sky130_fd_pr__pfet_01v8_hvt w=1e+06u l=150000u
+X6 a_109_47# A VPWR VPB sky130_fd_pr__pfet_01v8_hvt w=1e+06u l=150000u
+X7 X a_109_47# VGND VNB sky130_fd_pr__nfet_01v8 w=650000u l=150000u
+X8 X a_109_47# VPWR VPB sky130_fd_pr__pfet_01v8_hvt w=1e+06u l=150000u
+X9 a_109_47# A VGND VNB sky130_fd_pr__nfet_01v8 w=650000u l=150000u
+X10 X a_109_47# VPWR VPB sky130_fd_pr__pfet_01v8_hvt w=1e+06u l=150000u
+X11 VGND a_109_47# X VNB sky130_fd_pr__nfet_01v8 w=650000u l=150000u
+X12 X a_109_47# VPWR VPB sky130_fd_pr__pfet_01v8_hvt w=1e+06u l=150000u
+X13 VGND a_109_47# X VNB sky130_fd_pr__nfet_01v8 w=650000u l=150000u
+X14 VPWR a_109_47# X VPB sky130_fd_pr__pfet_01v8_hvt w=1e+06u l=150000u
+X15 X a_109_47# VPWR VPB sky130_fd_pr__pfet_01v8_hvt w=1e+06u l=150000u
+X16 VPWR a_109_47# X VPB sky130_fd_pr__pfet_01v8_hvt w=1e+06u l=150000u
+X17 VPWR a_109_47# X VPB sky130_fd_pr__pfet_01v8_hvt w=1e+06u l=150000u
+X18 a_109_47# A VGND VNB sky130_fd_pr__nfet_01v8 w=650000u l=150000u
+X19 VPWR a_109_47# X VPB sky130_fd_pr__pfet_01v8_hvt w=1e+06u l=150000u
+X20 X a_109_47# VGND VNB sky130_fd_pr__nfet_01v8 w=650000u l=150000u
+X21 X a_109_47# VGND VNB sky130_fd_pr__nfet_01v8 w=650000u l=150000u
+X22 VPWR a_109_47# X VPB sky130_fd_pr__pfet_01v8_hvt w=1e+06u l=150000u
+X23 X a_109_47# VGND VNB sky130_fd_pr__nfet_01v8 w=650000u l=150000u
+X24 VGND a_109_47# X VNB sky130_fd_pr__nfet_01v8 w=650000u l=150000u
+X25 X a_109_47# VPWR VPB sky130_fd_pr__pfet_01v8_hvt w=1e+06u l=150000u
+X26 VGND a_109_47# X VNB sky130_fd_pr__nfet_01v8 w=650000u l=150000u
+X27 VGND A a_109_47# VNB sky130_fd_pr__nfet_01v8 w=650000u l=150000u
+X28 X a_109_47# VGND VNB sky130_fd_pr__nfet_01v8 w=650000u l=150000u
+X29 X a_109_47# VGND VNB sky130_fd_pr__nfet_01v8 w=650000u l=150000u
+X30 a_109_47# A VGND VNB sky130_fd_pr__nfet_01v8 w=650000u l=150000u
+X31 VGND a_109_47# X VNB sky130_fd_pr__nfet_01v8 w=650000u l=150000u
+X32 VPWR A a_109_47# VPB sky130_fd_pr__pfet_01v8_hvt w=1e+06u l=150000u
+X33 VPWR a_109_47# X VPB sky130_fd_pr__pfet_01v8_hvt w=1e+06u l=150000u
+X34 VGND A a_109_47# VNB sky130_fd_pr__nfet_01v8 w=650000u l=150000u
+X35 VGND a_109_47# X VNB sky130_fd_pr__nfet_01v8 w=650000u l=150000u
+X36 VGND a_109_47# X VNB sky130_fd_pr__nfet_01v8 w=650000u l=150000u
+X37 VPWR A a_109_47# VPB sky130_fd_pr__pfet_01v8_hvt w=1e+06u l=150000u
+X38 VPWR A a_109_47# VPB sky130_fd_pr__pfet_01v8_hvt w=1e+06u l=150000u
+X39 a_109_47# A VPWR VPB sky130_fd_pr__pfet_01v8_hvt w=1e+06u l=150000u
+X40 X a_109_47# VPWR VPB sky130_fd_pr__pfet_01v8_hvt w=1e+06u l=150000u
+X41 X a_109_47# VPWR VPB sky130_fd_pr__pfet_01v8_hvt w=1e+06u l=150000u
+X42 X a_109_47# VGND VNB sky130_fd_pr__nfet_01v8 w=650000u l=150000u
+X43 a_109_47# A VPWR VPB sky130_fd_pr__pfet_01v8_hvt w=1e+06u l=150000u
+.ends
+
+.subckt sky130_fd_sc_hd__fill_8 VGND VNB VPB VPWR
+.ends
+
+.subckt sky130_fd_sc_hd__buf_2 A VGND VNB VPB VPWR X
+X0 X a_27_47# VGND VNB sky130_fd_pr__nfet_01v8 w=650000u l=150000u
+X1 a_27_47# A VPWR VPB sky130_fd_pr__pfet_01v8_hvt w=640000u l=150000u
+X2 VGND a_27_47# X VNB sky130_fd_pr__nfet_01v8 w=650000u l=150000u
+X3 X a_27_47# VPWR VPB sky130_fd_pr__pfet_01v8_hvt w=1e+06u l=150000u
+X4 VPWR a_27_47# X VPB sky130_fd_pr__pfet_01v8_hvt w=1e+06u l=150000u
+X5 a_27_47# A VGND VNB sky130_fd_pr__nfet_01v8 w=420000u l=150000u
+.ends
+
+.subckt sky130_fd_sc_hd__dfstp_1 CLK D SET_B VGND VNB VPB VPWR Q
+X0 a_562_413# a_652_21# VPWR VPB sky130_fd_pr__pfet_01v8_hvt w=420000u l=150000u
+X1 a_1296_47# SET_B VGND VNB sky130_fd_pr__nfet_01v8 w=420000u l=150000u
+X2 a_381_47# a_193_47# a_476_47# VPB sky130_fd_pr__pfet_01v8_hvt w=420000u l=150000u
+X3 a_1602_47# a_1032_413# VPWR VPB sky130_fd_pr__pfet_01v8_hvt w=640000u l=150000u
+X4 a_1140_413# a_1182_261# VPWR VPB sky130_fd_pr__pfet_01v8_hvt w=420000u l=150000u
+X5 a_1032_413# a_27_47# a_1224_47# VNB sky130_fd_pr__nfet_01v8 w=420000u l=150000u
+X6 VGND a_1032_413# a_1182_261# VNB sky130_fd_pr__nfet_01v8 w=540000u l=150000u
+X7 a_476_47# a_27_47# a_562_413# VPB sky130_fd_pr__pfet_01v8_hvt w=420000u l=150000u
+X8 a_381_47# a_27_47# a_476_47# VNB sky130_fd_pr__special_nfet_01v8 w=360000u l=150000u
+X9 VGND a_476_47# a_1056_47# VNB sky130_fd_pr__nfet_01v8 w=420000u l=150000u
+X10 a_1602_47# a_1032_413# VGND VNB sky130_fd_pr__nfet_01v8 w=420000u l=150000u
+X11 a_1056_47# a_193_47# a_1032_413# VNB sky130_fd_pr__nfet_01v8 w=420000u l=150000u
+X12 VPWR SET_B a_652_21# VPB sky130_fd_pr__pfet_01v8_hvt w=420000u l=150000u
+X13 a_796_47# a_476_47# a_652_21# VNB sky130_fd_pr__nfet_01v8 w=420000u l=150000u
+X14 VPWR a_476_47# a_956_413# VPB sky130_fd_pr__pfet_01v8_hvt w=420000u l=150000u
+X15 a_586_47# a_652_21# VGND VNB sky130_fd_pr__nfet_01v8 w=420000u l=150000u
+X16 VPWR D a_381_47# VPB sky130_fd_pr__pfet_01v8_hvt w=840000u l=150000u
+X17 a_652_21# a_476_47# VPWR VPB sky130_fd_pr__pfet_01v8_hvt w=420000u l=150000u
+X18 a_1032_413# a_193_47# a_1140_413# VPB sky130_fd_pr__pfet_01v8_hvt w=420000u l=150000u
+X19 VGND a_1602_47# Q VNB sky130_fd_pr__nfet_01v8 w=650000u l=150000u
+X20 a_476_47# a_193_47# a_586_47# VNB sky130_fd_pr__special_nfet_01v8 w=360000u l=150000u
+X21 a_1032_413# SET_B VPWR VPB sky130_fd_pr__pfet_01v8_hvt w=420000u l=150000u
+X22 VGND a_27_47# a_193_47# VNB sky130_fd_pr__nfet_01v8 w=420000u l=150000u
+X23 a_956_413# a_27_47# a_1032_413# VPB sky130_fd_pr__pfet_01v8_hvt w=420000u l=150000u
+X24 a_27_47# CLK VGND VNB sky130_fd_pr__nfet_01v8 w=420000u l=150000u
+X25 a_27_47# CLK VPWR VPB sky130_fd_pr__pfet_01v8_hvt w=640000u l=150000u
+X26 VPWR a_1032_413# a_1182_261# VPB sky130_fd_pr__pfet_01v8_hvt w=840000u l=150000u
+X27 a_1224_47# a_1182_261# a_1296_47# VNB sky130_fd_pr__nfet_01v8 w=420000u l=150000u
+X28 VPWR a_27_47# a_193_47# VPB sky130_fd_pr__pfet_01v8_hvt w=640000u l=150000u
+X29 VGND D a_381_47# VNB sky130_fd_pr__nfet_01v8 w=640000u l=150000u
+X30 VGND SET_B a_796_47# VNB sky130_fd_pr__nfet_01v8 w=420000u l=150000u
+X31 VPWR a_1602_47# Q VPB sky130_fd_pr__pfet_01v8_hvt w=1e+06u l=150000u
+.ends
+
+.subckt sky130_fd_sc_hd__inv_2 A VGND VNB VPB VPWR Y
+X0 Y A VGND VNB sky130_fd_pr__nfet_01v8 w=650000u l=150000u
+X1 VPWR A Y VPB sky130_fd_pr__pfet_01v8_hvt w=1e+06u l=150000u
+X2 VGND A Y VNB sky130_fd_pr__nfet_01v8 w=650000u l=150000u
+X3 Y A VPWR VPB sky130_fd_pr__pfet_01v8_hvt w=1e+06u l=150000u
+.ends
+
+.subckt sky130_fd_sc_hd__conb_1 VGND VNB VPB VPWR HI LO
+XR0 VGND LO sky130_fd_pr__res_generic_po w=480000u l=45000u
+XR1 HI VPWR sky130_fd_pr__res_generic_po w=480000u l=45000u
+.ends
+
+.subckt sky130_fd_sc_hd__fill_4 VGND VNB VPB VPWR
+.ends
+
+.subckt sky130_fd_sc_hd__fill_1 VGND VNB VPB VPWR
+.ends
+
+.subckt sky130_fd_sc_hd__dlygate4sd3_1 A VGND VNB VPB VPWR X
+X0 a_391_47# a_285_47# VGND VNB sky130_fd_pr__nfet_01v8 w=420000u l=500000u
+X1 VPWR a_49_47# a_285_47# VPB sky130_fd_pr__pfet_01v8_hvt w=420000u l=500000u
+X2 a_49_47# A VGND VNB sky130_fd_pr__nfet_01v8 w=420000u l=150000u
+X3 VPWR a_391_47# X VPB sky130_fd_pr__pfet_01v8_hvt w=1e+06u l=150000u
+X4 VGND a_391_47# X VNB sky130_fd_pr__nfet_01v8 w=650000u l=150000u
+X5 VGND a_49_47# a_285_47# VNB sky130_fd_pr__nfet_01v8 w=420000u l=500000u
+X6 a_391_47# a_285_47# VPWR VPB sky130_fd_pr__pfet_01v8_hvt w=420000u l=500000u
+X7 a_49_47# A VPWR VPB sky130_fd_pr__pfet_01v8_hvt w=420000u l=150000u
+.ends
+
+.subckt sar_logic_core clk coP coN trkA_b trkB trkB_b clkc lo_p0 lo_p1 lo_p2 lo_p3 lo_p4 lo_p5 lo_p6 lo_p7 lo_p8 lo_p9 lo_p10 hib_p0 hib_p1 hib_p2 hib_p3 hib_p4 hib_p5 hib_p6 hib_p7 hib_p8 hib_p9 lo_n0 lo_n1 lo_n2 lo_n3 lo_n4 lo_n5 lo_n6 lo_n7 lo_n8 lo_n9 lo_n10 hib_n0 hib_n1 hib_n2 hib_n3 hib_n4 hib_n5 hib_n6 hib_n7 hib_n8 hib_n9 d10 d9 d8 d7 d6 d5 d4 d3 d2 d1 d0 dv VDDD VSS
+xg1 clk VSS VSS VDDD VDDD clkb sky130_fd_sc_hd__inv_2
+xg2 clkb cnvd VSS VSS VDDD VDDD trkA sky130_fd_sc_hd__nor2_2
+xg3 trkA VSS VSS VDDD VDDD trkA_b sky130_fd_sc_hd__inv_4
+xg4 trkA VSS VSS VDDD VDDD trkBi_d0 sky130_fd_sc_hd__dlygate4sd1_1
+xg5 trkBi_d0 VSS VSS VDDD VDDD trkBi sky130_fd_sc_hd__dlygate4sd1_1
+xg6 trkBi VSS VSS VDDD VDDD trkB sky130_fd_sc_hd__buf_16
+xg7 trkB VSS VSS VDDD VDDD trkB_b sky130_fd_sc_hd__inv_16
+xg8 trkBi VSS VSS VDDD VDDD trkBd_d0 sky130_fd_sc_hd__dlygate4sd1_1
+xg9 trkBd_d0 VSS VSS VDDD VDDD trkBd sky130_fd_sc_hd__dlygate4sd1_1
+xg10 clk trkBd VSS VSS VDDD VDDD cnv sky130_fd_sc_hd__nor2_4
+xg11 cnv VSS VSS VDDD VDDD cnvd_d0 sky130_fd_sc_hd__dlygate4sd1_1
+xg12 cnvd_d0 VSS VSS VDDD VDDD cnvd sky130_fd_sc_hd__dlygate4sd1_1
+xg13 cnv VSS VSS VDDD VDDD run_d0 sky130_fd_sc_hd__dlygate4sd3_1
+xg14 run_d0 VSS VSS VDDD VDDD run_d1 sky130_fd_sc_hd__dlygate4sd3_1
+xg15 run_d1 VSS VSS VDDD VDDD run_d2 sky130_fd_sc_hd__dlygate4sd3_1
+xg16 run_d2 VSS VSS VDDD VDDD run sky130_fd_sc_hd__dlygate4sd3_1
+xg17 coP VSS VSS VDDD VDDD coPb sky130_fd_sc_hd__inv_1
+xg18 coN VSS VSS VDDD VDDD coNb sky130_fd_sc_hd__inv_1
+xg19 coPb coNb VSS VSS VDDD VDDD valid sky130_fd_sc_hd__or2_1
+xg20 coNb srqb VSS VSS VDDD VDDD srq sky130_fd_sc_hd__nor2_1
+xg21 coPb srq VSS VSS VDDD VDDD srqb sky130_fd_sc_hd__nor2_1
+xg22 srq VSS VSS VDDD VDDD srq_o sky130_fd_sc_hd__buf_4
+xg23 valid VSS VSS VDDD VDDD v1_d0 sky130_fd_sc_hd__dlygate4sd1_1
+xg24 v1_d0 VSS VSS VDDD VDDD v1 sky130_fd_sc_hd__dlygate4sd1_1
+xg25 v1 VSS VSS VDDD VDDD v2_d0 sky130_fd_sc_hd__dlygate4sd1_1
+xg26 v2_d0 VSS VSS VDDD VDDD v2 sky130_fd_sc_hd__dlygate4sd1_1
+xg27 v2 VSS VSS VDDD VDDD v3_d0 sky130_fd_sc_hd__dlygate4sd3_1
+xg28 v3_d0 VSS VSS VDDD VDDD v3_d1 sky130_fd_sc_hd__dlygate4sd3_1
+xg29 v3_d1 VSS VSS VDDD VDDD v3_d2 sky130_fd_sc_hd__dlygate4sd3_1
+xg30 v3_d2 VSS VSS VDDD VDDD v3_d3 sky130_fd_sc_hd__dlygate4sd3_1
+xg31 v3_d3 VSS VSS VDDD VDDD v3 sky130_fd_sc_hd__dlygate4sd3_1
+xg32 run cnv qb10 VSS VSS VDDD VDDD en_n sky130_fd_sc_hd__nand3_1
+xg33 cnv VSS VSS VDDD VDDD cnv_n sky130_fd_sc_hd__inv_1
+xg34 v1 inh VSS VSS VDDD VDDD inhn sky130_fd_sc_hd__nor2_1
+xg35 v3 inhn cnv_n VSS VSS VDDD VDDD inh sky130_fd_sc_hd__nor3_1
+xg36 v1 inh en_n VSS VSS VDDD VDDD clkc sky130_fd_sc_hd__nor3_2
+xgzero VSS VSS VDDD VDDD nc_hi zero sky130_fd_sc_hd__conb_1
+xg37 zero VSS VSS VDDD VDDD one sky130_fd_sc_hd__inv_1
+xg38 v2 zero cnv VSS VSS VDDD VDDD qb0 sky130_fd_sc_hd__dfstp_1
+xg39 v2 qb0 cnv VSS VSS VDDD VDDD qb1 sky130_fd_sc_hd__dfstp_1
+xg40 v2 qb1 cnv VSS VSS VDDD VDDD qb2 sky130_fd_sc_hd__dfstp_1
+xg41 v2 qb2 cnv VSS VSS VDDD VDDD qb3 sky130_fd_sc_hd__dfstp_1
+xg42 v2 qb3 cnv VSS VSS VDDD VDDD qb4 sky130_fd_sc_hd__dfstp_1
+xg43 v2 qb4 cnv VSS VSS VDDD VDDD qb5 sky130_fd_sc_hd__dfstp_1
+xg44 v2 qb5 cnv VSS VSS VDDD VDDD qb6 sky130_fd_sc_hd__dfstp_1
+xg45 v2 qb6 cnv VSS VSS VDDD VDDD qb7 sky130_fd_sc_hd__dfstp_1
+xg46 v2 qb7 cnv VSS VSS VDDD VDDD qb8 sky130_fd_sc_hd__dfstp_1
+xg47 v2 qb8 cnv VSS VSS VDDD VDDD qb9 sky130_fd_sc_hd__dfstp_1
+xg48 v2 qb9 cnv VSS VSS VDDD VDDD qb10 sky130_fd_sc_hd__dfstp_1
+xg49 b0 srq_o qb0 VSS VSS VDDD VDDD bin0 sky130_fd_sc_hd__mux2_1
+xg50 v1 bin0 one VSS VSS VDDD VDDD b0 sky130_fd_sc_hd__dfstp_1
+xg51 qb0 qb1 VSS VSS VDDD VDDD tok1 sky130_fd_sc_hd__and2b_1
+xg52 b1 srq_o tok1 VSS VSS VDDD VDDD bin1 sky130_fd_sc_hd__mux2_1
+xg53 v1 bin1 one VSS VSS VDDD VDDD b1 sky130_fd_sc_hd__dfstp_1
+xg54 qb1 qb2 VSS VSS VDDD VDDD tok2 sky130_fd_sc_hd__and2b_1
+xg55 b2 srq_o tok2 VSS VSS VDDD VDDD bin2 sky130_fd_sc_hd__mux2_1
+xg56 v1 bin2 one VSS VSS VDDD VDDD b2 sky130_fd_sc_hd__dfstp_1
+xg57 qb2 qb3 VSS VSS VDDD VDDD tok3 sky130_fd_sc_hd__and2b_1
+xg58 b3 srq_o tok3 VSS VSS VDDD VDDD bin3 sky130_fd_sc_hd__mux2_1
+xg59 v1 bin3 one VSS VSS VDDD VDDD b3 sky130_fd_sc_hd__dfstp_1
+xg60 qb3 qb4 VSS VSS VDDD VDDD tok4 sky130_fd_sc_hd__and2b_1
+xg61 b4 srq_o tok4 VSS VSS VDDD VDDD bin4 sky130_fd_sc_hd__mux2_1
+xg62 v1 bin4 one VSS VSS VDDD VDDD b4 sky130_fd_sc_hd__dfstp_1
+xg63 qb4 qb5 VSS VSS VDDD VDDD tok5 sky130_fd_sc_hd__and2b_1
+xg64 b5 srq_o tok5 VSS VSS VDDD VDDD bin5 sky130_fd_sc_hd__mux2_1
+xg65 v1 bin5 one VSS VSS VDDD VDDD b5 sky130_fd_sc_hd__dfstp_1
+xg66 qb5 qb6 VSS VSS VDDD VDDD tok6 sky130_fd_sc_hd__and2b_1
+xg67 b6 srq_o tok6 VSS VSS VDDD VDDD bin6 sky130_fd_sc_hd__mux2_1
+xg68 v1 bin6 one VSS VSS VDDD VDDD b6 sky130_fd_sc_hd__dfstp_1
+xg69 qb6 qb7 VSS VSS VDDD VDDD tok7 sky130_fd_sc_hd__and2b_1
+xg70 b7 srq_o tok7 VSS VSS VDDD VDDD bin7 sky130_fd_sc_hd__mux2_1
+xg71 v1 bin7 one VSS VSS VDDD VDDD b7 sky130_fd_sc_hd__dfstp_1
+xg72 qb7 qb8 VSS VSS VDDD VDDD tok8 sky130_fd_sc_hd__and2b_1
+xg73 b8 srq_o tok8 VSS VSS VDDD VDDD bin8 sky130_fd_sc_hd__mux2_1
+xg74 v1 bin8 one VSS VSS VDDD VDDD b8 sky130_fd_sc_hd__dfstp_1
+xg75 qb8 qb9 VSS VSS VDDD VDDD tok9 sky130_fd_sc_hd__and2b_1
+xg76 b9 srq_o tok9 VSS VSS VDDD VDDD bin9 sky130_fd_sc_hd__mux2_1
+xg77 v1 bin9 one VSS VSS VDDD VDDD b9 sky130_fd_sc_hd__dfstp_1
+xg78 qb9 qb10 VSS VSS VDDD VDDD tok10 sky130_fd_sc_hd__and2b_1
+xg79 b10 srq_o tok10 VSS VSS VDDD VDDD bin10 sky130_fd_sc_hd__mux2_1
+xg80 v1 bin10 one VSS VSS VDDD VDDD b10 sky130_fd_sc_hd__dfstp_1
+xg81 qb0 VSS VSS VDDD VDDD qbd0_d0 sky130_fd_sc_hd__dlygate4sd1_1
+xg82 qbd0_d0 VSS VSS VDDD VDDD qbd0 sky130_fd_sc_hd__dlygate4sd1_1
+xg83 b0 VSS VSS VDDD VDDD bb0 sky130_fd_sc_hd__inv_1
+xg84 qb0 bb0 VSS VSS VDDD VDDD sbp0 sky130_fd_sc_hd__or2_1
+xg85 cnv sbp0 VSS VSS VDDD VDDD lo_p0 sky130_fd_sc_hd__and2_2
+xg86 qbd0 bb0 VSS VSS VDDD VDDD hib_p0 sky130_fd_sc_hd__or2_2
+xg87 qb0 b0 VSS VSS VDDD VDDD sbn0 sky130_fd_sc_hd__or2_1
+xg88 cnv sbn0 VSS VSS VDDD VDDD lo_n0 sky130_fd_sc_hd__and2_2
+xg89 qbd0 b0 VSS VSS VDDD VDDD hib_n0 sky130_fd_sc_hd__or2_2
+xg90 qb1 VSS VSS VDDD VDDD qbd1_d0 sky130_fd_sc_hd__dlygate4sd1_1
+xg91 qbd1_d0 VSS VSS VDDD VDDD qbd1 sky130_fd_sc_hd__dlygate4sd1_1
+xg92 b1 VSS VSS VDDD VDDD bb1 sky130_fd_sc_hd__inv_1
+xg93 qb1 bb1 VSS VSS VDDD VDDD sbp1 sky130_fd_sc_hd__or2_1
+xg94 cnv sbp1 VSS VSS VDDD VDDD lo_p1 sky130_fd_sc_hd__and2_2
+xg95 qbd1 bb1 VSS VSS VDDD VDDD hib_p1 sky130_fd_sc_hd__or2_2
+xg96 qb1 b1 VSS VSS VDDD VDDD sbn1 sky130_fd_sc_hd__or2_1
+xg97 cnv sbn1 VSS VSS VDDD VDDD lo_n1 sky130_fd_sc_hd__and2_2
+xg98 qbd1 b1 VSS VSS VDDD VDDD hib_n1 sky130_fd_sc_hd__or2_2
+xg99 qb2 VSS VSS VDDD VDDD qbd2_d0 sky130_fd_sc_hd__dlygate4sd1_1
+xg100 qbd2_d0 VSS VSS VDDD VDDD qbd2 sky130_fd_sc_hd__dlygate4sd1_1
+xg101 b2 VSS VSS VDDD VDDD bb2 sky130_fd_sc_hd__inv_1
+xg102 qb2 bb2 VSS VSS VDDD VDDD sbp2 sky130_fd_sc_hd__or2_1
+xg103 cnv sbp2 VSS VSS VDDD VDDD lo_p2 sky130_fd_sc_hd__and2_2
+xg104 qbd2 bb2 VSS VSS VDDD VDDD hib_p2 sky130_fd_sc_hd__or2_2
+xg105 qb2 b2 VSS VSS VDDD VDDD sbn2 sky130_fd_sc_hd__or2_1
+xg106 cnv sbn2 VSS VSS VDDD VDDD lo_n2 sky130_fd_sc_hd__and2_2
+xg107 qbd2 b2 VSS VSS VDDD VDDD hib_n2 sky130_fd_sc_hd__or2_2
+xg108 qb3 VSS VSS VDDD VDDD qbd3_d0 sky130_fd_sc_hd__dlygate4sd1_1
+xg109 qbd3_d0 VSS VSS VDDD VDDD qbd3 sky130_fd_sc_hd__dlygate4sd1_1
+xg110 b3 VSS VSS VDDD VDDD bb3 sky130_fd_sc_hd__inv_1
+xg111 qb3 bb3 VSS VSS VDDD VDDD sbp3 sky130_fd_sc_hd__or2_1
+xg112 cnv sbp3 VSS VSS VDDD VDDD lo_p3 sky130_fd_sc_hd__and2_2
+xg113 qbd3 bb3 VSS VSS VDDD VDDD hib_p3 sky130_fd_sc_hd__or2_2
+xg114 qb3 b3 VSS VSS VDDD VDDD sbn3 sky130_fd_sc_hd__or2_1
+xg115 cnv sbn3 VSS VSS VDDD VDDD lo_n3 sky130_fd_sc_hd__and2_2
+xg116 qbd3 b3 VSS VSS VDDD VDDD hib_n3 sky130_fd_sc_hd__or2_2
+xg117 qb4 VSS VSS VDDD VDDD qbd4_d0 sky130_fd_sc_hd__dlygate4sd1_1
+xg118 qbd4_d0 VSS VSS VDDD VDDD qbd4 sky130_fd_sc_hd__dlygate4sd1_1
+xg119 b4 VSS VSS VDDD VDDD bb4 sky130_fd_sc_hd__inv_1
+xg120 qb4 bb4 VSS VSS VDDD VDDD sbp4 sky130_fd_sc_hd__or2_1
+xg121 cnv sbp4 VSS VSS VDDD VDDD lo_p4 sky130_fd_sc_hd__and2_1
+xg122 qbd4 bb4 VSS VSS VDDD VDDD hib_p4 sky130_fd_sc_hd__or2_1
+xg123 qb4 b4 VSS VSS VDDD VDDD sbn4 sky130_fd_sc_hd__or2_1
+xg124 cnv sbn4 VSS VSS VDDD VDDD lo_n4 sky130_fd_sc_hd__and2_1
+xg125 qbd4 b4 VSS VSS VDDD VDDD hib_n4 sky130_fd_sc_hd__or2_1
+xg126 qb5 VSS VSS VDDD VDDD qbd5_d0 sky130_fd_sc_hd__dlygate4sd1_1
+xg127 qbd5_d0 VSS VSS VDDD VDDD qbd5 sky130_fd_sc_hd__dlygate4sd1_1
+xg128 b5 VSS VSS VDDD VDDD bb5 sky130_fd_sc_hd__inv_1
+xg129 qb5 bb5 VSS VSS VDDD VDDD sbp5 sky130_fd_sc_hd__or2_1
+xg130 cnv sbp5 VSS VSS VDDD VDDD lo_p5 sky130_fd_sc_hd__and2_1
+xg131 qbd5 bb5 VSS VSS VDDD VDDD hib_p5 sky130_fd_sc_hd__or2_1
+xg132 qb5 b5 VSS VSS VDDD VDDD sbn5 sky130_fd_sc_hd__or2_1
+xg133 cnv sbn5 VSS VSS VDDD VDDD lo_n5 sky130_fd_sc_hd__and2_1
+xg134 qbd5 b5 VSS VSS VDDD VDDD hib_n5 sky130_fd_sc_hd__or2_1
+xg135 qb6 VSS VSS VDDD VDDD qbd6_d0 sky130_fd_sc_hd__dlygate4sd1_1
+xg136 qbd6_d0 VSS VSS VDDD VDDD qbd6 sky130_fd_sc_hd__dlygate4sd1_1
+xg137 b6 VSS VSS VDDD VDDD bb6 sky130_fd_sc_hd__inv_1
+xg138 qb6 bb6 VSS VSS VDDD VDDD sbp6 sky130_fd_sc_hd__or2_1
+xg139 cnv sbp6 VSS VSS VDDD VDDD lo_p6 sky130_fd_sc_hd__and2_1
+xg140 qbd6 bb6 VSS VSS VDDD VDDD hib_p6 sky130_fd_sc_hd__or2_1
+xg141 qb6 b6 VSS VSS VDDD VDDD sbn6 sky130_fd_sc_hd__or2_1
+xg142 cnv sbn6 VSS VSS VDDD VDDD lo_n6 sky130_fd_sc_hd__and2_1
+xg143 qbd6 b6 VSS VSS VDDD VDDD hib_n6 sky130_fd_sc_hd__or2_1
+xg144 qb7 VSS VSS VDDD VDDD qbd7_d0 sky130_fd_sc_hd__dlygate4sd1_1
+xg145 qbd7_d0 VSS VSS VDDD VDDD qbd7 sky130_fd_sc_hd__dlygate4sd1_1
+xg146 b7 VSS VSS VDDD VDDD bb7 sky130_fd_sc_hd__inv_1
+xg147 qb7 bb7 VSS VSS VDDD VDDD sbp7 sky130_fd_sc_hd__or2_1
+xg148 cnv sbp7 VSS VSS VDDD VDDD lo_p7 sky130_fd_sc_hd__and2_1
+xg149 qbd7 bb7 VSS VSS VDDD VDDD hib_p7 sky130_fd_sc_hd__or2_1
+xg150 qb7 b7 VSS VSS VDDD VDDD sbn7 sky130_fd_sc_hd__or2_1
+xg151 cnv sbn7 VSS VSS VDDD VDDD lo_n7 sky130_fd_sc_hd__and2_1
+xg152 qbd7 b7 VSS VSS VDDD VDDD hib_n7 sky130_fd_sc_hd__or2_1
+xg153 qb8 VSS VSS VDDD VDDD qbd8_d0 sky130_fd_sc_hd__dlygate4sd1_1
+xg154 qbd8_d0 VSS VSS VDDD VDDD qbd8 sky130_fd_sc_hd__dlygate4sd1_1
+xg155 b8 VSS VSS VDDD VDDD bb8 sky130_fd_sc_hd__inv_1
+xg156 qb8 bb8 VSS VSS VDDD VDDD sbp8 sky130_fd_sc_hd__or2_1
+xg157 cnv sbp8 VSS VSS VDDD VDDD lo_p8 sky130_fd_sc_hd__and2_1
+xg158 qbd8 bb8 VSS VSS VDDD VDDD hib_p8 sky130_fd_sc_hd__or2_1
+xg159 qb8 b8 VSS VSS VDDD VDDD sbn8 sky130_fd_sc_hd__or2_1
+xg160 cnv sbn8 VSS VSS VDDD VDDD lo_n8 sky130_fd_sc_hd__and2_1
+xg161 qbd8 b8 VSS VSS VDDD VDDD hib_n8 sky130_fd_sc_hd__or2_1
+xg162 qb9 VSS VSS VDDD VDDD qbd9_d0 sky130_fd_sc_hd__dlygate4sd1_1
+xg163 qbd9_d0 VSS VSS VDDD VDDD qbd9 sky130_fd_sc_hd__dlygate4sd1_1
+xg164 b9 VSS VSS VDDD VDDD bb9 sky130_fd_sc_hd__inv_1
+xg165 qb9 bb9 VSS VSS VDDD VDDD sbp9 sky130_fd_sc_hd__or2_1
+xg166 cnv sbp9 VSS VSS VDDD VDDD lo_p9 sky130_fd_sc_hd__and2_1
+xg167 qbd9 bb9 VSS VSS VDDD VDDD hib_p9 sky130_fd_sc_hd__or2_1
+xg168 qb9 b9 VSS VSS VDDD VDDD sbn9 sky130_fd_sc_hd__or2_1
+xg169 cnv sbn9 VSS VSS VDDD VDDD lo_n9 sky130_fd_sc_hd__and2_1
+xg170 qbd9 b9 VSS VSS VDDD VDDD hib_n9 sky130_fd_sc_hd__or2_1
+xg171 cnv VSS VSS VDDD VDDD lo_p10 sky130_fd_sc_hd__buf_2
+xg172 cnv VSS VSS VDDD VDDD lo_n10 sky130_fd_sc_hd__buf_2
+xg173 b0 VSS VSS VDDD VDDD d10 sky130_fd_sc_hd__buf_2
+xg174 b1 VSS VSS VDDD VDDD d9 sky130_fd_sc_hd__buf_2
+xg175 b2 VSS VSS VDDD VDDD d8 sky130_fd_sc_hd__buf_2
+xg176 b3 VSS VSS VDDD VDDD d7 sky130_fd_sc_hd__buf_2
+xg177 b4 VSS VSS VDDD VDDD d6 sky130_fd_sc_hd__buf_2
+xg178 b5 VSS VSS VDDD VDDD d5 sky130_fd_sc_hd__buf_2
+xg179 b6 VSS VSS VDDD VDDD d4 sky130_fd_sc_hd__buf_2
+xg180 b7 VSS VSS VDDD VDDD d3 sky130_fd_sc_hd__buf_2
+xg181 b8 VSS VSS VDDD VDDD d2 sky130_fd_sc_hd__buf_2
+xg182 b9 VSS VSS VDDD VDDD d1 sky130_fd_sc_hd__buf_2
+xg183 b10 VSS VSS VDDD VDDD d0 sky130_fd_sc_hd__buf_2
+xg184 qb10 VSS VSS VDDD VDDD dv sky130_fd_sc_hd__inv_2
+.ends sar_logic_core
+
+.subckt sar_adc_macro VINP VINN VREFP VREFN VDDA VDDD VSS CLK D10 D9 D8 D7 D6 D5 D4 D3 D2 D1 D0 DV
+xcdP top_p VSS bp0 bp1 bp2 bp3 bp4 bp5 bp6 bp7 bp8 bp9 bp10 cdac_core
+xcdN top_n VSS bn0 bn1 bn2 bn3 bn4 bn5 bn6 bn7 bn8 bn9 bn10 cdac_core
+xbkP VINP trkB trkB_b VREFP VREFN VDDA VSS bp0 bp1 bp2 bp3 bp4 bp5 bp6 bp7 bp8 bp9 bp10 lo_p0 lo_p1 lo_p2 lo_p3 lo_p4 lo_p5 lo_p6 lo_p7 lo_p8 lo_p9 lo_p10 hib_p0 hib_p1 hib_p2 hib_p3 hib_p4 hib_p5 hib_p6 hib_p7 hib_p8 hib_p9 bank_side
+xbkN VINN trkB trkB_b VREFP VREFN VDDA VSS bn0 bn1 bn2 bn3 bn4 bn5 bn6 bn7 bn8 bn9 bn10 lo_n0 lo_n1 lo_n2 lo_n3 lo_n4 lo_n5 lo_n6 lo_n7 lo_n8 lo_n9 lo_n10 hib_n0 hib_n1 hib_n2 hib_n3 hib_n4 hib_n5 hib_n6 hib_n7 hib_n8 hib_n9 bank_side
+xcmp top_n top_p clkc coP coN VDDA VSS trkA_b comparator_core
+xlogic clk coP coN trkA_b trkB trkB_b clkc lo_p0 lo_p1 lo_p2 lo_p3 lo_p4 lo_p5 lo_p6 lo_p7 lo_p8 lo_p9 lo_p10 hib_p0 hib_p1 hib_p2 hib_p3 hib_p4 hib_p5 hib_p6 hib_p7 hib_p8 hib_p9 lo_n0 lo_n1 lo_n2 lo_n3 lo_n4 lo_n5 lo_n6 lo_n7 lo_n8 lo_n9 lo_n10 hib_n0 hib_n1 hib_n2 hib_n3 hib_n4 hib_n5 hib_n6 hib_n7 hib_n8 hib_n9 d10 d9 d8 d7 d6 d5 d4 d3 d2 d1 d0 dv VDDD VSS sar_logic_core
+xshuntp0 top_p VSS sky130_fd_pr__cap_mim_m3_1 w=27 l=18.92
+xshuntp1 top_p VSS sky130_fd_pr__cap_mim_m3_1 w=27 l=18.92
+xshuntp2 top_p VSS sky130_fd_pr__cap_mim_m3_1 w=27 l=18.92
+xshuntp3 top_p VSS sky130_fd_pr__cap_mim_m3_1 w=27 l=18.92
+xshuntp4 top_p VSS sky130_fd_pr__cap_mim_m3_1 w=27 l=18.92
+xshuntp5 top_p VSS sky130_fd_pr__cap_mim_m3_1 w=27 l=18.92
+xshuntn0 top_n VSS sky130_fd_pr__cap_mim_m3_1 w=27 l=18.92
+xshuntn1 top_n VSS sky130_fd_pr__cap_mim_m3_1 w=27 l=18.92
+xshuntn2 top_n VSS sky130_fd_pr__cap_mim_m3_1 w=27 l=18.92
+xshuntn3 top_n VSS sky130_fd_pr__cap_mim_m3_1 w=27 l=18.92
+xshuntn4 top_n VSS sky130_fd_pr__cap_mim_m3_1 w=27 l=18.92
+xshuntn5 top_n VSS sky130_fd_pr__cap_mim_m3_1 w=27 l=18.92
+.ends

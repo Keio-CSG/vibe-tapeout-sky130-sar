@@ -1,0 +1,28 @@
+cell sar_adc_top  style drc(full)
+--- magic per-cell error counts (hierarchical, may double count) ---
+sky130_fd_sc_hd__inv_4__drv 6
+sky130_fd_sc_hd__inv_1__dig 3
+g_nl_w4_l0p15_nf8 24
+g_nl_w4_l0p15_nf4 12
+sky130_fd_sc_hd__inv_8__drv 10
+sky130_fd_sc_hd__or2_1__dig 6
+g_pl_w2_l0p35_nf16 96
+sky130_fd_sc_hd__inv_16__drv 18
+sky130_fd_sc_hd__and3b_1__dig 13
+sky130_fd_sc_hd__dlygate4sd3_1__dig 8
+sky130_fd_sc_hd__dfrtn_1__dig 24
+sky130_fd_sc_hd__nor3_1__dig 5
+sky130_fd_sc_hd__nor3_1__ana 5
+sky130_fd_sc_hd__inv_1__drv 3
+sky130_fd_sc_hd__dfrtp_1__dig 24
+sky130_fd_sc_hd__inv_2__dig 4
+sky130_fd_sc_hd__inv_4__dig 6
+sky130_fd_sc_hd__inv_2__drv 4
+sky130_fd_sc_hd__buf_4__dig 7
+sky130_fd_sc_hd__and2_4__dig 8
+sky130_fd_sc_hd__clkbuf_16__dig 22
+sky130_fd_sc_hd__inv_16__dig 18
+g_pl_w2_l0p35_nf8 48
+sky130_fd_sc_hd__buf_2__dig 6
+--- rules violated in the whole hierarchy (rule : error rectangles) ---
+--- total (non-waived): 0   waived: 0 ---

@@ -1,0 +1,212 @@
+{
+  "scope": "ngspice TT short-window diagnosis, one warm-up and two retained cycles; frozen 50 ps failure evidence and isolated controls; canonical schematic TT now uses 25 ps",
+  "hypothesis": "An ngspice step-size artefact at 50 ps: trapezoidal ringing in dynamic-comparator reset/evaluation seeds wrong polarity before capture. The complete 25 ps schematic TT record resolves the observed spectral gap; unique device-level isolation and all-corner convergence are not claimed.",
+  "index_base": 0,
+  "cases": [
+    {
+      "index": 0,
+      "first_wrong_bit": 6,
+      "schematic": {
+        "code": 1066,
+        "captured_bit": 0,
+        "input_diff_eval_mV": 8.030337713674118,
+        "input_diff_capture_mV": 8.403244779330965,
+        "input_cm_V": 1.7385890391265046,
+        "eval_to_capture_ns": 1.3401727833781294,
+        "settled_before_capture_ns": 1.2112099297434784,
+        "reset_ripple_pp_uV": 643.2827302991218,
+        "reset_lag1": -0.9999633219657906,
+        "wave_wall_s": 88.7632409259677
+      },
+      "pex": {
+        "code": 1093,
+        "captured_bit": 1,
+        "input_diff_eval_mV": 10.139012353384436,
+        "input_diff_capture_mV": 10.383300119301886,
+        "input_cm_V": 1.733515115260468,
+        "eval_to_capture_ns": 2.570261837256172,
+        "settled_before_capture_ns": 2.2386074527461792,
+        "reset_ripple_pp_uV": 36.59267510713882,
+        "reset_lag1": -0.903648491956781,
+        "wave_wall_s": 139.2424539392814
+      }
+    },
+    {
+      "index": 64,
+      "first_wrong_bit": 6,
+      "schematic": {
+        "code": 176,
+        "captured_bit": 0,
+        "input_diff_eval_mV": 35.55255322673334,
+        "input_diff_capture_mV": 34.38445889885489,
+        "input_cm_V": 1.739058555543872,
+        "eval_to_capture_ns": 1.3466360287346615,
+        "settled_before_capture_ns": 1.2166698422457758,
+        "reset_ripple_pp_uV": 252.1083862550011,
+        "reset_lag1": -0.9999038845478366,
+        "wave_wall_s": 87.43870360217988
+      },
+      "pex": {
+        "code": 205,
+        "captured_bit": 1,
+        "input_diff_eval_mV": 25.840539436811305,
+        "input_diff_capture_mV": 24.923648385294594,
+        "input_cm_V": 1.7342089205990763,
+        "eval_to_capture_ns": 2.5200650645842204,
+        "settled_before_capture_ns": 2.1925430157888615,
+        "reset_ripple_pp_uV": 60.36944386411669,
+        "reset_lag1": -0.9782480325341604,
+        "wave_wall_s": 131.03904175851494
+      }
+    },
+    {
+      "index": 128,
+      "first_wrong_bit": 6,
+      "schematic": {
+        "code": 992,
+        "captured_bit": 1,
+        "input_diff_eval_mV": -8.044934326800313,
+        "input_diff_capture_mV": -8.409238658819262,
+        "input_cm_V": 1.7386170973129138,
+        "eval_to_capture_ns": 1.3833826528177844,
+        "settled_before_capture_ns": 1.2130788844128726,
+        "reset_ripple_pp_uV": 552.7735234680531,
+        "reset_lag1": -0.9999797880739144,
+        "wave_wall_s": 89.15269112680107
+      },
+      "pex": {
+        "code": 953,
+        "captured_bit": 0,
+        "input_diff_eval_mV": -9.45597818577526,
+        "input_diff_capture_mV": -9.759593629407926,
+        "input_cm_V": 1.733437401821159,
+        "eval_to_capture_ns": 2.617972484939235,
+        "settled_before_capture_ns": 2.289147963908491,
+        "reset_ripple_pp_uV": 22.424365462070384,
+        "reset_lag1": -0.6790294921244882,
+        "wave_wall_s": 133.97632419504225
+      }
+    },
+    {
+      "index": 224,
+      "first_wrong_bit": 7,
+      "schematic": {
+        "code": 1685,
+        "captured_bit": 1,
+        "input_diff_eval_mV": -31.273337060950368,
+        "input_diff_capture_mV": -29.606648615781104,
+        "input_cm_V": 1.6820410854517245,
+        "eval_to_capture_ns": 1.3523756547943546,
+        "settled_before_capture_ns": 1.2190121357396997,
+        "reset_ripple_pp_uV": 18.182872995708976,
+        "reset_lag1": -0.9759860327527455,
+        "wave_wall_s": 87.93670532293618
+      },
+      "pex": {
+        "code": 1651,
+        "captured_bit": 0,
+        "input_diff_eval_mV": -22.437684867780526,
+        "input_diff_capture_mV": -21.653170199112726,
+        "input_cm_V": 1.6774690412001423,
+        "eval_to_capture_ns": 2.6085998513533397,
+        "settled_before_capture_ns": 2.271246768544333,
+        "reset_ripple_pp_uV": 44.16448438404608,
+        "reset_lag1": -0.9369123232718423,
+        "wave_wall_s": 136.48089535720646
+      }
+    }
+  ],
+  "controls": [
+    {
+      "label": "tmax 25 ps, index 0",
+      "indices": [
+        0,
+        1
+      ],
+      "raw_codes": [
+        1092,
+        1230
+      ],
+      "wall_s": 141.794992483221,
+      "adopted": true
+    },
+    {
+      "label": "tmax 25 ps, index 64",
+      "indices": [
+        64,
+        65
+      ],
+      "raw_codes": [
+        210,
+        234
+      ],
+      "wall_s": 140.67777180112898,
+      "adopted": true
+    },
+    {
+      "label": "tmax 25 ps, index 128",
+      "indices": [
+        128,
+        129
+      ],
+      "raw_codes": [
+        955,
+        817
+      ],
+      "wall_s": 140.46507325209677,
+      "adopted": true
+    },
+    {
+      "label": "tmax 25 ps, index 224",
+      "indices": [
+        224,
+        225
+      ],
+      "raw_codes": [
+        1647,
+        1728
+      ],
+      "wall_s": 136.90720879286528,
+      "adopted": true
+    },
+    {
+      "label": "tmax 12.5 ps, index 0",
+      "indices": [
+        0,
+        1
+      ],
+      "raw_codes": [
+        1092,
+        1230
+      ],
+      "wall_s": 243.5988485570997,
+      "adopted": false
+    },
+    {
+      "label": "matched output loads 5 fF, index 0; scratch circuit only",
+      "indices": [
+        0,
+        1
+      ],
+      "raw_codes": [
+        1092,
+        1230
+      ],
+      "wall_s": 88.9028302822262,
+      "adopted": false
+    },
+    {
+      "label": "XMU=0.495, index 0",
+      "indices": [
+        0,
+        1
+      ],
+      "raw_codes": [
+        1120,
+        1185
+      ],
+      "wall_s": 78.10769336298108,
+      "adopted": false
+    }
+  ]
+}

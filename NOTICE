@@ -1,0 +1,7 @@
+This repository contains original SAR ADC design material and layout snapshots
+derived from the open SKY130 process design kit.
+
+SKY130 PDK material: Copyright 2020 The SkyWater PDK Authors.
+The process design kit is obtained separately through open_pdks.
+The included PDK-derived geometry and original repository material are distributed
+under the Apache License, Version 2.0. See LICENSE.

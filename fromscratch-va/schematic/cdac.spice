@@ -1,0 +1,151 @@
+.subckt bitcell0 top vin vrefp vrefn vdda vss trk trkb lo hib
+xc top bot sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24 m=512
+xtgn0 vin trk bot vss sky130_fd_pr__nfet_01v8 w=4.8 l=0.15
+xtgn1 vin trk bot vss sky130_fd_pr__nfet_01v8 w=4.8 l=0.15
+xtgn2 vin trk bot vss sky130_fd_pr__nfet_01v8 w=4.8 l=0.15
+xtgn3 vin trk bot vss sky130_fd_pr__nfet_01v8 w=4.8 l=0.15
+xtgn4 vin trk bot vss sky130_fd_pr__nfet_01v8 w=4.8 l=0.15
+xtgn5 vin trk bot vss sky130_fd_pr__nfet_01v8 w=4.8 l=0.15
+xtgn6 vin trk bot vss sky130_fd_pr__nfet_01v8 w=4.8 l=0.15
+xtgn7 vin trk bot vss sky130_fd_pr__nfet_01v8 w=4.8 l=0.15
+xtgn8 vin trk bot vss sky130_fd_pr__nfet_01v8 w=4.8 l=0.15
+xtgn9 vin trk bot vss sky130_fd_pr__nfet_01v8 w=4.8 l=0.15
+xtgp0 vin trkb bot vdda sky130_fd_pr__pfet_01v8 w=4.8 l=0.15
+xtgp1 vin trkb bot vdda sky130_fd_pr__pfet_01v8 w=4.8 l=0.15
+xtgp2 vin trkb bot vdda sky130_fd_pr__pfet_01v8 w=4.8 l=0.15
+xtgp3 vin trkb bot vdda sky130_fd_pr__pfet_01v8 w=4.8 l=0.15
+xtgp4 vin trkb bot vdda sky130_fd_pr__pfet_01v8 w=4.8 l=0.15
+xtgp5 vin trkb bot vdda sky130_fd_pr__pfet_01v8 w=4.8 l=0.15
+xtgp6 vin trkb bot vdda sky130_fd_pr__pfet_01v8 w=4.8 l=0.15
+xtgp7 vin trkb bot vdda sky130_fd_pr__pfet_01v8 w=4.8 l=0.15
+xtgp8 vin trkb bot vdda sky130_fd_pr__pfet_01v8 w=4.8 l=0.15
+xtgp9 vin trkb bot vdda sky130_fd_pr__pfet_01v8 w=4.8 l=0.15
+xtgp10 vin trkb bot vdda sky130_fd_pr__pfet_01v8 w=4.8 l=0.15
+xtgp11 vin trkb bot vdda sky130_fd_pr__pfet_01v8 w=4.8 l=0.15
+xtgp12 vin trkb bot vdda sky130_fd_pr__pfet_01v8 w=4.8 l=0.15
+xtgp13 vin trkb bot vdda sky130_fd_pr__pfet_01v8 w=4.8 l=0.15
+xtgp14 vin trkb bot vdda sky130_fd_pr__pfet_01v8 w=4.8 l=0.15
+xtgp15 vin trkb bot vdda sky130_fd_pr__pfet_01v8 w=4.8 l=0.15
+xtgp16 vin trkb bot vdda sky130_fd_pr__pfet_01v8 w=4.8 l=0.15
+xtgp17 vin trkb bot vdda sky130_fd_pr__pfet_01v8 w=4.8 l=0.15
+xtgp18 vin trkb bot vdda sky130_fd_pr__pfet_01v8 w=4.8 l=0.15
+xtgp19 vin trkb bot vdda sky130_fd_pr__pfet_01v8 w=4.8 l=0.15
+xdn0 bot lo vrefn vss sky130_fd_pr__nfet_01v8 w=3 l=0.15
+xdn1 bot lo vrefn vss sky130_fd_pr__nfet_01v8 w=3 l=0.15
+xdp0 bot hib vrefp vdda sky130_fd_pr__pfet_01v8 w=5 l=0.15
+xdp1 bot hib vrefp vdda sky130_fd_pr__pfet_01v8 w=5 l=0.15
+xdp2 bot hib vrefp vdda sky130_fd_pr__pfet_01v8 w=5 l=0.15
+xdp3 bot hib vrefp vdda sky130_fd_pr__pfet_01v8 w=5 l=0.15
+xdp4 bot hib vrefp vdda sky130_fd_pr__pfet_01v8 w=5 l=0.15
+xdp5 bot hib vrefp vdda sky130_fd_pr__pfet_01v8 w=5 l=0.15
+.ends bitcell0
+.subckt bitcell1 top vin vrefp vrefn vdda vss trk trkb lo hib
+xc top bot sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24 m=256
+xtgn0 vin trk bot vss sky130_fd_pr__nfet_01v8 w=4.8 l=0.15
+xtgn1 vin trk bot vss sky130_fd_pr__nfet_01v8 w=4.8 l=0.15
+xtgn2 vin trk bot vss sky130_fd_pr__nfet_01v8 w=4.8 l=0.15
+xtgn3 vin trk bot vss sky130_fd_pr__nfet_01v8 w=4.8 l=0.15
+xtgn4 vin trk bot vss sky130_fd_pr__nfet_01v8 w=4.8 l=0.15
+xtgp0 vin trkb bot vdda sky130_fd_pr__pfet_01v8 w=4.8 l=0.15
+xtgp1 vin trkb bot vdda sky130_fd_pr__pfet_01v8 w=4.8 l=0.15
+xtgp2 vin trkb bot vdda sky130_fd_pr__pfet_01v8 w=4.8 l=0.15
+xtgp3 vin trkb bot vdda sky130_fd_pr__pfet_01v8 w=4.8 l=0.15
+xtgp4 vin trkb bot vdda sky130_fd_pr__pfet_01v8 w=4.8 l=0.15
+xtgp5 vin trkb bot vdda sky130_fd_pr__pfet_01v8 w=4.8 l=0.15
+xtgp6 vin trkb bot vdda sky130_fd_pr__pfet_01v8 w=4.8 l=0.15
+xtgp7 vin trkb bot vdda sky130_fd_pr__pfet_01v8 w=4.8 l=0.15
+xtgp8 vin trkb bot vdda sky130_fd_pr__pfet_01v8 w=4.8 l=0.15
+xtgp9 vin trkb bot vdda sky130_fd_pr__pfet_01v8 w=4.8 l=0.15
+xdn0 bot lo vrefn vss sky130_fd_pr__nfet_01v8 w=3 l=0.15
+xdp0 bot hib vrefp vdda sky130_fd_pr__pfet_01v8 w=5 l=0.15
+xdp1 bot hib vrefp vdda sky130_fd_pr__pfet_01v8 w=5 l=0.15
+xdp2 bot hib vrefp vdda sky130_fd_pr__pfet_01v8 w=5 l=0.15
+.ends bitcell1
+.subckt bitcell2 top vin vrefp vrefn vdda vss trk trkb lo hib
+xc top bot sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24 m=128
+xtgn0 vin trk bot vss sky130_fd_pr__nfet_01v8 w=4 l=0.15
+xtgn1 vin trk bot vss sky130_fd_pr__nfet_01v8 w=4 l=0.15
+xtgn2 vin trk bot vss sky130_fd_pr__nfet_01v8 w=4 l=0.15
+xtgp0 vin trkb bot vdda sky130_fd_pr__pfet_01v8 w=4.8 l=0.15
+xtgp1 vin trkb bot vdda sky130_fd_pr__pfet_01v8 w=4.8 l=0.15
+xtgp2 vin trkb bot vdda sky130_fd_pr__pfet_01v8 w=4.8 l=0.15
+xtgp3 vin trkb bot vdda sky130_fd_pr__pfet_01v8 w=4.8 l=0.15
+xtgp4 vin trkb bot vdda sky130_fd_pr__pfet_01v8 w=4.8 l=0.15
+xdn0 bot lo vrefn vss sky130_fd_pr__nfet_01v8 w=1.5 l=0.15
+xdp0 bot hib vrefp vdda sky130_fd_pr__pfet_01v8 w=3.75 l=0.15
+xdp1 bot hib vrefp vdda sky130_fd_pr__pfet_01v8 w=3.75 l=0.15
+.ends bitcell2
+.subckt bitcell3 top vin vrefp vrefn vdda vss trk trkb lo hib
+xc top bot sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24 m=64
+xtgn0 vin trk bot vss sky130_fd_pr__nfet_01v8 w=3 l=0.15
+xtgn1 vin trk bot vss sky130_fd_pr__nfet_01v8 w=3 l=0.15
+xtgp0 vin trkb bot vdda sky130_fd_pr__pfet_01v8 w=4 l=0.15
+xtgp1 vin trkb bot vdda sky130_fd_pr__pfet_01v8 w=4 l=0.15
+xtgp2 vin trkb bot vdda sky130_fd_pr__pfet_01v8 w=4 l=0.15
+xdn0 bot lo vrefn vss sky130_fd_pr__nfet_01v8 w=1.5 l=0.15
+xdp0 bot hib vrefp vdda sky130_fd_pr__pfet_01v8 w=3.75 l=0.15
+.ends bitcell3
+.subckt bitcell4 top vin vrefp vrefn vdda vss trk trkb lo hib
+xc top bot sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24 m=32
+xtgn0 vin trk bot vss sky130_fd_pr__nfet_01v8 w=3 l=0.15
+xtgp0 vin trkb bot vdda sky130_fd_pr__pfet_01v8 w=3 l=0.15
+xtgp1 vin trkb bot vdda sky130_fd_pr__pfet_01v8 w=3 l=0.15
+xdn0 bot lo vrefn vss sky130_fd_pr__nfet_01v8 w=1.5 l=0.15
+xdp0 bot hib vrefp vdda sky130_fd_pr__pfet_01v8 w=1.88 l=0.15
+.ends bitcell4
+.subckt bitcell5 top vin vrefp vrefn vdda vss trk trkb lo hib
+xc top bot sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24 m=16
+xtgn0 vin trk bot vss sky130_fd_pr__nfet_01v8 w=1.5 l=0.15
+xtgp0 vin trkb bot vdda sky130_fd_pr__pfet_01v8 w=3 l=0.15
+xdn0 bot lo vrefn vss sky130_fd_pr__nfet_01v8 w=1.5 l=0.15
+xdp0 bot hib vrefp vdda sky130_fd_pr__pfet_01v8 w=1.5 l=0.15
+.ends bitcell5
+.subckt bitcell6 top vin vrefp vrefn vdda vss trk trkb lo hib
+xc top bot sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24 m=8
+xtgn0 vin trk bot vss sky130_fd_pr__nfet_01v8 w=1.5 l=0.15
+xtgp0 vin trkb bot vdda sky130_fd_pr__pfet_01v8 w=1.5 l=0.15
+xdn0 bot lo vrefn vss sky130_fd_pr__nfet_01v8 w=1.8 l=0.15
+xdp0 bot hib vrefp vdda sky130_fd_pr__pfet_01v8 w=1.5 l=0.15
+.ends bitcell6
+.subckt bitcell7 top vin vrefp vrefn vdda vss trk trkb lo hib
+xc top bot sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24 m=4
+xtgn0 vin trk bot vss sky130_fd_pr__nfet_01v8 w=1.5 l=0.15
+xtgp0 vin trkb bot vdda sky130_fd_pr__pfet_01v8 w=1.5 l=0.15
+xdn0 bot lo vrefn vss sky130_fd_pr__nfet_01v8 w=1.8 l=0.15
+xdp0 bot hib vrefp vdda sky130_fd_pr__pfet_01v8 w=1.5 l=0.15
+.ends bitcell7
+.subckt bitcell8 top vin vrefp vrefn vdda vss trk trkb lo hib
+xc top bot sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24 m=2
+xtgn0 vin trk bot vss sky130_fd_pr__nfet_01v8 w=1.5 l=0.15
+xtgp0 vin trkb bot vdda sky130_fd_pr__pfet_01v8 w=1.5 l=0.15
+xdn0 bot lo vrefn vss sky130_fd_pr__nfet_01v8 w=1.5 l=0.15
+xdp0 bot hib vrefp vdda sky130_fd_pr__pfet_01v8 w=1.5 l=0.15
+.ends bitcell8
+.subckt bitcell9 top vin vrefp vrefn vdda vss trk trkb lo hib
+xc top bot sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24 m=1
+xtgn0 vin trk bot vss sky130_fd_pr__nfet_01v8 w=1.5 l=0.15
+xtgp0 vin trkb bot vdda sky130_fd_pr__pfet_01v8 w=1.5 l=0.15
+xdn0 bot lo vrefn vss sky130_fd_pr__nfet_01v8 w=1.5 l=0.15
+xdp0 bot hib vrefp vdda sky130_fd_pr__pfet_01v8 w=1.5 l=0.15
+.ends bitcell9
+.subckt bitcell10 top vin vrefn vdda vss trk trkb lo
+xc top bot sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24 m=1
+xtgn0 vin trk bot vss sky130_fd_pr__nfet_01v8 w=1.5 l=0.15
+xtgp0 vin trkb bot vdda sky130_fd_pr__pfet_01v8 w=1.5 l=0.15
+xdn0 bot lo vrefn vss sky130_fd_pr__nfet_01v8 w=1.5 l=0.15
+.ends bitcell10
+.subckt cdac_side vin top vrefp vrefn vdda vss trk trkb trkA_b lo0 lo1 lo2 lo3 lo4 lo5 lo6 lo7 lo8 lo9 lo10 hib0 hib1 hib2 hib3 hib4 hib5 hib6 hib7 hib8 hib9
+xsw top trkA_b vdda vdda sky130_fd_pr__pfet_01v8 w=4.92 l=0.15 m=26
+xdummy_ring vss vss sky130_fd_pr__cap_mim_m3_1 w=1.24 l=1.24 m=132
+xb0 top vin vrefp vrefn vdda vss trk trkb lo0 hib0 bitcell0
+xb1 top vin vrefp vrefn vdda vss trk trkb lo1 hib1 bitcell1
+xb2 top vin vrefp vrefn vdda vss trk trkb lo2 hib2 bitcell2
+xb3 top vin vrefp vrefn vdda vss trk trkb lo3 hib3 bitcell3
+xb4 top vin vrefp vrefn vdda vss trk trkb lo4 hib4 bitcell4
+xb5 top vin vrefp vrefn vdda vss trk trkb lo5 hib5 bitcell5
+xb6 top vin vrefp vrefn vdda vss trk trkb lo6 hib6 bitcell6
+xb7 top vin vrefp vrefn vdda vss trk trkb lo7 hib7 bitcell7
+xb8 top vin vrefp vrefn vdda vss trk trkb lo8 hib8 bitcell8
+xb9 top vin vrefp vrefn vdda vss trk trkb lo9 hib9 bitcell9
+xb10 top vin vrefn vdda vss trk trkb lo10 bitcell10
+.ends cdac_side
